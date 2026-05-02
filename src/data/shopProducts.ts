@@ -265,7 +265,7 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "z8", name: "Neko Neko no Mi – Modelo Leopardo", price: "฿400.000.000", description: "Concede velocidade extrema, ataques letais e força explosiva.\n- x1.25 Força\n- x1.25 Agilidade\n- x1.25 Resistência" },
     { id: "z9", name: "Neko Neko no Mi – Modelo Leopardo-das-Neves", price: "฿150.000.000", description: "Oferece furtividade em ambientes frios, saltos longos e ataques precisos.\n- x1.20 Força\n- x1.20 Agilidade\n- x1.20 Resistência" },
     { id: "z10", name: "Neko Neko no Mi – Modelo Tigre", price: "฿150.000.000", description: "Concede força brutal, intimidação natural e domínio físico em combate direto.\n- x1.25 Força\n- x1.25 Agilidade\n- x1.25 Resistência" },
-    { id: "z11", name: "Neko Neko no Mi – Modelo Pantera", price: "", description: "Proporciona furtividade extrema, agilidade e golpes fatais.\n- x1.20 Força\n- x1.25 Agilidade\n- x1.20 Resistência", sold: true},
+    { id: "z11", name: "Neko Neko no Mi – Modelo Pantera", price: "฿0", description: "Proporciona furtividade extrema, agilidade e golpes fatais.\n- x1.20 Força\n- x1.25 Agilidade\n- x1.20 Resistência", sold: true},
     { id: "z12", name: "Sara Sara no Mi – Modelo Axolote", price: "฿200.000.000", description: "Concede regeneração corporal acelerada e grande resistência física.\n- x1.20 Força\n- x1.30 Resistência" },
     { id: "z13", name: "Saru Saru no Mi – Modelo Macaco", price: "฿250.000.000", description: "Proporciona mobilidade elevada, coordenação e força adaptável.\n- x1.20 Força\n- x1.25 Agilidade\n- x1.20 Resistência" },
     { id: "z14", name: "Tori Tori no Mi – Modelo Falcão", price: "฿150.000.000", description: "Concede voo rápido, visão aguçada e ataques aéreos precisos.\n- x1.20 Força\n- x1.20 Agilidade\n- x1.20 Resistência" },
@@ -290,15 +290,15 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     // Zoans Míticas
     { id: "zm1", name: "Hebi Hebi no Mi – Modelo Yamata no Orochi", price: "฿1.000.000.000", description: "Permite se transformar em uma serpente divina de múltiplas cabeças, com regeneração e poder destrutivo.\n- x1.45 Força\n- x1.25 Destreza\n- x1.50 Resistência" },
     { id: "zm2", name: "Hito Hito no Mi – Modelo Daibutsu", price: "฿1.500.000.000", description: "Concede uma forma divina gigantesca com força espiritual e impacto devastador.\n- x1.70 Força\n- x1.60 Resistência" },
-    { id: "zm3", name: "Hito Hito no Mi – Modelo Nika", price: "" description: "Permite assumir a forma do Deus do Sol, concedendo liberdade corporal absoluta e poder simbólico.", sold: true}
+    { id: "zm3", name: "Hito Hito no Mi – Modelo Nika", price: "฿0" description: "Permite assumir a forma do Deus do Sol, concedendo liberdade corporal absoluta e poder simbólico.", sold: true}
     { id: "zm4", name: "Inu Inu no Mi – Modelo Kyubi no Kitsune", price: "฿1.500.000.000", description: "Permite assumir a forma de uma raposa divina de nove caudas, com ilusões e metamorfose.\n- x1.50 Força\n- x1.50 Agilidade\n- x1.50 Resistência" },
     { id: "zm5", name: "Inu Inu no Mi – Modelo Okuchi no Makami", price: "฿2.000.000.000", description: "Concede uma forma divina lupina associada à proteção e ao gelo.\n- x1.50 Força\n- x1.50 Agilidade\n- x1.50 Resistência" },
-    { id: "zm6", name: "Tori Tori no Mi – Modelo Fênix", description: "Permite regeneração através de chamas azuis e domínio aéreo absoluto.\n- x1.50 Força\n- x1.60 Agilidade\n- x1.50 Resistência", sold: true}
+    { id: "zm6", name: "Tori Tori no Mi – Modelo Fênix", price: "฿0", description: "Permite regeneração através de chamas azuis e domínio aéreo absoluto.\n- x1.50 Força\n- x1.60 Agilidade\n- x1.50 Resistência", sold: true}
     { id: "zm7", name: "Tori Tori no Mi – Modelo Nue", price: "฿2.000.000.000", description: "Concede uma forma híbrida mítica com habilidades sobrenaturais e força instável.\n- x1.50 Força\n- x1.70 Agilidade\n- x1.50 Resistência" },
-    { id: "zm8", name: "Uo Uo no Mi – Modelo Seiryu", description: "Permite se transformar em um dragão divino oriental, controlando clima e destruição em larga escala.\n- x1.70Força\n- x1.50 Agilidade\n- x1.70 Resistência", sold: true}
+    { id: "zm8", name: "Uo Uo no Mi – Modelo Seiryu", price: "฿0", description: "Permite se transformar em um dragão divino oriental, controlando clima e destruição em larga escala.\n- x1.70Força\n- x1.50 Agilidade\n- x1.70 Resistência", sold: true}
     { id: "zm9", name: "Ryu Ryu no Mi – Modelo Nidhöggr", price: "฿5.000.000.000", description: "Permite se transformar em um dragão da mitologia nórdica.\n- x1.70 Força\n- x1.50 Agilidade\n- x1.70 Resistência" },
     { id: "zm10", name: "Ryu Ryu no Mi – Modelo Kirin", price: "฿2.500.000.000", description: "Permite se transformar em um dragão com manifestações e controle de sonhos.\n- x1.50 Força\n- x1.70 Agilidade\n- x1.50 Resistência" },
-    { id: "zm11", name: "Batto Batto no Mi – Modelo Vampiro", description: "Zoan mítica que permite o usuário se transformar em um vampiro\n- x1.60 Força\n- x1.60 Agilidade\n- x1.60 Resistência", sold: true}
+    { id: "zm11", name: "Batto Batto no Mi – Modelo Vampiro", price: "฿0", description: "Zoan mítica que permite o usuário se transformar em um vampiro\n- x1.60 Força\n- x1.60 Agilidade\n- x1.60 Resistência", sold: true}
   ],
 };
 
