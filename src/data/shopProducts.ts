@@ -255,7 +255,7 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
   ],
   "Zoan": [
     // Zoans Comuns — all % converted to x multiplier
-    { id: "z1", name: "Batto Batto no Mi", price: "฿500.000.000", description: "Zoan Comum — x1.3 Resistência, x1.4 Velocidade." },
+    { id: "z1", name: "Batto Batto no Mi – Modelo Morcego", price: "฿200.000.000", description: "Permite se transformar em um morcego ou forma híbrida, concedendo voo, ecolocalização e percepção aguçada no escuro. — x1.3 Resistência, x1.4 Velocidade." },
     { id: "z2", name: "Gama Gama no Mi", price: "฿160.000.000", description: "Zoan Comum [Original] — x1.5 Força, x1.2 Resistência." },
     { id: "z3", name: "Hebi Hebi no Mi: Anaconda", price: "฿500.000.000", description: "Zoan Comum — x1.5 Força, x1.2 Velocidade." },
     { id: "z4", name: "Hebi Hebi no Mi: Cobra-Real", price: "฿500.000.000", description: "Zoan Comum — x1.2 Força, x1.5 Velocidade." },
