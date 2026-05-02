@@ -8,30 +8,28 @@ export interface Product {
 
 // List of sold product names (case-insensitive matching)
 const SOLD_NAMES = [
-  "Mira Mira no Mi",
-  "Hito Hito no Mi",
-  "Goe Goe no Mi",
+  // Paramecia
+  "Acid Acid no Mi",
   "Baku Baku no Mi",
-  "Hito Hito no Mi: Nika",
-  "Pika Pika no Mi",
+  "Doku Doku no Mi",
+  "Gura Gura no Mi",
+  "Kobu Kobu no Mi",
+  "Nawa Nawa no Mi",
+
+  // Logia
   "Gasu Gasu no Mi",
-  "Gasha Gasha no Mi",
-  "Soru Soru no Mi",
-  "Wapu Wapu no Mi",
   "Goro Goro no Mi",
-  "Uo Uo no Mi: Carpa Seiryū",
-  "Shiku Shiku no Mi",
-  "Pasa Pasa no Mi",
-  "Ton Ton no Mi",
+  "Mera Mera no Mi",
   "Mori Mori no Mi",
-  "Ryū Ryū no Mi: Nidhöggr",
-  "Ryu Ryu no Mi: Nidhöggr",
-  "Magu Magu no Mi",
-  "Saru Saru no Mi: Sun Wukong",
-  "Saru Saru no Mi: Wukong",
-  "Gutsu Gutsu no Mi",
-  "Hito Hito no Mi: Nika",
-  "Uo Uo no Mi",
+  "Pika Pika no Mi",
+  "Yami Yami no Mi",
+
+  // Zoan
+  "Neko Neko no Mi – Modelo Pantera",
+  "Hito Hito no Mi – Modelo Nika",
+  "Tori Tori no Mi – Modelo Fênix",
+  "Uo Uo no Mi – Modelo Seiryu",
+  "Batto Batto no Mi – Modelo Vampiro",
 ];
 
 function markSold(name: string): boolean {
