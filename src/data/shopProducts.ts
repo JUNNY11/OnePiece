@@ -133,7 +133,6 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p28", name: "Goru Goru no Mi", price: "฿300.000.000", description: "Controla e molda ouro." },
     { id: "p29", name: "Gura Gura no Mi", price: "฿0", description: "Gera tremores devastadores.", sold: true },
     { id: "p30", name: "Guru Guru no Mi", price: "฿100.000.000", description: "Cria hélices no corpo." },
-
     { id: "p31", name: "Gutsu Gutsu no Mi", price: "฿420.000.000", description: "Corpo funciona como forja viva." },
     { id: "p32", name: "Hana Hana no Mi", price: "฿350.000.000", description: "Cria partes do corpo à distância." },
     { id: "p33", name: "Hira Hira no Mi", price: "฿180.000.000", description: "Achata objetos como tecido." },
@@ -150,11 +149,10 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p44", name: "Jiki Jiki no Mi", price: "฿700.000.000", description: "Manipula metais por magnetismo." },
     { id: "p45", name: "Juku Juku no Mi", price: "฿400.000.000", description: "Amadurece ou deteriora objetos." },
     { id: "p46", name: "Kobu Kobu no Mi", price: "฿0", description: "Fruta do incentivo.", sold: true },
-    { id: "p47", name: "Kage Kage no Mi", price: "฿700.000.000", description: "Manipula e rouba sombras." },
+    { id: "p47", name: "Kage Kage no Mi", price: "฿700.000.000", description: "Manipula e rouba sombras.", sold: true },
     { id: "p48", name: "Kama Kama no Mi", price: "฿230.000.000", description: "Dispara lâminas de vento." },
     { id: "p49", name: "Kibi Kibi no Mi", price: "฿1.000.000.000", description: "Controla animais com dangos." },
     { id: "p50", name: "Kilo Kilo no Mi", price: "฿180.000.000", description: "Controla o próprio peso." },
-
     { id: "p51", name: "Kira Kira no Mi", price: "฿500.000.000", description: "Corpo de diamante." },
     { id: "p52", name: "Kuku Kuku no Mi", price: "฿80.000.000", description: "Transforma objetos em comida." },
     { id: "p53", name: "Kuri Kuri no Mi", price: "฿280.000.000", description: "Cria e controla creme." },
@@ -165,7 +163,6 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p58", name: "Meru Meru no Mi", price: "฿350.000.000", description: "Manipula mel endurecido." },
     { id: "p59", name: "Mero Mero no Mi", price: "฿500.000.000", description: "Petrifica por atração." },
     { id: "p60", name: "Mira Mira no Mi", price: "฿450.000.000", description: "Cria e manipula espelhos." },
-
     { id: "p61", name: "Moa Moa no Mi", price: "฿850.000.000", description: "Aumenta tamanho ou velocidade." },
     { id: "p62", name: "Mosa Mosa no Mi", price: "฿260.000.000", description: "Controla crescimento de plantas." },
     { id: "p63", name: "Muchi Muchi no Mi", price: "฿300.000.000", description: "Cria chicotes e controla alvos." },
@@ -176,7 +173,6 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p68", name: "Ope Ope no Mi", price: "฿3.000.000.000", description: "Cria uma sala de manipulação total." },
     { id: "p69", name: "Ori Ori no Mi", price: "฿180.000.000", description: "Cria celas e algemas." },
     { id: "p70", name: "Oshi Oshi no Mi", price: "฿100.000.000", description: "Empurra e deforma o solo." },
-
     { id: "p71", name: "Pamu Pamu no Mi", price: "฿300.000.000", description: "Explode objetos." },
     { id: "p72", name: "Pero Pero no Mi", price: "฿350.000.000", description: "Cria e controla doces." },
     { id: "p73", name: "Riki Riki no Mi", price: "฿800.000.000", description: "Força física absurda." },
@@ -187,7 +183,6 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p78", name: "Shima Shima no Mi", price: "฿800.000.000", description: "Controla uma ilha inteira." },
     { id: "p79", name: "Shiro Shiro no Mi", price: "฿400.000.000", description: "Corpo-fortaleza." },
     { id: "p80", name: "Soru Soru no Mi", price: "฿3.000.000.000", description: "Manipula almas." },
-
     { id: "p81", name: "Sube Sube no Mi", price: "฿100.000.000", description: "Corpo liso e escorregadio." },
     { id: "p82", name: "Sui Sui no Mi", price: "฿100.000.000", description: "Nada em superfícies sólidas." },
     { id: "p83", name: "Suke Suke no Mi", price: "฿100.000.000", description: "Concede invisibilidade." },
@@ -198,7 +193,6 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p88", name: "Wapu Wapu no Mi", price: "฿1.500.000.000", description: "Teletransporte instantâneo." },
     { id: "p89", name: "Wara Wara no Mi", price: "฿300.000.000", description: "Palha que transfere danos." },
     { id: "p90", name: "Woshu Woshu no Mi", price: "฿90.000.000", description: "Purifica corpo e mente." },
-
     { id: "p91", name: "Yomi Yomi no Mi", price: "฿900.000.000", description: "Segunda vida após a morte." },
     { id: "p92", name: "Zushi Zushi no Mi", price: "฿2.000.000.000", description: "Manipula a gravidade." },
     // Paramecias Especiais
