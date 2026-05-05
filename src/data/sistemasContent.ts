@@ -942,10 +942,11 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Curandeiro (Alcunha: Doctor Doom)",
           description: "O curandeiro é aquele em que tem a ciência de todos os remédios do mundo, todos os tipos de veneno incluso Poison Pink, Venenos da Doku Doku no Mi além de desenvolver anticorpos que em vacina ou qualquer coisa, se aplicado à pessoa fica imune a qualquer tipo de veneno, gases que contém veneno. Além de dominar os conhecimentos das Flores de Cerejeiras, quem detém deste conhecimento é o melhor médico do mundo, além de poder recuperar partes incuráveis.",
           details: [
-            "Pré-requisito: Se manter em qualquer ilha do Novo Mundo",
-            "Ser um médico ou um cirurgião",
-            "Realizar uma auto extra de 700 palavras que concede 10 níveis além do conhecimento",
-            "Ser nível 500",
+            "Pré-requisito",
+            "➝ Se manter em qualquer ilha do Novo Mundo",
+            "➝ Ser um médico ou um cirurgião",
+            "➝ Realizar uma auto extra de 700 palavras que concede 10 níveis além do conhecimento",
+            "➝ Ser nível 500",
             "Vagas: 00/01"
           ]
         },
@@ -953,11 +954,13 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Vega-Master",
           description: "O Master é um conhecimento que difere dos inventores, é um conhecimento que dá capacidade da transformação dos ciborgues, o controle de energia juntamente com suas imensas criações, podendo também criar armas nível buster call's mas com um custo altíssimo de energia. O vega-master foi inspirado no Franky e suas invenções.",
           details: [
-            "Buff: Caso seja um ciborgue, ganha +1,2× em dois atributos físicos à sua escolha, além do buff total ser 0.2 a mais do que os limites",
-            "Pré-requisito: Estar em Egg Head",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ter a classe obrigatória de Ferreiro",
-            "Ser nível 900",
+            "Pré-requisito:",
+            "➝ Estar em Egg Head",
+            "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ter a classe obrigatória de Ferreiro",
+            "➝ Ser nível 900",
+            "Buff:",
+            "➝ Caso seja um ciborgue, ganha +1,2× em dois atributos físicos à sua escolha, além do buff total ser 0.2 a mais do que os limites",
             "Vagas: 00/02"
           ]
         },
@@ -965,13 +968,15 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "O Século Perdido",
           description: "O conhecimento sobre o século perdido é algo muito perigoso, pois se o governo tiver ciência sobre você, sua ilha e quem estiver com você, todos vão evaporar num súbito passo de mágica através da pura força de um Almirante ou algo além. Aquele que tem esse conhecimento sabe sobre Joy Boy, toda sua trajetória, a verdade sobre Laugh Tale, Nika Nika no Mi, junto também sobre o passado de todas as ilhas, o povo da lua E SABE O QUE É O ONE PIECE, ou o mais próximo disso.",
           details: [
-            "Buff: +1,3× em dois atributos físicos à sua escolha",
-            "Pré-requisito: Não pertencer à Cipher Poll, e se for Marinha, somente se for da SWORD ou um Marinheiro corrupto",
-            "Ser arqueólogo",
-            "Ir para Ohara e se tornar uma das cadeiras da ilha, podendo ter acesso à biblioteca mundial",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 800",
-            "Esse conhecimento é o mais perigoso do RPG, tome cuidado para quem você vai divulgar as informações",
+            "Pré-requisito:",
+            "➝ Não pertencer à Cipher Poll, e se for Marinha, somente se for da SWORD ou um Marinheiro corrupto",
+            "➝ Ser arqueólogo",
+            "➝ Ir para Ohara e se tornar uma das cadeiras da ilha, podendo ter acesso à biblioteca mundial",
+            "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ser nível 800",
+            "➝ Esse conhecimento é o mais perigoso do RPG, tome cuidado para quem você vai divulgar as informações",
+            "Buff:",
+            "➝ +1,3× em dois atributos físicos à sua escolha",
             "Vagas: 00/01"
           ]
         },
@@ -981,11 +986,13 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           details: [
             "O preço de reconstrução é a metade do dinheiro da própria akuma + amostra do poder da akuma",
             "+3 Slot de NPC",
-            "Buff: 1,2× em dois atributos físicos à sua escolha",
-            "Pré-requisito: Ser um Médico",
-            "Estar em Egg-Head ou em alguma ilha do North Blue",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 800",
+            "Pré-requisito:",
+            "➝ Ser um Médico",
+            "➝ Estar em Egg-Head ou em alguma ilha do North Blue",
+            "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ser nível 800",
+            "Buff:",
+            "➝ 1,2× em dois atributos físicos à sua escolha",
             "Vagas: 00/01"
           ]
         },
@@ -995,11 +1002,13 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           details: [
             "Desconto na loja de +50%",
             "Consegue a localização de qualquer um sem pagar",
-            "Buff: +1,2× em dois atributos físicos à sua escolha",
-            "Pré-requisito: Ser um Capitão / Imediato de Tripulação Yonkou ou um Almirante, ou também pertencer a uma das cadeiras do Submundo",
-            "Ser nível 750",
-            "Estar em qualquer ilha do RPG",
-            "Realizar uma auto-extra de 600 palavras, concedendo 10 níveis além do conhecimento",
+            "Pré-requisito:",
+            "➝ Ser um Capitão / Imediato de Tripulação Yonkou ou um Almirante, ou também pertencer a uma das cadeiras do Submundo",
+            "➝ Ser nível 750",
+            "➝ Estar em qualquer ilha do RPG",
+            "➝ Realizar uma auto-extra de 600 palavras, concedendo 10 níveis além do conhecimento",
+            "Buff:",
+            "➝ +1,2× em dois atributos físicos à sua escolha",
             "Vagas: 00/02"
           ]
         },
@@ -1007,11 +1016,14 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Forjador (Mestre de Forja)",
           description: "O Forjador ou o Mestre de Forja é aquele que pode construir qualquer lâmina, a lâmina mais dura ou resistente, além de poder deduzir e criar seus Graus, tanto como Ryo, O Wazamono, Wazamono e Saijo Wazamono.",
           details: [
-            "Buff: +1,2× em resistência e força",
-            "Pré-requisito: Ser Kozuki ou Shimotsuki",
-            "Ir para Wano",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 600",
+            "Pré-requisito:",
+            "➝ Ser Kozuki ou Shimotsuki",
+            "➝ Ir para Wano",
+            "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ser nível 600",
+            "Buff:",
+            "➝ +1,2× em Resistência",
+            "➝ +1,2× em Força",
             "Vagas: 00/01"
           ]
         },
@@ -1019,12 +1031,15 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Modo Ashura",
           description: "Esse é um conhecimento oculto e sombrio, além de se basear no Ashura, você consegue multiplicar seus membros e além disso consegue \"multiplicar\" fracionando suas lâminas. O Modo Ashura aumenta sua velocidade e sua força, destruindo seu inimigo em um golpe — é uma técnica feita para finalizar.",
           details: [
-            "Aumenta o dano final em 1,2×",
-            "Pré-requisito: Realizar uma auto-extra de 700 palavras, concedendo 10 níveis além do conhecimento",
-            "Estar na Ilha Shimotsuki",
-            "Ter três Meitou's sendo no mínimo de grau Ryo Wazamono",
-            "1.25x em velocidade & 1.3x em força",
+            "Pré-requisito:",
+            "➝ Realizar uma auto-extra de 700 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Estar na Ilha Shimotsuki",
+            "➝ Ter três Meitou's sendo no mínimo de grau Ryo Wazamono",
             "Ser nível 800",
+            "Buff:",
+            "➝ Aumenta o dano final em 1,2×",
+            "➝ 1.25x em velocidade",
+            "➝ 1.3x em força",
             "Vagas: 00/01"
           ]
         },
@@ -1044,11 +1059,13 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           description: "Em One Piece temos dois personagens que compartilham a habilidade de poder prever o futuro usando um baralho de cartas de Tarô. No entanto, para utilizar esse conhecimento, você precisa ter as cartas em combate. Com isso, as utilizando em qualquer dos momentos você pode prever o futuro da pessoa ou objeto, não da situação.",
           details: [
             "NARRATIVO",
-            "Pré-requisito: Ter 10.000 pontos em Kenbunshoku Haki sem os BUFF'S",
-            "Estar em Sabaody",
-            "Realizar uma auto-extra de 750 palavras, concedendo 10 níveis além do conhecimento",
-            "Estar nível 700",
-            "Buff: 1.65x em Kenbunshoku Haki"
+            "Pré-requisito:",
+            "➝ Ter 10.000 pontos em Kenbunshoku Haki sem os BUFF'S",
+            "➝ Estar em Sabaody",
+            "➝ Realizar uma auto-extra de 750 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Estar nível 700",
+            "Buff:",
+            "➝ 1.65x em Kenbunshoku Haki"
           ]
         },
         {
@@ -1059,10 +1076,12 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Para aliados (players ou NPC's): buff de +30% em 2 atributos à sua escolha, durando 3 turnos (não pode usar novamente na mesma batalha)",
             "Para inimigos (players ou NPC's): debuff de -30% em 2 atributos à sua escolha, durando 3 turnos (não pode usar novamente na mesma batalha)",
             "Terá que ter o dobro de Destreza em relação ao espírito do oponente",
-            "Pré-requisito: Ir para Grand Tesoro",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Buff: 1.6x em destreza",
-            "Ser nível 800",
+            "Pré-requisito:",
+            "➝ Ir para Grand Tesoro",
+            "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ser nível 800",
+            "Buff:",
+            "➝ 1.6x em Destreza",
             "Vagas: 00/01"
           ]
         },
@@ -1070,12 +1089,15 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Mestre Guerreiro",
           description: "Um oculto conhecimento que permeia a cabeça de todo lutador, considerado uma benção entre os mais fortes! Um Poder Oculto que emerge nos melhores de todos! Um Lutador com poderes inconfundíveis, uma capacidade avassaladora de controlar o Chi de todo o corpo e todos os seres vivos à sua volta, apenas usando os punhos. Um Homem que dominou a Arte dos Punhos e entendeu que para machucar alguém de verdade, comece pela Alma! Possui a capacidade de usar sua própria energia Vital como arma, envolvendo seus punhos e aumentando a sua própria força a níveis estrondosos. Rezam as Lendas que um dia, esse foi o Homem que trouxe a Paz para o Mundo.",
           details: [
-            "Pré-requisito: Estar em Kano, ou qualquer outra ilha do novo mundo",
-            "Ter seu atributo Força maior do que todos os outros, inclusive Haki",
-            "Ser mestre de punhos",
-            "Ser nível 900",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Buff: 1.3x de força e 1,2x haki geral",
+            "Pré-requisito:",
+            "➝ Estar em Kano, ou qualquer outra ilha do novo mundo",
+            "➝ Ter seu atributo Força maior do que todos os outros, inclusive Haki",
+            "➝ Ser mestre de punhos",
+            "➝ Ser nível 900",
+            "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
+            "Buff:",
+            "➝ 1.3x de força",
+            "➝ 1,2x haki geral",
             "Vagas: 00/01"
           ]
         },
@@ -1083,12 +1105,14 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "O Espírito de Hakuba",
           description: "Dizem as Más Línguas que em uma Ilha distante, um Jovem Espadachim do Estilo Suave um dia perdeu a cabeça. Um Garoto Honrado, de família boa, de boa reputação, que em um dia, efetuou um massacre em toda a sua cidade, em uma Noite qualquer. O Garoto, o único sobrevivente, foi pego pelo Governo e Executado, mas dizem que pouco antes de sua execução, um sorriso amedrontador foi visto em seu rosto, com olhos sanguinários e uma sede de matança insaciável. Os Espadachins de Wano detém de uma lenda como esta, onde dizem que de tempos em tempos um Espírito Maligno desce à terra em busca de retaliação — ele não pensa, ele não sente, ele apenas mata! Sua lâmina é suave como uma brisa de verão, porém dolorosa como o frio do inverno! Tão rápido que mal se vê! E quando se vê, você já está morto. Eles contam que quando o Espadachim dorme, Hakuba age em seu corpo, tomando-lhe a espada e massacrando todos aqueles que estiverem à sua frente, sem o menor pudor.",
           details: [
-            "Pré-requisito: Ser da classe Mestre Combatente",
-            "Ir para Dressrosa",
-            "Ser espadachim com seu atributo mais focado em Velocidade, até mesmo que Haki",
-            "Realizar uma auto-extra de 850 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 800",
-            "Buff: 1.5x em velocidade",
+            "Pré-requisito:",
+            "➝ Ser da classe Mestre Combatente",
+            "➝ Ir para Dressrosa",
+            "➝ Ser espadachim com seu atributo mais focado em Velocidade, até mesmo que Haki",
+            "➝ Realizar uma auto-extra de 850 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ser nível 800",
+            "Buff:",
+            "➝ 1.5x em velocidade",
             "Vagas: 00/01"
           ]
         },
@@ -1096,10 +1120,13 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Garoto do Amanhã",
           description: "O garoto(a) da profecia, um menino ou menina que foi destinado a destruir ou construir o mundo segundo as profecias das Escrituras do século perdido, antes mesmo do grande dilúvio, e ao descobrir seu propósito, as estrelas do céu brilham, ou se apagam, pois o conquistador ou o libertador, a destruição ou a salvação do mundo acaba de nascer e saber qual o seu propósito.",
           details: [
-            "Pré-requisito: Ter a Nika ou a Yami, ou ter Haki do Rei",
-            "Realizar uma auto-extra de 1.200 palavras, concedendo 10 níveis além do conhecimento",
-            "Nível 1.200",
-            "Buff: 1.5x de haki geral e 1,25× em um atributo à sua escolha que não seja haki geral",
+            "Pré-requisito:",
+            "➝ Ter a Nika ou a Yami, ou ter Haki do Rei",
+            "➝ Realizar uma auto-extra de 1.200 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Nível 1.200",
+            "Buff:",
+            "➝ 1.5x de haki geral",
+            "➝ 1,25× em um atributo à sua escolha que não seja haki geral",
             "Vagas: 00/02"
           ]
         },
@@ -1107,12 +1134,16 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "O Perna Negra / O Perna Vermelha",
           description: "O perna negra ou o perna vermelha é aquele que atingiu o máximo de força e velocidade com o estilo de luta \"Black Leg\", ganhando tanto o conhecimento quanto a alcunha também, podendo aumentar as chamas do seu Ifrit Jambe e ficar igualadas à Mera e superiores às Lunarianas. Conceitual do estilo: Esmagador.",
           details: [
-            "Pré-requisito: Ter o estilo Black Leg",
-            "Ser chefe",
-            "Ir ao Baratie",
-            "Realizar uma auto-extra de 700 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 1.000",
-            "Buff: 1.25x de haki do armamento, força e de velocidade",
+            "Pré-requisito:",
+            "➝ Ter o estilo Black Leg",
+            "➝ Ser chefe",
+            "➝ Ir ao Baratie",
+            "➝ Realizar uma auto-extra de 700 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ser nível 1.000",
+            "Buff:",
+            "➝ 1.25x de haki do Armamento",
+            "➝ 1.25x de haki do Força",
+            "➝ 1.25x de haki do Velocidade",
             "Vagas: 00/02"
           ]
         },
@@ -1120,29 +1151,35 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "O Copiador",
           description: "O despertar das habilidades proeminentes já perdidas da raça da tribo dos três olhos. Ao despertar todo o potencial de seu olho, este se tornará vermelho em espiral, e este poder lhe concederá a habilidade de copiar qualquer habilidade marcial, porém com falhas — terá que fazer um treino para aprender perfeitamente. Não precisa do estilo de luta para se obter, usando ao bel prazer, porém, apenas vendo este estilo canonicamente. Seus slots ficam infinitos.",
           details: [
-            "Pré-requisito: Ser da tribo dos três olhos",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser Nível 700",
-            "Buff: 1,4x em Destreza e 1,3× em agilidade",
+            "Pré-requisito:",
+            "➝ Ser da tribo dos três olhos",
+            "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
+            "➝ Ser Nível 700",
+            "Buff:",
+            "➝ 1,4x em Destreza",
+            "➝ 1,3× em agilidade",
             "Vagas: 00/01"
           ]
         },
         {
           name: "Meu Jeito de Ser",
-          description: "Àqueles que não tiveram o gene privilegiado, não nasceram herdeiros e nem em berço de ouro, mas sim fazem seu nome por conta própria! Poucos são aqueles que iniciam como desconhecidos e fazem seu sobrenome ser temido, como Douglas Bullet, Eustass \"Captain\" Kid entre outros.",
+          description: "Existem monstros forjados por linhagem… e existem aqueles que rasgaram o mundo apenas com o próprio nome. Este é o conhecimento daqueles que nasceram sem sangue especial, sem herança divina e sem privilégios, mas fizeram o mar aprender a temê-los. O usuário desperta uma vontade que transcende destino, tornando-se símbolo de ambição pura, conquista e supremacia construída com esforço. A presença de alguém com este conhecimento carrega peso histórico. Sua fama, feitos e reputação geram respeito quase mítico.",
           details: [
-            "Pré-requisito: Não ter linhagem ou raça especial",
-            "Ter um sobrenome",
-            "Ser yonkou, shichibukai, almirante ou supernova",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 800",
-            "Buff: 1.5x em um atributo à sua escolha (caso escolha haki, não pode pôr no haki geral)",
+            "Pré-requisito:",
+            "➝ Não possuir linhagem ou raça especial.",
+            "➝ Possuir sobrenome reconhecido no mundo.",
+            "➝ Ser Yonkou, Shichibukai, Almirante ou Supernova.",
+            "➝ Auto-extra de 800 palavras.",
+            "➝ Nível 800.",
+            "Buff:",
+            "➝ 1,3x em um atributo à escolha",
+            "➝ ou 1,15x dividido em dois atributos.(caso escolha haki, não pode pôr no haki geral)",
             "Vagas: 00/03"
           ]
         },
         {
           name: "Magia Negra",
-          description: "A magia negra é o poder e acesso de poder conseguir se teleportar e também ter acesso a qualquer lugar no mundo (menos os protegidos, Laugh Tale, Elbaf) e também apenas se teleportando em seus centros, não em partes secretas. Também pode teleportar os outros consigo e também realizar bruxarias.",
+          description: "Um conhecimento proibido que mistura ocultismo, pactos antigos e artes perdidas anteriores ao Século Perdido. Através dele, o usuário toca leis que não deveriam ser tocadas: deslocamento por portais obscuros, causalidade reversa parcial e maldições ritualísticas. Não é mera feitiçaria, é manipulação da própria desgraça. Teleportes são aberturas em pontos de sombra do mundo. A causalidade dobra ferimentos sobre si mesmo, reescrevendo instantes recentes. Mandingas corroem o alvo por maldição e azar.",
           subitems: [
             {
               name: "Teleporte",
@@ -1158,43 +1195,53 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             }
           ],
           details: [
-            "Buff: +1,25× em força (ou destreza) +1,2× em haki",
-            "Pré-requisito: Ser da marinha/Governo/Ordem da Luz",
-            "Ter falado com um Gorosei (narrado)",
-            "Estar em alguma ilha do governo no novo mundo",
-            "Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 800",
+            "Pré-requisito:",
+            "➝ Ser da Marinha/Governo/Ordem da Luz.",
+            "➝ Ter falado com um Gorosei (narrado).",
+            "➝ Estar em ilha do Governo no Novo Mundo.",
+            "➝ Auto-extra de 800 palavras.",
+            "➝ Nível 800.",
+            "Buff:",
+            "➝ 1,3x em Haki",
             "Vagas: 00/02"
           ]
         },
         {
           name: "Restrição Divina",
-          description: "A Restrição é um poder que afeta diretamente a alma da pessoa, perdendo todas as possibilidades da pessoa de ter Poderes externos, entretanto, lhe concede o auge do físico de sua raça. Seus status físicos, todos se aprimoram, concedendo ao usuário 1,4× em todos atributos físicos. E agora o usuário também poderá ultrapassar o limite de 2x para sem zoan, indo para 2,2x.",
+          description: "Um voto absoluto feito pela alma. O usuário renuncia caminhos externos de poder para elevar o próprio corpo ao auge de sua existência. Não é buff comum; é uma condição. Músculos, sentidos e instinto entram em harmonia brutal, transformando o físico em uma arma viva próxima do impossível.",
           details: [
-            "Pré-requisito: Ir para seu local de nascimento",
-            "Realizar uma auto extra de 900 palavras que concede 10 níveis",
-            "Ser nível 900",
+            "Pré-requisito:",
+            "➝ Ir ao local de nascimento.",
+            "➝ Auto-extra de 900 palavras.",
+            "➝ Nível 900.",
+            "Buff:",
+            "➝ 1,2x em Força",
+            "➝ 1,2x em Resistência",
+            "➝ 1,2 em Velocidade",
             "Vagas: 00/02"
           ]
         },
         {
           name: "Rainha das Cobras",
-          description: "As Kujas têm um breve conhecimento sobre animais, inclusive das Cobras. Dentro do RPG existe uma espécie de conhecimento que você adquire depois de adentrar a parte externa de Amazon Lily, pegando um pergaminho com o contrato das Cobras, virando uma mulher cobra. Essas características variam entre poder trocar de pele (após perder um membro, pode rejuvenescer, mas a pele fica cada vez mais sensível, ganhando debuff). Também pode se esticar igual uma cobra, ganha caninos e também um veneno paralisante ou necrosante.",
+          description: "Um pacto ancestral das Kujas com as serpentes soberanas. O conhecimento transforma o corpo em algo entre guerreira e criatura mítica: pele mutável, venenos lendários, sentidos predatórios e regeneração por troca de pele. O veneno é tratado como relíquia viva. Poucos conhecem sua verdadeira natureza.",
           details: [
             "Só pode esticar o pescoço",
             "Seu veneno é o mais poderoso do mundo, superior à Doku Doku padrão (porém a Doku pode replicar, misturar e superar, mas tem que saber da existência dele)",
             "A cada troca de pele, rejuvenesce 20 anos. Na terceira vez, recebe debuff de 10% na resistência; depois da terceira, +5% a cada vez",
-            "Pré-requisito: Estar em Amazon Lily",
-            "Ser uma mulher (Kuja) sem ser Híbrido",
-            "Realizar uma extra de 800 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 1.000",
-            "Buff: 1.45x em agilidade e 1,2× em força",
+            "Pré-requisito:",
+            "➝ Estar em Amazon Lily.",
+            "➝ Ser Kuja pura.",
+            "➝ Extra de 800 palavras.",
+            "➝ Nível 1000.",
+            "Buff:",
+            "➝ 1,15x em Agilidade",
+            "➝ 1,15x em Força",
             "Vagas: 00/02"
           ]
         },
         {
           name: "Deus da Terra",
-          description: "O conhecimento \"Deus da Terra\" é um juramento que você consegue, conversando e invocando um demônio antigo, você jura lealdade e sua vida a ele, entregando sua alma e também pouco do seu sangue. Após isso, você consegue conjurar os três portões do inferno, Rashomon. Esses portões aguentam até 4 ataques com conceituais esmagador, mesmo com emissão, menos com infusão do rei.",
+          description: "Um juramento demoníaco ligado aos Portões Rashomon. O usuário recebe acesso ao conhecimento dos quatro portões infernais, muralhas espirituais erguidas por contratos de sangue. Não é mera defesa: é invocação ritualística de barreiras que carregam a vontade do submundo.",
           details: [
             "1° Portão: aguenta 100.000 de dano",
             "2° Portão: aguenta 120.000 de dano",
@@ -1202,23 +1249,28 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "4° Portão: aguenta 200.000 de dano",
             "Velocidade de surgimento é instantânea, porém para invocar é necessário um selo de mão com sua velocidade original",
             "Se um ataque tem 200.001 de dano, ele destrói e atravessa os 4 portões",
-            "Buff: 1,5× em resistência",
-            "Pré-requisito: Estar em Wano",
-            "Ser um aventureiro ou caçador de recompensas",
-            "Ser impuro — tem que matar no mínimo uma pessoa (NPC ou player) e oferecer para o demônio",
-            "Realizar uma extra de 850 palavras, concedendo 10 níveis além do conhecimento",
-            "Ser nível 850",
+            "Pré-requisito:",
+            "➝ Estar em Wano.",
+            "➝ Ser aventureiro ou caçador.",
+            "➝ Oferecer um sacrifício narrado.",
+            "➝ Extra de 850 palavras.",
+            "➝ Nível 850.",
+            "Buff:",
+            "➝ 1,5× em resistência",
             "Vagas: 00/02"
           ]
         },
         {
           name: "Ápice Espiritual",
-          description: "Um estilo variado de budistas. Quando se alcança o ápice de sua espiritualidade, o ser pode alcançar um aumento de seu nível de luta, além de suas capacidades físicas atuais. Como o Haki que usa a força de espírito, esse conhecimento precisa que o usuário vá treinar sua vontade de espírito (Haki) e alcance o ápice de sua conexão com seu espírito. Assim, aumentando suas capacidades materializando seu espírito em energias por seu corpo que podem tomar a forma de um animal à escolha do usuário. Esse animal é apenas um efeito visual quando se ativa este conhecimento — ele andará em volta do corpo do usuário.",
+          description: "Quando espírito e matéria deixam de ser separados. O usuário manifesta sua própria vontade como aura tangível, envolvendo o corpo numa presença bestial ou divina conforme seu espírito. O animal espiritual é manifestação simbólica do poder interior.",
           details: [
-            "Buff: 1,5x em uma habilidade física e 1,3x em outra à sua escolha",
-            "Pré-requisito: 20k de espírito (haki)",
-            "Ir para sua ilha de nascimento",
-            "Auto extra de 900 palavras",
+            "Pré-requisito:",
+            "➝ Ir para ilha natal.",
+            "➝ 20.000 em espírito (Haki).",
+            "➝ Auto-extra de 900 palavras.",
+            "Buff:",
+            "➝ 1,2x em Haki",
+            "➝ 1,1x em outro atributo físico",
             "Vagas: 00/02"
           ]
         },
@@ -1230,13 +1282,15 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Ser Mestre de Combate",
             "Realizar uma extra de 700 palavras do porquê seu personagem é o mais Honrado, contando história de seus antepassados",
             "Estar em qualquer ilha do novo mundo",
-            "Buff: 1.3x em resistência e 1.25x em Haki da Observação",
+            "Buff:",
+            "➝ 1.3x em resistência",
+            "➝ 1.25x em Haki da Observação",
             "Vagas: 00/01"
           ]
         },
         {
           name: "Modo Sábio",
-          description: "O Modo Sábio é um conhecimento que vem sendo adquirido por Guerreiros renomados desde o século perdido. Para desenvolver tal conhecimento, seu personagem terá de ir até o Monte Myoboku, localizado no Novo Mundo, um local afastado de tudo e todos que nem registrado no mapa está. Chegando lá, seu personagem passará por grandes treinamentos envolvendo as técnicas desse conhecimento. O Modo Sábio lhe concede uma força tremenda, também lhe concedendo algumas habilidades.",
+          description: "Um dos conhecimentos mais antigos do mundo. Usuários aprendem a absorver energia natural e fundi-la ao próprio corpo, elevando percepção, força e técnicas além dos limites comuns. O Kata do Sapo e a Invocação são extensões desse domínio.",
           subitems: [
             {
               name: "Invocação",
@@ -1252,17 +1306,20 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             }
           ],
           details: [
-            "Pré-requisito: Nível 1.000",
-            "Ir até o Monte Myoboku no Novo Mundo",
-            "Ter Ninjutsu",
-            "Realizar uma auto extra de 900 palavras descrevendo como seu personagem se desenvolveu até aquele momento",
-            "Buff: 1.3x de força e 1.25x de resistência",
+            "Pré-requisito:",
+            "➝ Nível 1000.",
+            "➝ Ir ao Monte Myoboku.",
+            "➝ Ter Ninjutsu.",
+            "➝ Extra de 900 palavras.",
+            "Buff:",
+            "➝ 1,15x em Força",
+            "➝ 1,15x em Resistência",
             "Vagas: 00/02"
           ]
         },
         {
           name: "Contractor",
-          description: "\"Deixai toda a esperança, vós que entrais\" — O Contractor é um pacto que você faz com um demônio, ou seja, um Shinigami. Pode ser qualquer um deles, mas esteja ciente das consequências que terá ao fazer o pacto.",
+          description: "Um pacto infernal. O usuário torna-se devedor de uma entidade superior e recebe a maldição da pseudo-imortalidade. Regeneração crítica, persistência sobrenatural e vínculo espiritual amaldiçoado.",
           subitems: [
             {
               name: "Regras do Pacto",
@@ -1278,21 +1335,27 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             }
           ],
           details: [
-            "Buff: 1,3× no haki",
-            "Pré-requisito: Level 950",
-            "Ir até alguém que possua Magia Negra para liberar, ou ir no Novo Mundo na ilha de \"Hell\" e adentrar a caverna chamada: Garganta do Diabo",
+            "Pré-requisito:",
+            "➝ Level 950.",
+            "➝ Ir até Hell ou possuir liberação por Magia Negra.",
+            "➝ Ritual completo do pacto.",
+            "Buff:",
+            "➝ 1,3x em Haki",
             "Vagas: 00/01"
           ]
         },
         {
           name: "Rei das Feras",
-          description: "O conhecimento ancestral de como dobrar a vontade das maiores criaturas do planeta, podendo não só invocar mas também dominar os assustadores Reis do Mar. Permite a comunicação e domesticação de Reis dos Mares e feras de nível lendário (como as de Rusukaina). Pode invocar uma fera de nível equivalente ao seu nível para lutar ao seu lado por 5 turnos.",
+          description: "O domínio sobre as vontades primitivas do mundo. Não é apenas domesticação; é soberania sobre criaturas monstruosas. O usuário aprende a ouvir a linguagem das feras e dobrar Reis dos Mares.",
           details: [
-            "Buff: +1,3× em Resistência e +1,2× em Haki do Armamento",
-            "Pré-requisito: Estar em Rusukaina ou Amazon Lily",
-            "Ter derrotado uma fera de nível 800+ sozinho (narrado)",
-            "Auto-extra: 800 palavras sobre a \"Linguagem da Natureza\"",
-            "Nível Mínimo: 750",
+            "Pré-requisito:",
+            "➝ Rusukaina ou Amazon Lily.",
+            "➝ Derrotar uma fera nível 800+ sozinho.",
+            "➝ Auto-extra de 800 palavras.",
+            "➝ Nível 750.",
+            "Buff:",
+            "➝ 1,15x em Resistência",
+            "➝ 1,15x em Haki do Armamento",
             "Vagas: 00/02"
           ]
         }
