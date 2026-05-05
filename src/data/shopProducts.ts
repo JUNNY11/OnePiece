@@ -15,6 +15,8 @@ const SOLD_NAMES = [
   "Gura Gura no Mi",
   "Kobu Kobu no Mi",
   "Nawa Nawa no Mi",
+  "Ope Ope no Mi",
+  "Soru Soru no Mi",
 
   // Logia
   "Gasu Gasu no Mi",
@@ -25,11 +27,13 @@ const SOLD_NAMES = [
   "Yami Yami no Mi",
 
   // Zoan
-  "Neko Neko no Mi – Modelo Pantera",
+  "Batto Batto no Mi – Modelo Vampiro",
+  "Hito Hito no Mi - Modelo Daibutsu",
   "Hito Hito no Mi – Modelo Nika",
+  "Neko Neko no Mi – Modelo Pantera",
   "Tori Tori no Mi – Modelo Fênix",
   "Uo Uo no Mi – Modelo Seiryu",
-  "Batto Batto no Mi – Modelo Vampiro",
+  "Ryu Ryu no Mi - Modelo Kirin",
 ];
 
 function markSold(name: string): boolean {
@@ -84,12 +88,12 @@ export const MEITOU_SUBS: Record<string, Product[]> = {
     { id: "m-rw-gunbai", name: "Gunbai", price: "฿2.000.000.000", description: "Leque de combate de madeira Adão com 2m de altura. Adornado com tomoe. Funciona como mangual devastador ou escudo." },
   ],
   "Saijō Ō Wazamono": [
-    { id: "m-sw-yoru", name: "Kokutou Yoru", price: "฿3.800.000.000", description: "Esta é a lâmina suprema dos espadachins, a arma máxima na arte de cortar. Sua aparência é a de uma lâmina negra forjada em um metal raríssimo, com uma resistência absurda. Seu formato remete a uma espada templária, desenhando uma cruz. Aquele que empunhar esta espada recebe o Ying e o Yang dos Espadachins. Buff ao ser domada: Indefinido por enquanto. Dano: 25.000" },
+    { id: "m-sw-yoru", name: "Kokutou Yoru", price: "฿3.800.000.000", description: "Esta é a lâmina suprema dos espadachins, a arma máxima na arte de cortar. Sua aparência é a de uma lâmina negra forjada em um metal raríssimo, com uma resistência absurda. Seu formato remete a uma espada templária, desenhando uma cruz. Aquele que empunhar esta espada recebe o Ying e o Yang dos Espadachins. Buff ao ser domada: Indefinido por enquanto. Dano: 25.000", sold: true },
     { id: "m-sw-murakumogiri", name: "Murakumogiri", price: "฿3.100.000.000", description: "Essa naginata já presenciou duelos intensos. Seu peso é compensado pela extrema força de quem a empunha, e sua vontade é voltada a enfrentar os mais fortes. Seu fio é tão poderoso que nem o aço nem montanhas inteiras são páreo para a Murakumogiri. Buff ao ser domada: Absorve 1.30x do choque do dano. Dano: 19.000" },
-    { id: "m-sw-ace", name: "Ace", price: "฿3.250.000.000", description: "Apenas um mestre de artefatos conhece a verdade que o Governo Mundial esconde sobre essa lâmina. Ela foi empunhada pelo Rei dos Piratas há 30 anos. Embora não fosse um espadachim formidável, sua vontade superava a de qualquer outro que já existiu. Ace não chegou a herdar essa vontade, e apenas um Rei é capaz de domá-la. Buff ao ser domada: 1.30x Haki. Dano: 19.000" },
+    { id: "m-sw-ace", name: "Ace", price: "฿3.250.000.000", description: "Apenas um mestre de artefatos conhece a verdade que o Governo Mundial esconde sobre essa lâmina. Ela foi empunhada pelo Rei dos Piratas há 30 anos. Embora não fosse um espadachim formidável, sua vontade superava a de qualquer outro que já existiu. Ace não chegou a herdar essa vontade, e apenas um Rei é capaz de domá-la. Buff ao ser domada: 1.30x Haki. Dano: 19.000", sold: true },
     { id: "m-sw-gryphon", name: "Gryphon", price: "฿2.000.000.000", description: "Este sabre é uma espada voltada para espadachins que buscam velocidade. Sua leveza é semelhante à da Ace, porém a Gryphon se destaca em ataques rápidos e precisos. Buff ao ser domada: Caso não haja uma diferença de 5.000 de Dano, o ataque do oponente será aparado. Além disso, todos os ataques de natureza conceitual são automaticamente aparados. Dano: 15.000" },
     { id: "m-sw-shodai", name: "Shodai Kitetsu", price: "฿3.000.000.000", description: "Esta é a Yoto mais terrível de todas, a lâmina mais sombria e perpétua que existe. Dizem que a própria alma do ferreiro Kitetsu foi aprisionada como punição por ter criado uma arma tão abominável. Aqueles que empunharem esta lâmina devem saber que, enquanto ela não o aceitar, fará de tudo ao seu alcance para matá-lo. Buff ao ser domada: O Instinto assassino impossibilita o uso do Kenbushoku Haki das pessoas ao redor. Adversários que possuem Haoshoku no Haki não são afetados. Dano: 18.500" },
-    { id: "m-sw-jiujito", name: "Jiu Ji To", price: "฿2.500.000.000", description: "Esta é a lâmina mais leve que existe no mundo. Foi forjada por um ferreiro extremamente talentoso, que tomou todos os cuidados possíveis durante sua criação. Sua vontade serve, sobretudo, a espadachins do tipo velocidade, focados em cortes rápidos e delicados. Buff ao ser domada: 1.40x Velocidade. Dano: 16.000" },
+    { id: "m-sw-jiujito", name: "Jiu Ji To", price: "฿2.500.000.000", description: "Esta é a lâmina mais leve que existe no mundo. Foi forjada por um ferreiro extremamente talentoso, que tomou todos os cuidados possíveis durante sua criação. Sua vontade serve, sobretudo, a espadachins do tipo velocidade, focados em cortes rápidos e delicados. Buff ao ser domada: 1.40x Velocidade. Dano: 16.000", sold: true },
     { id: "m-sw-tsukichi", name: "Tsuki-chi", price: "Vendida", description: "Tsuki-chi é outra Yoto desta lista que carrega uma profunda obscuridade. Dizem que foi forjada durante a noite, sob a luz da lua, a partir de uma rocha que caiu dos céus. Aqueles que a empunharam foram mortos nas noites mais sombrias e das formas mais terríveis. Buff ao ser domada: A presença do usuário deixa de ser percebida pelo Kenbushoku. Adversários que possuem Haoshoku no Haki não são afetados. Vendida — Vinsmoke Rock Hazama (NPC). Dano: 17.000", sold: true },
     { id: "m-sw-tritonis", name: "Tritonis", price: "฿2.000.000.000", description: "Um dos tesouros sagrados da Ilha dos Tritões, Tritonis é um artefato de poder extraordinário. Trata-se de um Tridente. Sua vontade existe para servir ao oceano e à Ilha dos Homens-Peixes. Buff ao ser domada: Concede ao usuário os buffs da raça Tritão mesmo fora da água, além de um efeito conceitual sobre o controle da água. Dano: 14.500" },
     { id: "m-sw-shiriuri", name: "Shiriuri", price: "฿2.250.000.000", description: "Esta é outra Yoto da lista de Saijō, portadora de uma lâmina avermelhada como sangue. Sua maldição já ceifou a vida de inúmeros espadachins que, mesmo após vencerem seus duelos, morriam de forma misteriosa. Buff ao ser domada: +6.000 de dano do veneno da lâmina. Dano: 15.000" },
@@ -170,7 +174,7 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p65", name: "Netsu Netsu no Mi", price: "฿400.000.000", description: "Controla calor extremo." },
     { id: "p66", name: "Nikyu Nikyu no Mi", price: "฿3.000.000.000", description: "Repele tudo com as mãos." },
     { id: "p67", name: "Nawa Nawa no Mi", price: "฿0", description: "Transforma em uma corda.", sold: true },
-    { id: "p68", name: "Ope Ope no Mi", price: "฿3.000.000.000", description: "Cria uma sala de manipulação total." },
+    { id: "p68", name: "Ope Ope no Mi", price: "฿3.000.000.000", description: "Cria uma sala de manipulação total.", sold: true },
     { id: "p69", name: "Ori Ori no Mi", price: "฿180.000.000", description: "Cria celas e algemas." },
     { id: "p70", name: "Oshi Oshi no Mi", price: "฿100.000.000", description: "Empurra e deforma o solo." },
     { id: "p71", name: "Pamu Pamu no Mi", price: "฿300.000.000", description: "Explode objetos." },
@@ -182,7 +186,7 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "p77", name: "Shiku Shiku no Mi", price: "฿1.000.000.000", description: "Cria e espalha doenças." },
     { id: "p78", name: "Shima Shima no Mi", price: "฿800.000.000", description: "Controla uma ilha inteira." },
     { id: "p79", name: "Shiro Shiro no Mi", price: "฿400.000.000", description: "Corpo-fortaleza." },
-    { id: "p80", name: "Soru Soru no Mi", price: "฿3.000.000.000", description: "Manipula almas." },
+    { id: "p80", name: "Soru Soru no Mi", price: "฿3.000.000.000", description: "Manipula almas.", sold: true },
     { id: "p81", name: "Sube Sube no Mi", price: "฿100.000.000", description: "Corpo liso e escorregadio." },
     { id: "p82", name: "Sui Sui no Mi", price: "฿100.000.000", description: "Nada em superfícies sólidas." },
     { id: "p83", name: "Suke Suke no Mi", price: "฿100.000.000", description: "Concede invisibilidade." },
@@ -249,7 +253,7 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "za8", name: "Zou Zou no Mi – Modelo Mammoth", price: "฿700.000.000", description: "Oferece força descomunal, resistência ao frio e presença esmagadora.\n- x1.40 Força\n- x1.35 Agilidade\n- x1.45 Resistência" },
     // Zoans Míticas
     { id: "zm1", name: "Hebi Hebi no Mi – Modelo Yamata no Orochi", price: "฿1.000.000.000", description: "Permite se transformar em uma serpente divina de múltiplas cabeças, com regeneração e poder destrutivo.\n- x1.45 Força\n- x1.25 Destreza\n- x1.50 Resistência" },
-    { id: "zm2", name: "Hito Hito no Mi – Modelo Daibutsu", price: "฿1.500.000.000", description: "Concede uma forma divina gigantesca com força espiritual e impacto devastador.\n- x1.70 Força\n- x1.60 Resistência" },
+    { id: "zm2", name: "Hito Hito no Mi – Modelo Daibutsu", price: "฿1.500.000.000", description: "Concede uma forma divina gigantesca com força espiritual e impacto devastador.\n- x1.70 Força\n- x1.60 Resistência", sold: true },
     { id: "zm3", name: "Hito Hito no Mi – Modelo Nika", price: "฿0", description: "Permite assumir a forma do Deus do Sol, concedendo liberdade corporal absoluta e poder simbólico.", sold: true},
     { id: "zm4", name: "Inu Inu no Mi – Modelo Kyubi no Kitsune", price: "฿1.500.000.000", description: "Permite assumir a forma de uma raposa divina de nove caudas, com ilusões e metamorfose.\n- x1.50 Força\n- x1.50 Agilidade\n- x1.50 Resistência" },
     { id: "zm5", name: "Inu Inu no Mi – Modelo Okuchi no Makami", price: "฿2.000.000.000", description: "Concede uma forma divina lupina associada à proteção e ao gelo.\n- x1.50 Força\n- x1.50 Agilidade\n- x1.50 Resistência" },
@@ -257,7 +261,7 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "zm7", name: "Tori Tori no Mi – Modelo Nue", price: "฿2.000.000.000", description: "Concede uma forma híbrida mítica com habilidades sobrenaturais e força instável.\n- x1.50 Força\n- x1.70 Agilidade\n- x1.50 Resistência" },
     { id: "zm8", name: "Uo Uo no Mi – Modelo Seiryu", price: "฿0", description: "Permite se transformar em um dragão divino oriental, controlando clima e destruição em larga escala.\n- x1.70Força\n- x1.50 Agilidade\n- x1.70 Resistência", sold: true},
     { id: "zm9", name: "Ryu Ryu no Mi – Modelo Nidhöggr", price: "฿5.000.000.000", description: "Permite se transformar em um dragão da mitologia nórdica.\n- x1.70 Força\n- x1.50 Agilidade\n- x1.70 Resistência" },
-    { id: "zm10", name: "Ryu Ryu no Mi – Modelo Kirin", price: "฿2.500.000.000", description: "Permite se transformar em um dragão com manifestações e controle de sonhos.\n- x1.50 Força\n- x1.70 Agilidade\n- x1.50 Resistência" },
+    { id: "zm10", name: "Ryu Ryu no Mi – Modelo Kirin", price: "฿2.500.000.000", description: "Permite se transformar em um dragão com manifestações e controle de sonhos.\n- x1.50 Força\n- x1.70 Agilidade\n- x1.50 Resistência", sold: true },
     { id: "zm11", name: "Batto Batto no Mi – Modelo Vampiro", price: "฿0", description: "Zoan mítica que permite o usuário se transformar em um vampiro\n- x1.60 Força\n- x1.60 Agilidade\n- x1.60 Resistência", sold: true},
   ],
 };
