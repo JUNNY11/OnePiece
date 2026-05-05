@@ -1178,7 +1178,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ]
         },
         {
-          name: "Magia Negra",
+          name: "Maagia Negra",
           description: "Um conhecimento proibido que mistura ocultismo, pactos antigos e artes perdidas anteriores ao Século Perdido. Através dele, o usuário toca leis que não deveriam ser tocadas: deslocamento por portais obscuros, causalidade reversa parcial e maldições ritualísticas. Não é mera feitiçaria, é manipulação da própria desgraça. Teleportes são aberturas em pontos de sombra do mundo. A causalidade dobra ferimentos sobre si mesmo, reescrevendo instantes recentes. Mandingas corroem o alvo por maldição e azar.",
           subitems: [
             {
