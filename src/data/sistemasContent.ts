@@ -489,8 +489,10 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           details: [
             "1 Treino solo ou Duo",
             "3.000 PT mínimos em Haki (Buso)",
-            "+40% (Buso) Em força Total",
-            "+100% (Buso) na Defesa"
+            "+40% (Buso) em Dano Final",
+            "+100% (Buso) na Defesa",
+            "limite de Uso: Mestres em Haki - 5 Turnos",
+            "limite de uso: Não mestres - 3 turnos"
           ],
           subitems: [
             { name: "🔗 Referência", description: "https://rpg-the-omniverse.fandom.com/pt-br/wiki/Haki_Techniques:_K%C5%8Dka_-_Full_Body" }
@@ -504,7 +506,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "2 Treinos Solos",
             "+40% (A mais) de dano (utiliza 100% do buso no cálculo)",
             "Buso total +40% = defesa da barreira de emissão, o resultado desse cálculo será a redução de dano",
-            "Alcance da emissão em metros: buso (com os 40% da emissão) ÷ 100. Para mestres haki é ÷ por 50"
+            "Alcance da emissão em metros: Para não mestres de haki buso (com os 40% da emissão) ÷ 300. Para mestres haki é ÷ por 200"
           ],
           subitems: [
             { name: "🔗 Referência", description: "https://onepiece.fandom.com/pt/wiki/Haki/Haki_do_Armamento" }
