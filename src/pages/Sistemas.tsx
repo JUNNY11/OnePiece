@@ -52,11 +52,12 @@ const ContentItemCard = ({ item, depth = 0 }: { item: ContentItem; depth?: numbe
             {item.name}
           </p>
           
-          {/* 2. Renderiza os textos principais (se existirem) */}
+          {/* Informações principais que aparecem ANTES de expandir */}
           {item.description && <p className="text-sm text-muted-foreground">{item.description}</p>}
           {item.underline && <p className="text-sm underline text-muted-foreground">{item.underline}</p>}
           {item.additional && <p className="text-sm italic text-primary/80">{item.additional}</p>}
           
+          {/* Seus detalhes padrão originais com a barrinha na esquerda */}
           {item.details && item.details.length > 0 && (
             <div className="space-y-1 mt-2">
               {item.details.map((detail, index) => (
@@ -66,29 +67,8 @@ const ContentItemCard = ({ item, depth = 0 }: { item: ContentItem; depth?: numbe
               ))}
             </div>
           )}
-
-          {/* 3. BLOCO NOVO: Faz aparecer no ecrã as novas palavras (1 a 6) quando expandido */}
-          {expanded && [1, 2, 3, 4, 5, 6].map((i) => {
-            const rawItem = item as any;
-            const descripX = rawItem[`descrip${i}`];
-            const detailsX = rawItem[`details${i}`];
-            const additionalX = rawItem[`additional${i}`];
-
-            return (
-              <div key={i} className="space-y-1.5 mt-2">
-                {descripX && <p className="text-sm text-muted-foreground">{descripX}</p>}
-                {Array.isArray(detailsX) && detailsX.map((detail: string, index: number) => (
-                  <p key={index} className="text-sm text-muted-foreground/90 pl-3 border-l border-primary/20">
-                    • {detail}
-                  </p>
-                ))}
-                {additionalX && <p className="text-sm italic text-primary/80">{additionalX}</p>}
-              </div>
-            );
-          })}
         </div>
 
-        {/* Botão de seta para abrir/fechar */}
         {hasExpandableContent && (
           <button
             onClick={() => setExpanded(!expanded)}
@@ -102,8 +82,8 @@ const ContentItemCard = ({ item, depth = 0 }: { item: ContentItem; depth?: numbe
         )}
       </div>
 
-      {/* 4. Renderiza os subitens recursivamente se o card estiver aberto */}
-      {hasExpandableContent && item.subitems && item.subitems.length > 0 && (
+      {/* CONTEÚDO EXPANSÍVEL: Mantém a caixinha recuada com a borda lateral idêntica ao seu site antigo */}
+      {hasExpandableContent && (
         <AnimatePresence initial={false}>
           {expanded && (
             <motion.div
@@ -111,11 +91,39 @@ const ContentItemCard = ({ item, depth = 0 }: { item: ContentItem; depth?: numbe
               animate={{ height: "auto", opacity: 1 }}
               exit={{ height: 0, opacity: 0 }}
               transition={{ duration: 0.2 }}
-              className="overflow-hidden pl-4 border-l border-border/50 space-y-2 mt-2"
+              className="overflow-hidden pl-4 border-l border-border/50 space-y-4 mt-2"
             >
-              {item.subitems.map((subitem, index) => (
-                <ContentItemCard key={index} item={subitem} depth={depth + 1} />
-              ))}
+              {/* Renderiza dinamicamente as novas sequências de campos (descrip1-6, details2-6, adicionais...) */}
+              {[1, 2, 3, 4, 5, 6].map((i) => {
+                const rawItem = item as any;
+                const descripX = rawItem[`descrip${i}`];
+                const detailsX = rawItem[`details${i}`];
+                const additionalX = rawItem[`additional${i}`];
+
+                // Só renderiza o bloco se houver alguma informação nele
+                if (!descripX && (!detailsX || detailsX.length === 0) && !additionalX) return null;
+
+                return (
+                  <div key={i} className="space-y-1.5">
+                    {descripX && <p className="text-sm text-muted-foreground">{descripX}</p>}
+                    {Array.isArray(detailsX) && detailsX.map((detail: string, index: number) => (
+                      <p key={index} className="text-sm text-muted-foreground/90 pl-3 border-l border-primary/20">
+                        • {detail}
+                      </p>
+                    ))}
+                    {additionalX && <p className="text-sm italic text-primary/80">{additionalX}</p>}
+                  </div>
+                );
+              })}
+
+              {/* Subitens filhos originais (mantendo a árvore perfeitamente alinhada na caixinha) */}
+              {item.subitems && item.subitems.length > 0 && (
+                <div className="space-y-2 pt-1">
+                  {item.subitems.map((subitem, index) => (
+                    <ContentItemCard key={index} item={subitem} depth={depth + 1} />
+                  ))}
+                </div>
+              )}
             </motion.div>
           )}
         </AnimatePresence>
