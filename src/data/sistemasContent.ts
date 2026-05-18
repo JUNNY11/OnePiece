@@ -8,7 +8,25 @@ export interface ContentSection {
 export interface ContentItem {
   name: string;
   description?: string;
+  descrip1?: string;
+  descrip2?: string;
+  descrip3?: string;
+  descrip4?: string;
+  descrip5?: string;
+  descrip6?: string,
   details?: string[];
+  details2?: string[];
+  details3?: string[];
+  details4?: string[];
+  details5?: string[];
+  details6?: string[];
+  underline?: string;
+  additional?: string;
+  additional2?: string;
+  additional3?: string;
+  additional4?: string;
+  additional5?: string;
+  additional6?: string;
   subitems?: ContentItem[];
 }
 
@@ -743,7 +761,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         }
       ]
     },
-    "Atributos": {
+    "Atributos/Física aplicada": {
       intro: "Serão abordadas, de forma detalhada, as diversas ramificações que envolvem o sistema de atributos e a física aplicada no RPG. Para tanto, o conteúdo será estruturado em duas categorias distintas, cada qual destinada a tratar especificamente de seu respectivo eixo temático. Solicita-se a devida atenção na leitura, a fim de que não se percam detalhes relevantes acerca do novo sistema regente que disciplinará os atributos e a física aplicada.",
       items: [
         {
@@ -755,7 +773,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               description: "A Força representa a capacidade física de um indivíduo de impor sua ação sobre o mundo material, determinando tanto a intensidade de seus impactos quanto sua própria resistência. Em síntese, trata-se de um dos principais atributos responsáveis pelo dano resultante. Personagens que lutam com os punhos utilizam a força de maneira direta na aplicação de seus golpes. Da mesma forma, até mesmo espadachins dependem da força para imprimir potência ao longo da trajetória de seus ataques, o que, por consequência, impacta diretamente no dano final."
             },
             {
-              name: "Agilidade/Velocidade",
+              name: "Velocidade",
               description: "A Velocidade de um corpo corresponde à sua capacidade de deslocar-se do ponto A ao ponto B em um determinado intervalo de tempo. Em termos práticos, quanto maior a velocidade, menor será o tempo necessário para atingir o destino. Além disso, a velocidade também passa a influenciar diretamente a capacidade de percepção de um indivíduo, de modo que, quanto mais veloz ele for, maior será sua aptidão para reagir e compreender estímulos ao seu redor. A velocidade de um corpo também influenciará no dano. Na física, a velocidade amplifica o potencial de impacto ao elevar a quantidade de movimento de um corpo, sendo a força resultante do choque determinada pela rapidez com que esse movimento é interrompido. A velocidade é parcialmente convertida em força por meio de um coeficiente fixo, garantindo que sua influência seja proporcional, previsível e escalável dentro do sistema."
             },
             {
@@ -767,21 +785,26 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               description: "A Destreza corresponde à capacidade de executar movimentos com precisão, coordenação e controle refinado, especialmente em ações que exigem ajustes rápidos e eficientes de força e trajetória. Esse atributo envolve precisão, tempo de resposta, controle de força e ajuste de trajetória. Em essência, a destreza permite que o personagem aplique a quantidade exata de força na direção correta, adaptando-se em tempo real às variações do ambiente. Dentro do RPG, a destreza desempenhará um papel fundamental, sobretudo para usuários de Akuma no Mi, que dependerão diretamente desse atributo para uma utilização eficiente de suas habilidades. Da mesma forma, será essencial para espadachins experientes e também para combatentes corporais que utilizam estilos baseados em técnica, como o kung fu."
             },
             {
+              name: "Percepção",
+              description: "A percepção é um subatributo cuja função está ligada à determinação do nível de percepção visual e sensorial de determinado personagem. Ela abrange aspectos importantes, como a capacidade de reação do personagem em relação aos movimentos alheios. A percepção é um atributo derivado da velocidade do personagem, pois, quanto mais veloz ele for, maior será sua capacidade de compreender os estímulos sensoriais ao seu redor. Porém, em One Piece, existe uma variável adicional: o Haki da Observação. O Haki da Observação contribui significativamente para o aumento da percepção. Todavia, deve haver equilíbrio para evitar uma disparidade entre velocidade e Kenbunshoku. Em outras palavras, não é porque você possui uma elevada capacidade de percepção, ou seja, consegue perceber um movimento ofensivo, que necessariamente terá capacidade para reagir a ele. Não adianta possuir 20.000 de percepção e apenas 5.000 de velocidade. Você não se torna imune por possuir um alto nível de percepção; apenas adquire as condições necessárias para visualizar o movimento e, assim, tentar reagir a ele. Para mais detalhes veja sobre as relações mais a baixo.",
+            },
+            {
               name: "Health Points — HP",
               description: "Nos sistemas de RPG, os Health Points (HP) são um elemento fundamental. Seu propósito está diretamente ligado à constituição dos pontos de vida de um personagem, sendo seu valor determinado em função do atributo de Resistência. Em termos práticos, o HP representa a quantidade de dano que um personagem é capaz de suportar antes de ser derrotado. Dentro do nosso RPG, esse sistema terá papel central, especialmente no que diz respeito à dinâmica geral dos combates."
             },
             {
-              name: "Relações — Velocidade × Percepção",
-              description: "A cada 100 pontos de Velocidade, são gerados 70 pontos de Percepção. Para que um personagem execute um \"Speed Blitz\", será necessário possuir uma velocidade 120% superior ao valor da percepção do oponente, ou seja, 120% a mais, e não apenas equivalente.",
+              name: "Relações",
+              description: "A cada 100 pontos de Velocidade, são gerados 70 pontos de Percepção. Para que um personagem execute um \"Speed Blitz\", será necessário possuir uma velocidade 120% superior ao valor da percepção do oponente, ou seja, 120% a mais, e não apenas equivalente.\nExemplo:\nSe determinado personagem possui 70 pontos de Percepção: 120% de 70 = 84\nVelocidade necessária = 70 + 84 = 154\n\nResumo da regra:\n_Speed Blitz = Velocidade ≥ Percepção do alvo + 120% da Percepção_\n(ou seja, 220% do valor da percepção do oponente)\n\nAbaixo desse patamar, os valores serão classificados de acordo com a diferença percentual de velocidade em relação à percepção do oponente, seguindo a seguinte escala:",
               details: [
-                "Speed Blitz = Velocidade ≥ Percepção do alvo + 120% da Percepção (ou seja, 220% do valor da percepção do oponente)",
                 "Velocidades pareadas — diferença irrelevante",
                 "Leve vantagem — até aproximadamente 30% superior",
                 "Vantagem — entre 30% e 50% superior",
                 "Grande vantagem — entre 50% e 70% superior",
                 "Vantagem esmagadora — acima de 70%",
                 "Acima de 120% de superioridade: Speed Blitz"
-              ]
+              ],
+              underline: "Acima desse limiar, atingindo 120% ou mais de superioridade, configura-se o Speed Blitz.",
+              additional: "Para evitar uma discrepância desequilibrada entre Velocidade e Kenbunshoku, haverá um parâetro de balanceamento entre os dois atributos, impedindo que o player foque exclusivamente em Kenbunshoku na tentativa de burlar o sistema de combate. Essa relação funcionará com base em uma proporção mínima de 50%. Ou seja, caso o jogador possua 20.000 de Kenbunshoku, deverá possuir no mínimo 10.000 de velocidade para conseguir ter o mínimo necessário de reação. Abaixo dessa porcentagem mínima, o personagem não conseguirá reagir e, mesmo possuindo uma percepção elevada, ainda sofrerá blitz. Porém, o contrário ainda pode acontecer. O jogador poderá, sim, possuir uma velocidade muito superior ao Kenbunshoku, visto que nem todos os jogadores irão focar suas builds em Haki da Observação."
             }
           ]
         },
@@ -792,38 +815,109 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             {
               name: "Dano por Combate — Porradeiros",
               description: "Os chamados \"Porradeiros\" referem-se àqueles cujo estilo de combate se fundamenta exclusivamente no uso do próprio corpo, abdicando de armas como espadas, pistolas, rifles ou quaisquer outros instrumentos bélicos. Como exemplos, podem ser citados Luffy, Rob Lucci, Sanji e, talvez como seu maior representante, Monkey D. Garp.",
+              descrip1: "☝️🤓 - Tá ADM mas de onde vem nosso Dano?",
+              additional: "",
+              descrip2: "Pois bem, jovem gafanhoto, o dano de um Porradeiro deriva majoritariamente de sua Força como epicentro, como já é de se esperar. Contudo, há uma influência secundária da Destreza, ainda que de forma limitada, tendo em vista que determinados estilos marciais se valem desse atributo para aprimorar sua execução e eficiência. Portanto, a formulação do dano se estabelece da seguinte maneira:",
               details: [
-                "Fórmula: Dano = Força + 50% da Destreza + Buffs + Busoshoku + 30% (Speed)",
-                "Exemplo com ficha base (1.000 em cada atributo):",
-                "1. Força (1.000) + 50% Destreza (500) = 1.500",
-                "2. Com multiplicador 1.5x: 1.500 × 1.5 = 2.250 | Com dano fixo: 1.500 + 5.000 = 6.500",
-                "3. Busoshoku +40% (400): 2.250 + 400 = 2.650 | 6.500 + 400 = 6.900",
-                "4. Velocidade +30% (300): 2.650 + 300 = 2.950 | 6.900 + 300 = 7.200",
-                "Obs: Os valores de Força e Destreza já devem estar ajustados pelos buffs de raça ou linhagem."
-              ]
+                "Dano = Força + 50% da Destreza + Buso.",
+                "Ou (No caso de uma técnica)",
+                "Dano: Força + Técnica + Buso.",
+                "Ou (No caso de Equipamento com Dano Base)",
+                "Dano: Item¹ + Técnica + Buso.",
+              ],
+              additional2: "Na prática, teremos a seguinte aplicação. Tomemos como base uma ficha hipotética de um personagem:",
+              details2: [
+                "Força: 10.000",
+                "Velocidade: 10.000",
+                "Resistência: 10.000",
+                "Destreza: 10.000",
+                "Busoshoku: 10.000",
+              ],
+              additional3: "A partir dessa configuração, utilizaremos o personagem, que chamaremos, de forma ilustrativa, de Cleitin, para demonstrar o cálculo do dano, tornando o entendimento mais claro àqueles que ainda possuam dúvidas",
+              additional4:"Partiremos do atributo Força (10.000) e somaremos com 50% da Destreza (5.000) + Busoshoku (14.000):",
+              details3: [
+                "Exemplo1: 10.000 (Força) + 5.000 (Destreza 50%) + 4.000 (Buso 40%) = 19.000",
+                "Exemplo2 (Com Técnica): 10.000 (Força) + 70.000 (Tier S⁵) + 4.000 (Buso) = 84.000",
+                "Exemplo3 (Com Item e Técnica): 18.000 (item) + 70.000 (tier S⁵) + 4.000 (Buso) = 92.000",
+              ],
+              additional5: "Obtido esse valor, adiciona-se 40% do Busoshoku (no estágio básico/Koka). Caso esteja no estágio avançado, em vez de adicionar 40% do valor, adiciona o valor + 40%, na forma como o sistema conduz.",
+              details4: [
+                "Exemplo1: 10.000 (Força) + 5.000 (Destreza 50%) + 14.000 (Buso + 40%) = 29.000",
+                "Exemplo2 (Com Técnica): 10.000 (Força) + 70.000 (Tier S⁵) + 14.000 (Buso +40%) = 94.000",
+                "Exemplo3 (Com Item e Técnica): 18.000 (item) + 70.000 (tier S⁵) + 14.000 (Buso +40%) = 102.000",
+              ], 
+              descrip3: "Dessa forma, obtém-se o dano final. Ressalta-se que os valores de Força e Destreza considerados já devem estar devidamente ajustados pelos buffs provenientes de raça ou linhagem, caso existam."
             },
             {
               name: "Dano por Combate — Espadachins",
-              description: "Os espadachins utilizam lâminas como principal meio de combate. No RPG haverá uma subdivisão: espadachins do tipo força e espadachins do tipo destreza. Enquanto Zoro representa o espadachim voltado à força, com golpes pesados e destrutivos, Brook exemplifica o espadachim de destreza, priorizando leveza, velocidade e precisão em seus cortes.",
+              description: "Os espadachins, ou usuários de espadas, são aqueles que, como o próprio nome sugere, utilizam lâminas como principal meio de combate. Embora, à primeira vista, possam parecer iguais, no contexto do RPG haverá uma subdivisão, espadachins do tipo força e espadachins do tipo destreza. Tal distinção existe para melhor organizar e complementar os diferentes estilos de combate que envolvem o uso de espadas. Tomemos como exemplo nosso personagem hipotético, Cleitin. Após se cansar do combate corpo a corpo, ele decide empunhar a espada herdada de seu avô. Inicialmente, Cleitin desfere golpes brutos, intensos, focados puramente em força. Seus ataques são capazes de partir o solo, rasgar paredes e gerar impactos devastadores, tudo isso fruto direto de sua potência física. Ele percebe que, quanto mais força aplica no ângulo de seus movimentos, maior é o poder de corte gerado. Entretanto, com o passar do tempo, Cleitin começa a questionar sua abordagem: e se, ao invés de depender exclusivamente da força, ele refinasse sua técnica? Ao focar em precisão, pontos vitais e eficiência de movimento, ele passa a utilizar uma espada mais leve, realizando golpes mais rápidos, fluidos e controlados, quase como uma dança. Nesse novo estilo, o excesso de força se torna desnecessário, pois a eficácia está na execução. Essa distinção ilustra perfeitamente a diferença entre dois arquétipos clássicos: enquanto Zoro representa o espadachim voltado à força, com golpes pesados e destrutivos, Brook exemplifica o espadachim de destreza, priorizando leveza, velocidade e precisão em seus cortes.",
+              descrip1: "☝️🤓 - Nossa, ADM, mas isso não faz sentido… já vimos o Zoro sendo tão preciso quanto o Brook. Melhor rever a obra hein",
+              descrip2: "Sim, jovem gafanhoto. De fato, essa não é uma regra rígida dentro da obra original. No entanto, no contexto do RPG, adotaremos essa distinção como forma de organização. Ainda que tal separação seja apenas sutilmente sugerida por Oda-sensei, aqui ela servirá para estruturar melhor os estilos de combate. Em termos práticos, dentro do roleplay, essa diferenciação não impõe limitações absolutas. O essencial é que o jogador compreenda a principal fonte de poder por trás do uso de sua katana, seja ela baseada em força ou em destreza.",
+              descrip3: "☝️🤓 - Ok, ADM… mas e os danos?",
+              descrip4: "No que diz respeito ao dano, o funcionamento será, em Suma, semelhante entre os estilos, diferenciando-se apenas pela fonte do atributo principal. Caso o espadachim seja do tipo força, este será seu atributo base, caso seja do tipo destreza, o mesmo princípio se aplica.",
+              descrip5: "Em termos práticos, o cálculo parte do valor total do atributo principal, somado a 50% do atributo secundário.",
+              descrip6: "Tomemos como base a seguinte ficha:",
               details: [
-                "Fórmula: Dano = Força/Destreza + 50% (Força/Destreza) + Buffs + Busoshoku + 15% (Speed)",
-                "O cálculo parte do valor total do atributo principal, somado a 50% do atributo secundário.",
-                "Exemplo: 1.000 (principal) + 500 (50% secundário) = 1.500",
-                "A partir desse valor base, seguem-se as demais etapas (buffs, Busoshoku, velocidade, etc.)."
-              ]
+                "Força: 10.000",
+                "Velocidade: 10.000",
+                "Resistência: 10.000",
+                "Destreza: 10.000",
+                "Busoshoku: 10.000",
+              ],
+              additional: "O cálculo se dará da seguinte forma:",
+              additional2: "10.000 (atributo principal: força ou destreza)",
+              additional3: "5.000 (50% do atributo secundário: destreza ou força) = 15.000",
+              additional4: "A partir desse valor base, seguem-se as demais etapas já estabelecidas no sistema de dano (buffs, Busoshoku e etc.).",
+              additional5: "Dano = Força/Destreza + 50% (Força/Destreza) + Busoshoku (Emissão): 29.000",
+              additional6: "(A base é a mesma dos combatentes, sendo a diferença que, lâminas possuem um valor base maior.)"
             },
             {
               name: "Health Points — HP (Física Aplicada)",
-              description: "Esta seção é destinada à abordagem dos pontos de vida de um personagem, ou seja, a quantidade de dano que ele é capaz de suportar antes de sucumbir em combate.",
+              description: "Esta seção é destinada à abordagem dos pontos de vida de um personagem, ou seja, a quantidade de dano que ele é capaz de suportar antes de sucumbir em combate. Em suma, trata-se de um sistema simples. Para isso, serão estabelecidas faixas representadas por porcentagens, as quais indicarão o estado físico do personagem e sua condição geral após receber determinado nível de dano.",
+              additional: "Classificação de Dano em relação ao HP:",
               details: [
                 "Inferior a 30% do HP — Escoriações Leves / Fadiga inexistente / Debuff: -5% (Força/Speed)",
                 "Entre 30% e 50% do HP — Escoriações Leve > Moderada / Fadiga Leve > Moderada / Debuff: -20% (For/Velo/Dest)",
                 "Entre 50% e 70% do HP — Escoriações Moderadas+ > Graves+ / Fadiga Moderada+ > Pesada / Debuff: -35% (For/Velo/Dest)",
                 "Igual ou superior a 100% do HP — Escoriações Mortais+ (Hit Kill) / Fadiga (Óbito Imediato)",
-                "Fórmula: (Dano ÷ HP total) × 100 = % de dano",
-                "Exemplo: (2.200 ÷ 8.000) × 100 = 27,5% → Dano inferior a 30%, escoriações leves",
-                "Danos são cumulativos, assim como os debuffs. É necessário causar 101%+ do HP para eliminação em golpe único."
-              ]
+              ],
+              descrip1: "O sistema organiza a forma como o dano impacta um personagem em combate, considerando que, ao sofrer danos elevados, sua capacidade de luta é naturalmente comprometida, resultando na aplicação de debuffs em seus atributos. Tais penalidades serão dadas pelo narrador, sendo este indispensável em combates de maior relevância.",
+              additional2: "Abaixo, segue o exemplo e exposição matemática dos cálculos:",
+              details2: [
+                "Personagem A",
+                "Resistência: 1.000",
+                "HP: 8.000"
+              ],
+              details3: [
+                "Personagem B",
+                "Força: 1.000",
+                "Velocidade: 1.000",
+                "Destreza: 1.000",
+                "Busoshoku: 1.000",
+              ],
+              additional3: "Cálculo do dano (Personagem B → A):",
+              details4: [
+                "1. Força + 50% Destreza → 1.000 + 500 = 1.500",
+                "2. 2. Adição da Velocidade (30%) → 1.500 + 300 = 1.800",
+                "3. 3. Adição do Busoshoku (40%) → 1.800 + 400 = 2.200",
+              ],
+              descrip2: "Cálculo da porcentagem de dano em relação ao HP:",
+              additional4: "Fórmula: (Dano ÷ HP total) × 100",
+              details5: [
+                "(2.200 ÷ 8.000) × 100",
+                "0,275 × 100",
+                "27,5%",
+              ],
+              additional5: "Resultado:",
+              descrip3: "_O dano causado foi de 27,5% do HP total do Personagem A.",
+              descrip4:"De acordo com a tabela previamente estabelecida:",
+              details6: [
+                "Enquadra-se em dano inferior a 30%",
+                "Escoriações leves",
+                "Fadiga praticamente inexistente",
+                "Debuff: -5% nos atributos"
+              ],
+              descrip5: "Quando em confronto com um personagem de elevada capacidade, sua resistência, e, consequentemente, seu HP, será naturalmente superior, tornando inviável eliminá-lo com um único golpe em condições normais. Contudo, os danos aplicados são cumulativos, assim como os debuffs decorrentes deles. Isso significa que, ao causar, por exemplo, 30.000 de dano em um personagem com 50.000 de HP, ele não será derrotado de imediato, mas permanecerá significativamente debilitado. A aplicação de um novo golpe de mesmo valor será suficiente para levá-lo à derrota, salvo nos casos em que o alvo possua técnicas ou Akuma no Mi capazes de restaurar ou sustentar sua condição física. Em síntese, a lógica central do sistema permanece inalterada, é necessário causar um dano equivalente a 101% ou mais do HP total para garantir a eliminação em um único golpe. A inovação reside na introdução de condições residuais, isto é, os efeitos acumulativos e penalidades adquiridas após cada impacto recebido, o que confere maior organização, progressão e realismo ao sistema de combate dentro do RPG."
             }
           ]
         }
