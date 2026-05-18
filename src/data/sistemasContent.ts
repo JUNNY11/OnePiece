@@ -41,21 +41,17 @@ export const hasContent = (item: ContentItem): boolean => {
     item.description || 
     item.underline || 
     item.additional || 
-    item.details?.length || 
-    item.subitems?.length
+    (item.details && item.details.length > 0) || 
+    (item.subitems && item.subitems.length > 0)
   ) {
     return true;
   }
 
-  // Loop para checar do 1 ao 6 automaticamente
+  const rawItem = item as any;
   for (let i = 1; i <= 6; i++) {
-    const desc = item[`descrip${i}` as keyof ContentItem];
-    const det = item[`details${i}` as keyof ContentItem];
-    const add = item[`additional${i}` as keyof ContentItem];
-
-    if (desc) return true;
-    if (Array.isArray(det) && det.length > 0) return true;
-    if (add) return true;
+    if (rawItem[`descrip${i}`]) return true;
+    if (rawItem[`additional${i}`]) return true;
+    if (Array.isArray(rawItem[`details${i}`]) && rawItem[`details${i}`].length > 0) return true;
   }
 
   return false;
