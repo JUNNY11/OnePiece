@@ -30,6 +30,37 @@ export interface ContentItem {
   subitems?: ContentItem[];
 }
 
+export interface Sistema {
+  title: string;
+  content: ContentItem[];
+}
+
+// Função que valida dinamicamente se o item tem QUALQUE de todos os novos campos
+export const hasContent = (item: ContentItem): boolean => {
+  if (
+    item.description || 
+    item.underline || 
+    item.additional || 
+    item.details?.length || 
+    item.subitems?.length
+  ) {
+    return true;
+  }
+
+  // Loop para checar do 1 ao 6 automaticamente
+  for (let i = 1; i <= 6; i++) {
+    const desc = item[`descrip${i}` as keyof ContentItem];
+    const det = item[`details${i}` as keyof ContentItem];
+    const add = item[`additional${i}` as keyof ContentItem];
+
+    if (desc) return true;
+    if (Array.isArray(det) && det.length > 0) return true;
+    if (add) return true;
+  }
+
+  return false;
+};
+
 export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = {
   "Criação de Personagem": {
     "Raças": {

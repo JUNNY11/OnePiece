@@ -8,7 +8,7 @@ import InteractiveCard from "@/components/InteractiveCard";
 import Hourglass from "@/components/Hourglass";
 import CharacterSheet from "@/components/CharacterSheet";
 import { Input } from "@/components/ui/input";
-import { SISTEMAS_CONTENT, type ContentItem } from "@/data/sistemasContent";
+import { SISTEMAS_CONTENT, hasContent, type ContentItem } from "@/data/sistemasContent";
 import { SHOP_TABS, MEITOU_SUBS, SUBMUNDO_SUBS, COMUNAL_SUBS } from "@/data/shopProducts";
 
 const SYSTEMS: Record<string, { icon: string; subs: string[] }> = {
@@ -42,15 +42,7 @@ const ALL_SHOP_PRODUCTS = getAllShopProducts();
 
 const ContentItemCard = ({ item, depth = 0 }: { item: ContentItem; depth?: number }) => {
   const [expanded, setExpanded] = useState(false);
-  const hasExpandableContent = !!(
-  item.description ||
-  [1, 2, 3, 4, 5, 6].some(i => item[`descrip${i}` as keyof typeof item] || item[`additional${i}` as keyof typeof item]) ||
-  [1, 2, 3, 4, 5, 6].some(i => item[`details${i}` as keyof typeof item]?.length) ||
-  item.details?.length ||
-  item.underline.length ||
-  item.additional.length ||
-  item.subitems?.length
-);
+  const hasExpandableContent = hasContent(item);
 
   return (
     <motion.div
