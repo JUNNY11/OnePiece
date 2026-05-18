@@ -794,7 +794,9 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             },
             {
               name: "Relações",
-              description: "A cada 100 pontos de Velocidade, são gerados 70 pontos de Percepção. Para que um personagem execute um \"Speed Blitz\", será necessário possuir uma velocidade 120% superior ao valor da percepção do oponente, ou seja, 120% a mais, e não apenas equivalente.\nExemplo:\nSe determinado personagem possui 70 pontos de Percepção: 120% de 70 = 84\nVelocidade necessária = 70 + 84 = 154\n\nResumo da regra:\n_Speed Blitz = Velocidade ≥ Percepção do alvo + 120% da Percepção_\n(ou seja, 220% do valor da percepção do oponente)\n\nAbaixo desse patamar, os valores serão classificados de acordo com a diferença percentual de velocidade em relação à percepção do oponente, seguindo a seguinte escala:",
+              description: "A cada 100 pontos de Velocidade, são gerados 70 pontos de Percepção. Para que um personagem execute um \"Speed Blitz\", será necessário possuir uma velocidade 120% superior ao valor da percepção do oponente, ou seja, 120% a mais, e não apenas equivalente.",
+              descrip1: "Exemplo:",
+              additional: "Se determinado personagem possui 70 pontos de Percepção: 120% de 70 = 84\nVelocidade necessária = 70 + 84 = 154\n\nResumo da regra:\n_Speed Blitz = Velocidade ≥ Percepção do alvo + 120% da Percepção_\n(ou seja, 220% do valor da percepção do oponente)\n\nAbaixo desse patamar, os valores serão classificados de acordo com a diferença percentual de velocidade em relação à percepção do oponente, seguindo a seguinte escala:",
               details: [
                 "Velocidades pareadas — diferença irrelevante",
                 "Leve vantagem — até aproximadamente 30% superior",
@@ -804,7 +806,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "Acima de 120% de superioridade: Speed Blitz"
               ],
               underline: "Acima desse limiar, atingindo 120% ou mais de superioridade, configura-se o Speed Blitz.",
-              additional: "Para evitar uma discrepância desequilibrada entre Velocidade e Kenbunshoku, haverá um parâetro de balanceamento entre os dois atributos, impedindo que o player foque exclusivamente em Kenbunshoku na tentativa de burlar o sistema de combate. Essa relação funcionará com base em uma proporção mínima de 50%. Ou seja, caso o jogador possua 20.000 de Kenbunshoku, deverá possuir no mínimo 10.000 de velocidade para conseguir ter o mínimo necessário de reação. Abaixo dessa porcentagem mínima, o personagem não conseguirá reagir e, mesmo possuindo uma percepção elevada, ainda sofrerá blitz. Porém, o contrário ainda pode acontecer. O jogador poderá, sim, possuir uma velocidade muito superior ao Kenbunshoku, visto que nem todos os jogadores irão focar suas builds em Haki da Observação."
+              additional2: "Para evitar uma discrepância desequilibrada entre Velocidade e Kenbunshoku, haverá um parâetro de balanceamento entre os dois atributos, impedindo que o player foque exclusivamente em Kenbunshoku na tentativa de burlar o sistema de combate. Essa relação funcionará com base em uma proporção mínima de 50%. Ou seja, caso o jogador possua 20.000 de Kenbunshoku, deverá possuir no mínimo 10.000 de velocidade para conseguir ter o mínimo necessário de reação. Abaixo dessa porcentagem mínima, o personagem não conseguirá reagir e, mesmo possuindo uma percepção elevada, ainda sofrerá blitz. Porém, o contrário ainda pode acontecer. O jogador poderá, sim, possuir uma velocidade muito superior ao Kenbunshoku, visto que nem todos os jogadores irão focar suas builds em Haki da Observação."
             }
           ]
         },
