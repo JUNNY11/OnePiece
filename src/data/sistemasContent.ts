@@ -796,7 +796,15 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               name: "Relações",
               description: "A cada 100 pontos de Velocidade, são gerados 70 pontos de Percepção. Para que um personagem execute um \"Speed Blitz\", será necessário possuir uma velocidade 120% superior ao valor da percepção do oponente, ou seja, 120% a mais, e não apenas equivalente.",
               descrip1: "Exemplo:",
-              additional: "Se determinado personagem possui 70 pontos de Percepção: 120% de 70 = 84\nVelocidade necessária = 70 + 84 = 154\n\nResumo da regra:\n_Speed Blitz = Velocidade ≥ Percepção do alvo + 120% da Percepção_\n(ou seja, 220% do valor da percepção do oponente)\n\nAbaixo desse patamar, os valores serão classificados de acordo com a diferença percentual de velocidade em relação à percepção do oponente, seguindo a seguinte escala:",
+              details2: [
+                "Se determinado personagem possui 70 pontos de Percepção: 120% de 70 = 84",
+                "Velocidade necessária = 70 + 84 = 154",
+              ], 
+              additional: "Resumo da regra:",
+              details3: [
+                "Speed Blitz = Velocidade ≥ Percepção do alvo + 120% da Percepção(ou seja, 220% do valor da percepção do oponente)",
+              ],
+              descrip2: "Abaixo desse patamar, os valores serão classificados de acordo com a diferença percentual de velocidade em relação à percepção do oponente, seguindo a seguinte escala:",
               details: [
                 "Velocidades pareadas — diferença irrelevante",
                 "Leve vantagem — até aproximadamente 30% superior",
