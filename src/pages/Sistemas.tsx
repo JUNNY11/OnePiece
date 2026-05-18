@@ -14,7 +14,7 @@ import { SHOP_TABS, MEITOU_SUBS, SUBMUNDO_SUBS, COMUNAL_SUBS } from "@/data/shop
 const SYSTEMS: Record<string, { icon: string; subs: string[] }> = {
   "Criação de Personagem": { icon: "👤", subs: ["Classes", "Estilos de Luta", "Linhagens", "Raças"] },
   "Organizações": { icon: "⚔️", subs: ["Governo Mundial", "Marinha", "Shichibukai", "Pirata", "Revolucionário", "Germa 66", "Baroque Works"] },
-  "Força Vital": { icon: "💪", subs: ["Atributos", "Akuma no Mi", "Haki"] },
+  "Força Vital": { icon: "💪", subs: ["Atributos/Física aplicada", "Akuma no Mi", "Haki"] },
   "Evolução": { icon: "📈", subs: ["Extra-Narrada", "Missões", "Conhecimentos", "Treino", "Observações Gerais"] },
   "Impel Down": { icon: "🏴", subs: ["Adaptação"] },
   "Jornal": { icon: "📰", subs: ["Procurados", "Younkous", "Marinha"] },
