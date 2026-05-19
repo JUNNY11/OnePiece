@@ -45,90 +45,108 @@ const ContentItemCard = ({ item, depth = 0 }: { item: ContentItem; depth?: numbe
   const hasExpandableContent = hasContent(item);
 
   return (
-    <div className="space-y-2">
-      <div className="flex items-start justify-between gap-4">
-        <div className="space-y-1 flex-1">
-          <p className="font-heading text-sm text-foreground flex items-center gap-2">
-            {item.name}
-          </p>
-          
-          {/* Informações principais que aparecem ANTES de expandir */}
-          {item.description && <p className="text-sm text-muted-foreground">{item.description}</p>}
-          {item.underline && <p className="text-sm underline text-muted-foreground">{item.underline}</p>}
-          {item.additional && <p className="text-sm italic text-primary/80">{item.additional}</p>}
-          
-          {/* Seus detalhes padrão originais com a barrinha na esquerda */}
-          {item.details && item.details.length > 0 && (
-            <div className="space-y-1 mt-2">
-              {item.details.map((detail, index) => (
-                <p key={index} className="text-sm text-muted-foreground/90 pl-3 border-l border-primary/20">
-                  • {detail}
-                </p>
-              ))}
-            </div>
-          )}
-        </div>
-
+    <motion.div
+      className={`border border-border/50 rounded-lg overflow-hidden ${depth > 0 ? "ml-4 border-primary/20" : ""}`}
+      initial={{ opacity: 0, y: 10 }}
+      animate={{ opacity: 1, y: 0 }}
+    >
+      {/* O SEU BOTÃO ORIGINAL CLICÁVEL (A CAIXA INTEIRA) */}
+      <button
+        onClick={() => hasExpandableContent && setExpanded(!expanded)}
+        className={`w-full text-left px-4 py-3 flex items-center justify-between gap-2 transition-colors ${
+          hasExpandableContent ? "hover:bg-primary/5 cursor-pointer" : "cursor-default"
+        } ${expanded ? "bg-primary/5" : ""}`}
+      >
+        <span className="font-heading text-lg text-foreground">{item.name}</span>
         {hasExpandableContent && (
-          <button
-            onClick={() => setExpanded(!expanded)}
-            className="p-1 hover:bg-primary/10 rounded-lg transition-colors text-muted-foreground mt-0.5"
-          >
-            <ChevronDown
-              size={16}
-              className={`transition-transform duration-200 ${expanded ? "rotate-180" : ""}`}
-            />
-          </button>
+          <ChevronDown size={14} className={`text-muted-foreground transition-transform shrink-0 ${expanded ? "rotate-180" : ""}`} />
         )}
-      </div>
+      </button>
 
-      {/* CONTEÚDO EXPANSÍVEL: Mantém a caixinha recuada com a borda lateral idêntica ao seu site antigo */}
-      {hasExpandableContent && (
-        <AnimatePresence initial={false}>
-          {expanded && (
-            <motion.div
-              initial={{ height: 0, opacity: 0 }}
-              animate={{ height: "auto", opacity: 1 }}
-              exit={{ height: 0, opacity: 0 }}
-              transition={{ duration: 0.2 }}
-              className="overflow-hidden pl-4 border-l border-border/50 space-y-4 mt-2"
-            >
-              {/* Renderiza dinamicamente as novas sequências de campos (descrip1-6, details2-6, adicionais...) */}
+      {/* O SEU CONTAINER DE ANIMAÇÃO ORIGINAL */}
+      <AnimatePresence>
+        {expanded && (
+          <motion.div
+            initial={{ height: 0, opacity: 0 }}
+            animate={{ height: "auto", opacity: 1 }}
+            exit={{ height: 0, opacity: 0 }}
+            transition={{ duration: 0.3 }}
+            className="overflow-hidden"
+          >
+            <div className="px-4 pb-4 space-y-3">
+              {/* Seus campos principais originais */}
+              {item.description && (
+                <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">{item.description}</p>
+              )}
+              {item.underline && (
+                <p className="font-body text-base md:text-lg text-muted-foreground underline leading-relaxed">{item.underline}</p>
+              )}
+              {item.additional && (
+                <p className="font-body text-base md:text-lg text-primary/80 italic leading-relaxed">{item.additional}</p>
+              )}
+
+              {/* Seus detalhes padrão originais com a seta ➝ */}
+              {item.details && item.details.length > 0 && (
+                <div className="space-y-1">
+                  {item.details.map((detail, i) => (
+                    <div key={i} className="flex items-start gap-2">
+                      <span className="text-primary text-base mt-0.5">➝</span>
+                      <span className="font-body text-base md:text-lg text-muted-foreground">{detail}</span>
+                    </div>
+                  ))}
+                </div>
+              )}
+
+              {/* ==================================================================== */}
+              {/* PARTE MISTURADA: Renderiza dinamicamente as novas palavras (1 a 6) */}
+              {/* mantendo o mesmo estilo visual de fontes e setas que você criou!     */}
+              {/* ==================================================================== */}
               {[1, 2, 3, 4, 5, 6].map((i) => {
                 const rawItem = item as any;
                 const descripX = rawItem[`descrip${i}`];
                 const detailsX = rawItem[`details${i}`];
                 const additionalX = rawItem[`additional${i}`];
 
-                // Só renderiza o bloco se houver alguma informação nele
                 if (!descripX && (!detailsX || detailsX.length === 0) && !additionalX) return null;
 
                 return (
-                  <div key={i} className="space-y-1.5">
-                    {descripX && <p className="text-sm text-muted-foreground">{descripX}</p>}
-                    {Array.isArray(detailsX) && detailsX.map((detail: string, index: number) => (
-                      <p key={index} className="text-sm text-muted-foreground/90 pl-3 border-l border-primary/20">
-                        • {detail}
-                      </p>
-                    ))}
-                    {additionalX && <p className="text-sm italic text-primary/80">{additionalX}</p>}
+                  <div key={i} className="space-y-2 pt-1">
+                    {descripX && (
+                      <p className="font-body text-base md:text-lg text-muted-foreground leading-relaxed">{descripX}</p>
+                    )}
+                    
+                    {Array.isArray(detailsX) && detailsX.length > 0 && (
+                      <div className="space-y-1">
+                        {detailsX.map((detail: string, idx: number) => (
+                          <div key={idx} className="flex items-start gap-2">
+                            <span className="text-primary text-base mt-0.5">➝</span>
+                            <span className="font-body text-base md:text-lg text-muted-foreground">{detail}</span>
+                          </div>
+                        ))}
+                      </div>
+                    )}
+
+                    {additionalX && (
+                      <p className="font-body text-base md:text-lg text-primary/80 italic leading-relaxed">{additionalX}</p>
+                    )}
                   </div>
                 );
               })}
+              {/* ==================================================================== */}
 
-              {/* Subitens filhos originais (mantendo a árvore perfeitamente alinhada na caixinha) */}
+              {/* Seus subitens filhos originais perfeitamente empacotados */}
               {item.subitems && item.subitems.length > 0 && (
                 <div className="space-y-2 pt-1">
-                  {item.subitems.map((subitem, index) => (
-                    <ContentItemCard key={index} item={subitem} depth={depth + 1} />
+                  {item.subitems.map((sub) => (
+                    <ContentItemCard key={sub.name} item={sub} depth={depth + 1} />
                   ))}
                 </div>
               )}
-            </motion.div>
-          )}
-        </AnimatePresence>
-      )}
-    </div>
+            </div>
+          </motion.div>
+        )}
+      </AnimatePresence>
+    </motion.div>
   );
 };
 
