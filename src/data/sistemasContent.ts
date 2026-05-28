@@ -1069,8 +1069,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Se manter em qualquer ilha do Novo Mundo",
             "➝ Ser um médico ou um cirurgião",
             "➝ Realizar uma auto extra de 700 palavras que concede 10 níveis além do conhecimento",
-            "➝ Ser nível 500",
-            "Vagas: 00/01"
+            "➝ Ser nível 500"
           ]
         },
         {
@@ -1083,8 +1082,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Ter a classe obrigatória de Ferreiro",
             "➝ Ser nível 900",
             "Buff:",
-            "➝ Caso seja um ciborgue, ganha +1,2× em dois atributos físicos à sua escolha, além do buff total ser 0.2 a mais do que os limites",
-            "Vagas: 00/02"
+            "➝ Caso seja um ciborgue, ganha +1,2× em dois atributos físicos à sua escolha, além do buff total ser 0.2 a mais do que os limites"
           ]
         },
         {
@@ -1099,8 +1097,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Ser nível 800",
             "➝ Esse conhecimento é o mais perigoso do RPG, tome cuidado para quem você vai divulgar as informações",
             "Buff:",
-            "➝ +1,3× em dois atributos físicos à sua escolha",
-            "Vagas: 00/01"
+            "➝ +1,3× em dois atributos físicos à sua escolha"
           ]
         },
         {
@@ -1115,8 +1112,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
             "➝ Ser nível 800",
             "Buff:",
-            "➝ 1,2× em dois atributos físicos à sua escolha",
-            "Vagas: 00/01"
+            "➝ 1,2× em dois atributos físicos à sua escolha"
           ]
         },
         {
@@ -1131,8 +1127,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Estar em qualquer ilha do RPG",
             "➝ Realizar uma auto-extra de 600 palavras, concedendo 10 níveis além do conhecimento",
             "Buff:",
-            "➝ +1,2× em dois atributos físicos à sua escolha",
-            "Vagas: 00/02"
+            "➝ +1,2× em dois atributos físicos à sua escolha"
           ]
         },
         {
@@ -1146,8 +1141,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Ser nível 600",
             "Buff:",
             "➝ +1,2× em Resistência",
-            "➝ +1,2× em Força",
-            "Vagas: 00/01"
+            "➝ +1,2× em Força"
           ]
         },
         {
@@ -1162,8 +1156,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Buff:",
             "➝ Aumenta o dano final em 1,2×",
             "➝ 1.25x em velocidade",
-            "➝ 1.3x em força",
-            "Vagas: 00/01"
+            "➝ 1.3x em força"
           ]
         },
         {
@@ -1173,8 +1166,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Realizar uma auto-extra de 900 palavras, concedendo 10 níveis além do conhecimento",
             "Ir para o Novo Mundo",
             "Quando com o outro olho aberto aumenta o limite máximo de Haki em 0.5x",
-            "Ser Nível 1.000",
-            "Vagas: 00/02"
+            "Ser Nível 1.000"
           ]
         },
         {
@@ -1204,8 +1196,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
             "➝ Ser nível 800",
             "Buff:",
-            "➝ 1.6x em Destreza",
-            "Vagas: 00/01"
+            "➝ 1.6x em Destreza"
           ]
         },
         {
@@ -1220,8 +1211,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Realizar uma auto-extra de 800 palavras, concedendo 10 níveis além do conhecimento",
             "Buff:",
             "➝ 1.3x de força",
-            "➝ 1,2x haki geral",
-            "Vagas: 00/01"
+            "➝ 1,2x haki geral"
           ]
         },
         {
@@ -1235,8 +1225,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Realizar uma auto-extra de 850 palavras, concedendo 10 níveis além do conhecimento",
             "➝ Ser nível 800",
             "Buff:",
-            "➝ 1.5x em velocidade",
-            "Vagas: 00/01"
+            "➝ 1.5x em velocidade"
           ]
         },
         {
@@ -1249,8 +1238,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Nível 1.200",
             "Buff:",
             "➝ 1.5x de haki geral",
-            "➝ 1,25× em um atributo à sua escolha que não seja haki geral",
-            "Vagas: 00/02"
+            "➝ 1,25× em um atributo à sua escolha que não seja haki geral"
           ]
         },
         {
@@ -1266,8 +1254,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Buff:",
             "➝ 1.25x de haki do Armamento",
             "➝ 1.25x de haki do Força",
-            "➝ 1.25x de haki do Velocidade",
-            "Vagas: 00/02"
+            "➝ 1.25x de haki do Velocidade"
           ]
         },
         {
@@ -1280,8 +1267,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Ser Nível 700",
             "Buff:",
             "➝ 1,4x em Destreza",
-            "➝ 1,3× em agilidade",
-            "Vagas: 00/01"
+            "➝ 1,3× em agilidade"
           ]
         },
         {
@@ -1296,8 +1282,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Nível 800.",
             "Buff:",
             "➝ 1,3x em um atributo à escolha",
-            "➝ ou 1,15x dividido em dois atributos.(caso escolha haki, não pode pôr no haki geral)",
-            "Vagas: 00/03"
+            "➝ ou 1,15x dividido em dois atributos.(caso escolha haki, não pode pôr no haki geral)"
           ]
         },
         {
@@ -1325,8 +1310,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Auto-extra de 800 palavras.",
             "➝ Nível 800.",
             "Buff:",
-            "➝ 1,3x em Haki",
-            "Vagas: 00/02"
+            "➝ 1,3x em Haki"
           ]
         },
         {
@@ -1340,8 +1324,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Buff:",
             "➝ 1,2x em Força",
             "➝ 1,2x em Resistência",
-            "➝ 1,2 em Velocidade",
-            "Vagas: 00/02"
+            "➝ 1,2 em Velocidade"
           ]
         },
         {
@@ -1358,8 +1341,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Nível 1000.",
             "Buff:",
             "➝ 1,15x em Agilidade",
-            "➝ 1,15x em Força",
-            "Vagas: 00/02"
+            "➝ 1,15x em Força"
           ]
         },
         {
@@ -1379,8 +1361,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Extra de 850 palavras.",
             "➝ Nível 850.",
             "Buff:",
-            "➝ 1,5× em resistência",
-            "Vagas: 00/02"
+            "➝ 1,5× em resistência"
           ]
         },
         {
@@ -1393,8 +1374,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Auto-extra de 900 palavras.",
             "Buff:",
             "➝ 1,2x em Haki",
-            "➝ 1,1x em outro atributo físico",
-            "Vagas: 00/02"
+            "➝ 1,1x em outro atributo físico"
           ]
         },
         {
@@ -1407,8 +1387,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Estar em qualquer ilha do novo mundo",
             "Buff:",
             "➝ 1.3x em resistência",
-            "➝ 1.25x em Haki da Observação",
-            "Vagas: 00/01"
+            "➝ 1.25x em Haki da Observação"
           ]
         },
         {
@@ -1436,8 +1415,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Extra de 900 palavras.",
             "Buff:",
             "➝ 1,15x em Força",
-            "➝ 1,15x em Resistência",
-            "Vagas: 00/02"
+            "➝ 1,15x em Resistência"
           ]
         },
         {
@@ -1463,8 +1441,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Ir até Hell ou possuir liberação por Magia Negra.",
             "➝ Ritual completo do pacto.",
             "Buff:",
-            "➝ 1,3x em Haki",
-            "Vagas: 00/01"
+            "➝ 1,3x em Haki"
           ]
         },
         {
@@ -1478,8 +1455,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "➝ Nível 750.",
             "Buff:",
             "➝ 1,15x em Resistência",
-            "➝ 1,15x em Haki do Armamento",
-            "Vagas: 00/02"
+            "➝ 1,15x em Haki do Armamento"
           ]
         }
       ]
