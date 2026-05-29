@@ -37,7 +37,6 @@ const LibrarySection = () => {
   const categories = [
     { key: "geografia", label: "Geografia", icon: "🗺️" },
     { key: "historia", label: "História", icon: "📜" },
-    { key: "tier", label: "Tier Top 10", icon: "🏆" },
   ];
 
   return (
@@ -254,46 +253,7 @@ const LibrarySection = () => {
             </motion.div>
           )}
 
-          {activeCategory === "tier" && (
-            <motion.div key="tier" className="bg-card/50 border-glow rounded-lg p-6" initial={{ opacity: 0, height: 0 }} animate={{ opacity: 1, height: "auto" }} exit={{ opacity: 0, height: 0 }}>
-              <div className="grid grid-cols-2 md:grid-cols-4 gap-3 mb-6">
-                {Object.keys(TIER_DATA).map((org) => (
-                  <motion.button
-                    key={org}
-                    onClick={() => setActiveTier(activeTier === org ? null : org)}
-                    className={`p-3 rounded border font-heading text-xs tracking-wider transition-all ${
-                      activeTier === org ? "border-gold bg-gold/10 text-gold" : "border-border hover:border-gold/50"
-                    }`}
-                    whileTap={{ scale: 0.95 }}
-                  >
-                    {org}
-                  </motion.button>
-                ))}
-              </div>
-
-              <AnimatePresence mode="wait">
-                {activeTier && (
-                  <motion.div key={activeTier} initial={{ opacity: 0, y: 10 }} animate={{ opacity: 1, y: 0 }} exit={{ opacity: 0 }}>
-                    <h4 className="font-heading text-sm text-gold mb-4">Top 10 — {activeTier}</h4>
-                    <div className="space-y-2">
-                      {TIER_DATA[activeTier].map((entry, i) => (
-                        <motion.div
-                          key={entry}
-                          className="flex items-center gap-3 p-3 bg-muted/20 rounded border border-border/50"
-                          initial={{ opacity: 0, x: -20 }}
-                          animate={{ opacity: 1, x: 0 }}
-                          transition={{ delay: i * 0.05 }}
-                        >
-                          <span className="text-gold font-heading text-xs w-6">{i < 3 ? "👑" : `#${i + 1}`}</span>
-                          <span className="font-body">{entry.split(". ")[1]}</span>
-                        </motion.div>
-                      ))}
-                    </div>
-                  </motion.div>
-                )}
-              </AnimatePresence>
-            </motion.div>
-          )}
+          
         </AnimatePresence>
       </div>
     </section>
