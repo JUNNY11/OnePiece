@@ -38,6 +38,7 @@ const SOLD_NAMES = [
 
   // Zoan
   "Batto Batto no Mi – Modelo Vampiro",
+  "Hebi Hebi no Mi – Modelo Yamata no Orochi",
   "Hito Hito no Mi - Modelo Daibutsu",
   "Hito Hito no Mi – Modelo Nika",
   "Inu Inu no Mi - Modelo Okuchi no Makami",
@@ -265,7 +266,7 @@ export const SUBMUNDO_SUBS: Record<string, Product[]> = {
     { id: "za7", name: "Ryu Ryu no Mi – Modelo Triceratops", price: "฿700.000.000", description: "Concede defesa absoluta, força de investida e resistência frontal.\n- x1.50 Força\n- x1.45 Agilidade\n- x1.50 Resistência" },
     { id: "za8", name: "Zou Zou no Mi – Modelo Mammoth", price: "฿700.000.000", description: "Oferece força descomunal, resistência ao frio e presença esmagadora.\n- x1.40 Força\n- x1.35 Agilidade\n- x1.45 Resistência" },
     // Zoans Míticas
-    { id: "zm1", name: "Hebi Hebi no Mi – Modelo Yamata no Orochi", price: "฿1.000.000.000", description: "Permite se transformar em uma serpente divina de múltiplas cabeças, com regeneração e poder destrutivo.\n- x1.45 Força\n- x1.25 Destreza\n- x1.50 Resistência" },
+    { id: "zm1", name: "Hebi Hebi no Mi – Modelo Yamata no Orochi", price: "฿1.000.000.000", description: "Permite se transformar em uma serpente divina de múltiplas cabeças, com regeneração e poder destrutivo.\n- x1.45 Força\n- x1.25 Destreza\n- x1.50 Resistência", sold: true },
     { id: "zm2", name: "Hito Hito no Mi – Modelo Daibutsu", price: "฿1.500.000.000", description: "Concede uma forma divina gigantesca com força espiritual e impacto devastador.\n- x1.70 Força\n- x1.60 Resistência", sold: true },
     { id: "zm3", name: "Hito Hito no Mi – Modelo Nika", price: "฿0", description: "Permite assumir a forma do Deus do Sol, concedendo liberdade corporal absoluta e poder simbólico.", sold: true},
     { id: "zm4", name: "Inu Inu no Mi – Modelo Kyubi no Kitsune", price: "฿1.500.000.000", description: "Permite assumir a forma de uma raposa divina de nove caudas, com ilusões e metamorfose.\n- x1.50 Força\n- x1.50 Agilidade\n- x1.50 Resistência" },
