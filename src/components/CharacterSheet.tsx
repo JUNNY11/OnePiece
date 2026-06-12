@@ -338,18 +338,6 @@ Emissão - Destruição Interna: [ ]`;
                       <label className="block text-sm font-heading text-muted-foreground mb-1">Nome/Nickname *</label>
                       <Input value={playerName} onChange={e => setPlayerName(e.target.value)} placeholder="Seu nome" />
                     </div>
-                    <div>
-                      <label className="block text-sm font-heading text-muted-foreground mb-1">Últimos Dígitos *</label>
-                      <Input value={playerDigits} onChange={e => setPlayerDigits(e.target.value)} placeholder="Ex: 1234" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-heading text-muted-foreground mb-1">Idade *</label>
-                      <Input value={playerAge} onChange={e => setPlayerAge(e.target.value)} placeholder="Sua idade" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-heading text-muted-foreground mb-1">Disponibilidade *</label>
-                      <Input value={playerAvailability} onChange={e => setPlayerAvailability(e.target.value)} placeholder="Ex: Noites e fins de semana" />
-                    </div>
                   </div>
                 </div>
 
@@ -365,10 +353,6 @@ Emissão - Destruição Interna: [ ]`;
                       <label className="block text-sm font-heading text-muted-foreground mb-1">Nome e Sobrenome *</label>
                       <Input value={charName} onChange={e => setCharName(e.target.value)} placeholder="Nome completo" />
                     </div>
-                    <div>
-                      <label className="block text-sm font-heading text-muted-foreground mb-1">Idade (min. 16) *</label>
-                      <Input type="number" min={16} value={charAge} onChange={e => setCharAge(e.target.value)} placeholder="16+" />
-                    </div>
                     <SelectDropdown label="Raça *" value={charRace} options={raceOptions} onChange={(v) => {
                       setCharRace(v);
                       if (EXCLUSIVE_RACES.includes(v)) setCharLineage("");
@@ -380,21 +364,6 @@ Emissão - Destruição Interna: [ ]`;
                       onChange={setCharLineage}
                       disabled={isExclusiveRace}
                     />
-                    <SelectDropdown label="Classe *" value={charClass} options={classOptions} onChange={setCharClass} />
-                    <SelectDropdown label="Estilo de Luta" value={charFightingStyle} options={fightingStyleOptions} onChange={setCharFightingStyle} />
-                    <div>
-                      <label className="block text-sm font-heading text-muted-foreground mb-1">Altura e Peso *</label>
-                      <Input value={charHeight} onChange={e => setCharHeight(e.target.value)} placeholder="Ex: 1.80m / 80kg" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-heading text-muted-foreground mb-1">Nacionalidade</label>
-                      <Input value={charNationality} onChange={e => setCharNationality(e.target.value)} placeholder="Opcional" />
-                    </div>
-                    <div>
-                      <label className="block text-sm font-heading text-muted-foreground mb-1">Localização Atual (Blues) *</label>
-                      <Input value={charLocation} onChange={e => setCharLocation(e.target.value)} placeholder="Ex: East Blue" />
-                    </div>
-                    <SelectDropdown label="Lado *" value={charSide} options={sideOptions} onChange={setCharSide} />
                   </div>
                 </div>
 
@@ -471,16 +440,6 @@ Emissão - Destruição Interna: [ ]`;
                     )}
                   </div>
                 )}
-
-                {/* Personality & History */}
-                <div>
-                  <label className="block text-sm font-heading text-muted-foreground mb-1">Personalidade (min. 10 linhas) *</label>
-                  <Textarea value={charPersonality} onChange={e => setCharPersonality(e.target.value)} rows={5} placeholder="Descreva a personalidade do seu personagem..." />
-                </div>
-                <div>
-                  <label className="block text-sm font-heading text-muted-foreground mb-1">História (baseada na Linhagem/Raça) *</label>
-                  <Textarea value={charHistory} onChange={e => setCharHistory(e.target.value)} rows={6} placeholder="Conte a história do seu personagem..." />
-                </div>
 
                 {/* Submit */}
                 <Button onClick={handleSend} className="w-full gap-2" size="lg">
