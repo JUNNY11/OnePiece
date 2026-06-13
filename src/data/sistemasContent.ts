@@ -14,6 +14,15 @@ export interface ContentItem {
   descrip4?: string;
   descrip5?: string;
   descrip6?: string,
+  descrip7?: string,
+  descrip8?: string,
+  descrip9?: string,
+  descrip10?: string,
+  descrip11?: string,
+  descrip12?: string,
+  descrip13?: string,
+  descrip14?: string,
+  descrip15?: string,
   details?: string[];
   details2?: string[];
   details3?: string[];
@@ -27,6 +36,15 @@ export interface ContentItem {
   additional4?: string;
   additional5?: string;
   additional6?: string;
+  additional7?: string;
+  additional8?: string;
+  additional9?: string;
+  additional10?: string;
+  additional11?: string;
+  additiona12?: string;
+  additional13?: string;
+  additional14?: string;
+  additional15?: string;
   subitems?: ContentItem[];
 }
 
@@ -300,13 +318,72 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         },
         {
           name: "Ryusoken",
+          details2: [
+            "Ryusoken é um estilo terciário, ocupando o terceiro ou quarto slot.",
+            "Exclusivo para Revolucionários.",
+            "Não permite uso de armas de corte."
+          ],
           description: "Desenvolvido para simular as garras de um dragão, esse estilo transforma as mãos em armas perfurantes e esmagadoras. O usuário aplica pressão nos pontos vitais e utiliza golpes com forma de garra para romper defesas e causar danos internos pesados. Esse estilo não pode utilizar armas de corte.",
+          additional: "[Formas do Dragão]",
+          additional2: "Garra Quebramontes",
+          descrip2: "O fundamento do estilo. Os dedos se tornam garras de pressão capazes de agarrar, rasgar, esmagar e quebrar defesas pela compressão brutal aplicada no impacto. Um usuário experiente pode transformar simples golpes em forças de demolição. Não existe amadura ou arma que resista ao golpe. Excessão são meitous de Grau Saijo.",
+          details3: [
+            "1,3 em Força."
+          ],
+          additional3: "Escamas de Ferro",
+          descrip3: "Uma forma defensiva onde músculos, postura e fluxo de força tornam o corpo capaz de absorver impacto e devolver pressão ao atacante. Defesa e contra-ataque se tornam um só. Nesse estado, o usuário torna-se uma (parede) reduzido o dano que tomaria em 20%.",
+          details4: [
+            "1,25 em Resistência."
+          ],
+          additional4: "Olho do Dragão",
+          descrip4: "A forma voltada à observação da injustiça. Cada golpe busca juntas, pontos vitais, brechas e estruturas frágeis, tornando ataques muito mais perigosos mesmo sem aumentar massa ou força. Afinal, agora você está analisando a estrutura.",
+          details5: [
+            "1,3 em Destreza."
+          ],
+          additional5: "Rugido Celestial",
+          descrip5: "A forma ofensiva suprema, em que torque, impulso e pressão são descarregados em golpes capazes de gerar ondas de impacto destrutivas a distância.",
+          details6: [
+            "1,2 em Força.",
+            "1,2 em Destreza.",
+            "Soma Força + Destreza + Tier da Técnica.",
+            "Aplicação de dano dessa técnica é um de Rank A"
+          ],
           details: ["500 em Força"]
         },
         {
           name: "Rokushiki",
-          description: "Técnica de combate avançada usada por agentes do Governo Mundial e Marinha. Consiste em seis habilidades sobre-humanas: Soru (velocidade extrema), Geppo (andar no ar), Tekkai (endurecer o corpo), Shigan (dedo perfurante), Rankyaku (corte com o ar) e Kami-e (movimentos leves e evasivos). Juntas, tornam o usuário um guerreiro quase imbatível.",
-          details: ["500 em Força", "500 em Speed"]
+          description: "O rokushiki é um estilo de marcial idealizado pela marinha e cipher poll, foca em dar a força de 100 homens para os soldados, os deixando mais forte para enfrentar os criminosos. Nesse sistema consiste em aprender o rokushiki básico, há uma diferença, o rokushiki básico tem algumas restrição como por exemplo: não consegue usar as técnicas de cada tipo de rokushiki. O rokushiki mais básico também não é possível usar dois rokushiki ao mesmo tempo, será possível apenas quando mestrar as técnicas e liberar totalmente o leque gigantesco de técnico do rokushiki.",
+          additional: "[Rokushiki Básico]",
+          descrip1: "Para aprender esses rokushiki é necessário apenas 1 treino, pois são técnicas mais básicas do rokushiki e tem as restrições de não conseguir usa dois ou mais rokushiki ao mesmo tempo. 1 treino para aprender 2 técnicas do rokushiki básico.",
+          additional2: "Tekkai",
+          descrip2: "Ao ativar tekkai seu personagem fica parado até desativar. 1,2x Resistência (servindo apenas para reduzir dano, se o dano passar 2× sua defesa",
+          additional3: "Geppo",
+          descrip3: "Consegue chutar o ar e se manter pisando no ar como se fosse o chão, não pode usar nenhum outro rokushiki durante o processo.",
+          additional4: "Soru",
+          descrip4: "É um passo rápido como se fosse um teleporte, a distância percorrida é 7 metros no máximo. 1,2x velocidade.",
+          additional5: "Rankyaku",
+          descrip5: "Chuta o ar liberando uma lâmina cortante poderosa do somado para o dano do corte é força+Destreza",
+          additional6: "Shigan",
+          descrip6: "Aplica um estocada com os dedos ou libera balinhas de ar que pode chegar até ser mais potente que armas comuns em níveis altíssimos. Força+dextreza+⭐⭐⭐ (intermediário).",
+          additional7: "Kami-e",
+          descrip7: "Não muito menos importo, deixa o corpo mais flexível a ponto de conseguir fazer algumas movimentações anormais, arqueando o corpo para desviar de golpes. +1,2× em velocidade",
+          additional8: "[Rokushiki Mestrado]",
+          descrip8: "O rokushiki mestrado é um nível elevadíssimo aos artista dessa arte marcial famosa, agora tirando todas as restrição e necessário 1 treinos solo (Vale apenas aprender em treino solo) por cada técnica para mestrar. Só poderá começar a mestrar as técnicas do rokushiki quando treinar todas as básicas.",
+          additional9:"Tekkai",
+          descrip9: "Agora você alcança o tekkai kenpo, um nível elevadíssimo de endurecimento corporal, podendo ativar o tekkai kenpo, gastar menos energia, ficar mais duro, e ainda andar enquanto estiver no tekkai semelhante o endurecimento do corpo do vergo, o tekkai kenpo pode refletir certos danos físicos usando técnicas específicas do tekkai. 1,3x resistência.",
+          additional10: "Geppo",
+          descrip10: "Mestrando agora é possível unificar com soru, caso o soru for mestrado também e criar kamisori, podendo a velocidade maior do soru enquanto estiver no ar, também conseguindo usar geppo nas mãos também para socos mais impactantes podendo criar junção ao shigan para socos e chutes, caso o shigan for mestrado também. +1,3× em velocidade",
+          additional11: "Soru",
+          descrip11: "Mestrando essa técnica o soru fica constante e não um deslocamento em linha reta, podendo fazer curvas, dar voltar enquanto estar ativado, pode unir junto ao geppo e criar a técnica kamisori, de deslocamento pelo ar. 1,3x velocidade. Quanto mais tempo ficar constante o uso, mais energia irá gastar.",
+          additiona12: "Rankyaku",
+          descrip12: "Mestrando não se limita mais em apenas chutar o ar, pode liberar dos braços, do dois braços ao mesmo tempo, duas pernas ao mesmo tempo, podendo fazer cortes e golpes mais elaborados com o rankyaku. Força + Destreza (Avançada).",
+          additional13: "Shigan",
+          descrip13: "Mestrando, podendo usar no socos, com (mão faca) ponta pés, apenas ponta pés, pode juntar junto ao geppo para golpes mais estrondosos e poderosos. Força+dextreza+⭐⭐⭐ (Avançada).",
+          additional14: "Kami-e",
+          descrip14: "Mestrando esse rokushiki, agora seu corpo consegue se moldar totalmente com o kami-e slime, podendo moldar o corpo, achatar e fazer formas totalmente anormais para desviar seu corpo de golpes, beirando o absurdo. +1,3× para esquiva",
+          additional15: "Obs: Após mestrar todas as técnicas do rokushiki, o usuário libera o rokuogan uma técnica suprema que junta as mãos fechado em formato de punho e libera uma onda de energia/onda de choque que causa danos interno severos.",
+          descrip15: "Cálculo do rokuogan: Força+dextreza do seu personagem multiplicador por +50% ao dano final.",
+          details: ["500 em Força", "500 em Speed"],
         },
         {
           name: "Raid Suit",
