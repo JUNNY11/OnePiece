@@ -75,7 +75,7 @@ export const hasContent = (item: ContentItem): boolean => {
   }
 
   const rawItem = item as any;
-  for (let i = 1; i <= 6; i++) {
+  for (let i = 1; i <= 15; i++) {
     if (rawItem[`descrip${i}`]) return true;
     if (rawItem[`additional${i}`]) return true;
     if (Array.isArray(rawItem[`details${i}`]) && rawItem[`details${i}`].length > 0) return true;
