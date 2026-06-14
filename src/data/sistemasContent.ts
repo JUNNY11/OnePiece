@@ -29,6 +29,15 @@ export interface ContentItem {
   details4?: string[];
   details5?: string[];
   details6?: string[];
+  details7?: string[];
+  details8?: string[];
+  details9?: string[];
+  details10?: string[];
+  details11?: string[];
+  details12?: string[];
+  details13?: string[];
+  details14?: string[];
+  details15?: string[];
   underline?: string;
   additional?: string;
   additional2?: string;
@@ -354,33 +363,65 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Rokushiki",
           description: "O rokushiki é um estilo de marcial idealizado pela marinha e cipher poll, foca em dar a força de 100 homens para os soldados, os deixando mais forte para enfrentar os criminosos. Nesse sistema consiste em aprender o rokushiki básico, há uma diferença, o rokushiki básico tem algumas restrição como por exemplo: não consegue usar as técnicas de cada tipo de rokushiki. O rokushiki mais básico também não é possível usar dois rokushiki ao mesmo tempo, será possível apenas quando mestrar as técnicas e liberar totalmente o leque gigantesco de técnico do rokushiki.",
           additional: "[Rokushiki Básico]",
-          descrip1: "Para aprender esses rokushiki é necessário apenas 1 treino, pois são técnicas mais básicas do rokushiki e tem as restrições de não conseguir usa dois ou mais rokushiki ao mesmo tempo. 1 treino para aprender 2 técnicas do rokushiki básico.",
+          descrip1: "Para aprender esses rokushiki é necessário: apenas 1 treino, pois são técnicas mais básicas do rokushiki e tem as restrições de não conseguir usa dois ou mais rokushiki ao mesmo tempo. 1 treino para aprender 2 técnicas do rokushiki básico.",
           additional2: "Tekkai",
-          descrip2: "Ao ativar tekkai seu personagem fica parado até desativar. 1,2x Resistência (servindo apenas para reduzir dano, se o dano passar 2× sua defesa",
+          descrip2: "Ao ativar tekkai seu personagem fica parado até desativar.",
+          details2: [
+            "1,2x Resistência (servindo apenas para reduzir dano, se o dano passar 2× sua defesa",
+          ],
           additional3: "Geppo",
           descrip3: "Consegue chutar o ar e se manter pisando no ar como se fosse o chão, não pode usar nenhum outro rokushiki durante o processo.",
           additional4: "Soru",
-          descrip4: "É um passo rápido como se fosse um teleporte, a distância percorrida é 7 metros no máximo. 1,2x velocidade.",
+          descrip4: "É um passo rápido como se fosse um teleporte.",
+          details3: [
+            "A distância percorrida é 7 metros no máximo.",
+            "1,2x velocidade."
+          ],
           additional5: "Rankyaku",
           descrip5: "Chuta o ar liberando uma lâmina cortante poderosa do somado para o dano do corte é força+Destreza",
           additional6: "Shigan",
-          descrip6: "Aplica um estocada com os dedos ou libera balinhas de ar que pode chegar até ser mais potente que armas comuns em níveis altíssimos. Força+dextreza+⭐⭐⭐ (intermediário).",
+          descrip6: "Aplica um estocada com os dedos ou libera balinhas de ar que pode chegar até ser mais potente que armas comuns em níveis altíssimos.",
+          details4: [
+            "Força + Destreza + ⭐⭐⭐ (intermediário)."
+          ],
           additional7: "Kami-e",
-          descrip7: "Não muito menos importo, deixa o corpo mais flexível a ponto de conseguir fazer algumas movimentações anormais, arqueando o corpo para desviar de golpes. +1,2× em velocidade",
+          descrip7: "Não muito menos importo, deixa o corpo mais flexível a ponto de conseguir fazer algumas movimentações anormais, arqueando o corpo para desviar de golpes.",
+          details5: [
+            "+1,2× em velocidade."
+          ],
           additional8: "[Rokushiki Mestrado]",
           descrip8: "O rokushiki mestrado é um nível elevadíssimo aos artista dessa arte marcial famosa, agora tirando todas as restrição e necessário 1 treinos solo (Vale apenas aprender em treino solo) por cada técnica para mestrar. Só poderá começar a mestrar as técnicas do rokushiki quando treinar todas as básicas.",
           additional9:"Tekkai",
-          descrip9: "Agora você alcança o tekkai kenpo, um nível elevadíssimo de endurecimento corporal, podendo ativar o tekkai kenpo, gastar menos energia, ficar mais duro, e ainda andar enquanto estiver no tekkai semelhante o endurecimento do corpo do vergo, o tekkai kenpo pode refletir certos danos físicos usando técnicas específicas do tekkai. 1,3x resistência.",
+          descrip9: "Agora você alcança o tekkai kenpo, um nível elevadíssimo de endurecimento corporal, podendo ativar o tekkai kenpo, gastar menos energia, ficar mais duro, e ainda andar enquanto estiver no tekkai semelhante o endurecimento do corpo do vergo, o tekkai kenpo pode refletir certos danos físicos usando técnicas específicas do tekkai.",
+          details6: [
+            "1,3x resistência."
+          ],
           additional10: "Geppo",
-          descrip10: "Mestrando agora é possível unificar com soru, caso o soru for mestrado também e criar kamisori, podendo a velocidade maior do soru enquanto estiver no ar, também conseguindo usar geppo nas mãos também para socos mais impactantes podendo criar junção ao shigan para socos e chutes, caso o shigan for mestrado também. +1,3× em velocidade",
+          descrip10: "Mestrando agora é possível unificar com soru, caso o soru for mestrado também e criar kamisori, podendo a velocidade maior do soru enquanto estiver no ar, também conseguindo usar geppo nas mãos também para socos mais impactantes podendo criar junção ao shigan para socos e chutes, caso o shigan for mestrado também.",
+          details7: [
+            "+1,3× em velocidade"
+          ],
           additional11: "Soru",
-          descrip11: "Mestrando essa técnica o soru fica constante e não um deslocamento em linha reta, podendo fazer curvas, dar voltar enquanto estar ativado, pode unir junto ao geppo e criar a técnica kamisori, de deslocamento pelo ar. 1,3x velocidade. Quanto mais tempo ficar constante o uso, mais energia irá gastar.",
+          descrip11: "Mestrando essa técnica o soru fica constante e não um deslocamento em linha reta, podendo fazer curvas, dar voltar enquanto estar ativado, pode unir junto ao geppo e criar a técnica kamisori, de deslocamento pelo ar.",
+          details8: [
+            "1,3x velocidade.",
+            "Quanto mais tempo ficar constante o uso, mais energia irá gastar."
+          ],
           additiona12: "Rankyaku",
-          descrip12: "Mestrando não se limita mais em apenas chutar o ar, pode liberar dos braços, do dois braços ao mesmo tempo, duas pernas ao mesmo tempo, podendo fazer cortes e golpes mais elaborados com o rankyaku. Força + Destreza (Avançada).",
+          descrip12: "Mestrando não se limita mais em apenas chutar o ar, pode liberar dos braços, do dois braços ao mesmo tempo, duas pernas ao mesmo tempo, podendo fazer cortes e golpes mais elaborados com o rankyaku.",
+          details9: [
+            "Força + Destreza (Avançada)."
+          ],
           additional13: "Shigan",
-          descrip13: "Mestrando, podendo usar no socos, com (mão faca) ponta pés, apenas ponta pés, pode juntar junto ao geppo para golpes mais estrondosos e poderosos. Força+dextreza+⭐⭐⭐ (Avançada).",
+          descrip13: "Mestrando, podendo usar no socos, com (mão faca) ponta pés, apenas ponta pés, pode juntar junto ao geppo para golpes mais estrondosos e poderosos.",
+          details10: [
+            "Força + Dextreza + ⭐⭐⭐ (Avançada)."
+          ],
           additional14: "Kami-e",
-          descrip14: "Mestrando esse rokushiki, agora seu corpo consegue se moldar totalmente com o kami-e slime, podendo moldar o corpo, achatar e fazer formas totalmente anormais para desviar seu corpo de golpes, beirando o absurdo. +1,3× para esquiva",
+          descrip14: "Mestrando esse rokushiki, agora seu corpo consegue se moldar totalmente com o kami-e slime, podendo moldar o corpo, achatar e fazer formas totalmente anormais para desviar seu corpo de golpes, beirando o absurdo.",
+          details11: [
+            "+1,3× para esquiva."
+          ],
           additional15: "Obs: Após mestrar todas as técnicas do rokushiki, o usuário libera o rokuogan uma técnica suprema que junta as mãos fechado em formato de punho e libera uma onda de energia/onda de choque que causa danos interno severos.",
           descrip15: "Cálculo do rokuogan: Força+dextreza do seu personagem multiplicador por +50% ao dano final.",
           details: ["500 em Força", "500 em Speed"],
