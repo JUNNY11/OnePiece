@@ -50,7 +50,7 @@ export interface ContentItem {
   additional9?: string;
   additional10?: string;
   additional11?: string;
-  additiona12?: string;
+  additional12?: string;
   additional13?: string;
   additional14?: string;
   additional15?: string;
@@ -407,7 +407,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "1,3x velocidade.",
             "Quanto mais tempo ficar constante o uso, mais energia irá gastar."
           ],
-          additiona12: "Rankyaku",
+          additional12: "Rankyaku",
           descrip12: "Mestrando não se limita mais em apenas chutar o ar, pode liberar dos braços, do dois braços ao mesmo tempo, duas pernas ao mesmo tempo, podendo fazer cortes e golpes mais elaborados com o rankyaku.",
           details9: [
             "Força + Destreza (Avançada)."
