@@ -29,6 +29,7 @@ const FIGHTING_STYLES: Record<string, { attrs: { forca?: number; agilidade?: num
   "Bushido": { attrs: { forca: 500, destreza: 500 } },
   "Combate Gigante": { attrs: { forca: 1000, resistencia: 1000 } },
   "Combate Water": { attrs: { destreza: 500 } },
+  "Estilo Nika": { attrs: {forca: 500, destreza: 500}},
   "Fencing Style": { attrs: { agilidade: 500, destreza: 500 } },
   "Freestyle": { attrs: { forca: 500, destreza: 500, agilidade: 500 } },
   "Hasshoken": { attrs: { forca: 1500, resistencia: 500 } },

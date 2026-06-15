@@ -281,6 +281,50 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           details: ["500 em Destreza"]
         },
         {
+          name: "Estilo Nika",
+          description: "Não se sabe exatamente onde surgiu, mas antigos piratas dizem que o Estilo Niko nasceu em embarcações de guerra e ilhas sem lei, criado por homens que sobreviveram porque aprenderam a transformar o próprio corpo em arma. Diferente de artes marciais rígidas, o Niko não segue movimentos fixos: ele é um estilo de adaptação, pressão e domínio corporal, onde cada técnica busca tornar o usuário capaz de sobreviver e vencer em qualquer situação.",
+          details: [
+            "Niko Style é um estilo terciário, ocupando o terceiro ou quarto slot.",
+            "Estilo exclusivo para Piratas.",
+            "Os buffs do estilo não se somam, você deve usar uma forma por vez e nunca duas ao mesmo tempo."
+          ],
+          additional: "Kata do Demônio",
+          descrip1: "Um kata baseado em compressão muscular e explosão física, elevando o corpo a um estado monstruoso para combate direto. Cada movimento busca gerar impacto esmagador e resistência brutal, permitindo ao usuário lutar como uma fera em fúria, suportando golpes enquanto desfere ataques devastadores.",
+          details2: [
+            "1,15 em Força.",
+            "1,15 em Resistência."
+          ],
+          additional2: "Kata do Fantasma",
+          descrip2: "Esse kata foca em leitura de combate, mobilidade e movimentos imprevisíveis, permitindo ao usuário lutar em ritmos quebrados e ângulos incomuns, quase como se desaparecesse da percepção do adversário. Ideal para evasão, perseguição e contra-ataques rápidos. Lembrando que, você não some de fato, é apenas a ideia que seu corpo é imprevisível e seu estilo de gingado é incomum.",
+          details3: [
+            "1,2 em Velocidade."
+          ],
+          additional3: "Kata da Serpente",
+          descrip3: "Uma forma baseada em fluidez absoluta do corpo, onde músculos e articulações cedem em vez de resistirem, desviando força ao invés de confrontá-la. Permite amortecer ataques, reduzir danos e transformar defesa em movimento contínuo.",
+          details4: [
+            "Reduz 20% de dano."
+          ],
+          additional4: "Kata do Predador",
+          descrip4: "O lado mais agressivo do estilo, transformando torque muscular, postura e impulsão em ataques violentos e precisos. O usuário usa o corpo como uma máquina de predação, podendo gerar golpes esmagadores ou pressão por socos, joelhadas, chutes e agarrões.",
+          details5: [
+            "1,2 em força.",
+            "Soma o total de força + total de destreza para golpes de pressão."
+          ],
+          descrip5: "Todas as técnicas do Estilo Niko são básicas (Rank B), porém caso o usuário possua o máximo de buff, ao invés do multiplicador, suas técnicas passam a equivaler a Rank A.",
+          additional5: "Técnica Final — Advance: Maré Vermelha",
+          details6: [
+            "Requisito: Lv 1.000"
+          ],
+          descrip6: "O Advance é a manifestação suprema do Estilo Niko, uma técnica proibitiva em que o usuário força o coração, circulação e sistema nervoso além dos próprios limites, queimando vitalidade para entrar num estado temporário de monstruosa performance física. Sangue acelera como fogo nas veias, músculos operam além do normal e instintos tomam a dianteira do raciocínio. A força se torna brutal, a velocidade violenta, reflexos se elevam e o corpo inteiro entra num estado de guerra absoluta.",
+          details7: [
+            "1,2 em Força.",
+            "1,2 em Resistência.",
+            "1,2 em Velocidade.",
+            "Perde 20% da vida total no final dos turnos.",
+            "Duração: 5 turnos."
+          ]
+        },
+        {
           name: "Fencing Style",
           description: "Um estilo ágil e elegante baseado em estocadas rápidas e precisas com uma espada fina. O usuário se movimenta com leveza, atacando com velocidade e esquivando com estilo, priorizando a precisão ao invés da força bruta.",
           details: ["500 em Agilidade", "500 em Destreza"]
