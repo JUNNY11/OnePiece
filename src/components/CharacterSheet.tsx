@@ -241,51 +241,12 @@ const CharacterSheet = () => {
 
 ─── *Player* ───
 *Nome/Nickname:* ${playerName}
-*Últimos dígitos:* ${playerDigits}
-*Idade:* ${playerAge}
-*Disponibilidade:* ${playerAvailability}
 
 ─── *Personagem* ───
 *Avatar:* ${charAvatar}
 *Nome e Sobrenome:* ${charName}
-*Idade:* ${charAge}
 *Linhagem:* ${isExclusiveRace ? "N/A (Raça Exclusiva)" : (charLineage || "N/A")}
-*Raça:* ${charRace}
-*Classe:* ${charClass}
-*Estilo de Luta:* ${charFightingStyle || "N/A"}${styleAttrsText ? ` (${styleAttrsText})` : ""}
-*Altura e Peso:* ${charHeight}
-*Nacionalidade:* ${charNationality || "—"}
-*Localização Atual:* ${charLocation} (Somente Blues)
-*Lado:* ${charSide}
-*Belly's:* 100.000.000 💰
-*Akuma No Mi:* N/A
-
-*Personalidade:*
-${charPersonality}
-
-*História:*
-${charHistory}
-
-─── *Atributos e Nível* ───
-*Nível:* 001 (01 LvL = 50 PT)
-*Atributos:* (500 iniciais + Raça${lineageData?.bonusAttrs ? " + Linhagem" : ""}${fightingStyleData ? " + Estilo de Luta" : ""})
-*Força:* ${finalAttrs.forca}
-*Agilidade:* ${finalAttrs.agilidade}
-*Destreza:* ${finalAttrs.destreza}
-*Resistência:* ${finalAttrs.resistencia}
-*HP:* ________
-${lineageBuffsText}
-
-─── *Haki's* ─── 🔐 (LvL 100)
-👁️ *Kenbunshoku (Observação):*
-Básico: [ ]
-Intenção: [ ]
-Previsão: [ ]
-
-⚫ *Busoshoku (Armamento):*
-Koka: [ ]
-Emissão: [ ]
-Emissão - Destruição Interna: [ ]`;
+*Raça:* ${charRace}`;
   };
 
   const handleSend = async () => {
