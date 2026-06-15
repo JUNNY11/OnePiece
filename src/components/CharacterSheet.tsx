@@ -289,8 +289,8 @@ Emissão - Destruição Interna: [ ]`;
   };
 
   const handleSend = async () => {
-    if (!playerName || !charName || !charRace || !charSide) {
-      alert("Preencha os campos obrigatórios: Nome do Player, Nome do Personagem, Raça e Lado.");
+    if (!playerName || !charName || !charRace) {
+      alert("Preencha os campos obrigatórios: Nome do Player, Nome e Sobrenome do Personagem e Raça.");
       return;
     }
     const text = buildSheetText();
