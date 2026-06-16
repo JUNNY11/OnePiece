@@ -15,7 +15,7 @@ const SYSTEMS: Record<string, { icon: string; subs: string[] }> = {
   "Criação de Personagem": { icon: "👤", subs: ["Classes", "Estilos de Luta", "Linhagens", "Raças"] },
   "Organizações": { icon: "⚔️", subs: ["Governo Mundial", "Marinha", "Shichibukai", "Pirata", "Revolucionário", "Germa 66", "Baroque Works"] },
   "Força Vital": { icon: "💪", subs: ["Atributos/Física aplicada", "Akuma no Mi", "Haki"] },
-  "Evolução": { icon: "📈", subs: ["Extra-Narrada", "Missões", "Conhecimentos", "Treino", "Observações Gerais", "Laços"] },
+  "Evolução": { icon: "📈", subs: ["Extra-Narrada", "Missões", "Conhecimentos", "Treino", "Observações Gerais", "Laços e Relações"] },
   "Impel Down": { icon: "🏴", subs: ["Adaptação"] },
   "Jornal": { icon: "📰", subs: ["Procurados", "Younkous", "Marinha"] },
   "Mecânicas do RPG": { icon: "⚙️", subs: ["Navegação", "Dominações", "O Caminho da Supremacia", "Cyborgues", "Raidsuits", "Caçadas", "Meitous"] },

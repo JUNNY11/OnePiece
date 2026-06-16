@@ -1651,7 +1651,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         }
       ]
     },
-    "Laços": {
+    "Laços e Relações": {
       intro: "Este sistema possibilitará aos players um desenvolvimento mais aprofundado, além de proporcionar benefícios mútuos entre os membros do RPG. A proposta é permitir um avanço significativo não apenas na lore do personagem, mas também em seu poder, por meio dos vínculos e da proximidade com determinado indivíduo. Dessa forma, as relações construídas em jogo terão um impacto real tanto na narrativa quanto no desenvolvimento dos personagens.",
       items: [
         {
@@ -1764,14 +1764,14 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         },
         {
           name: "Duvidas",
-          description: "O QUE SÃO PTR?",
+          descrip1: "O QUE SÃO PTR?",
           additional: "PTR é a abreviação de Pontos de Relação, uma pontuação obtida exclusivamente por meio das interações entre os personagens envolvidos em determinado vínculo.",
-          descrip1: "Como consigo PTR?",
+          descrip2: "Como consigo PTR?",
           additional2: "Os PTR são adquiridos através das interações de laços e relações. Será possível realizar até 4 interações, concedendo 3 PTR (Pontos de Relação) por interação. Cada cena de interação deverá possuir, no mínimo, 10 linhas, sendo exigidas ao menos 5 cenas de cada player envolvido.",
-          descrip2: "Posso fazer relação amorosas com alguém do mesmo sexo?",
-          underline: "Mano 🤨🏳️‍🌈?",
-          descrip3: "Observações",
-          additional3: "Caso um player possua mais de uma relação ativa com diferentes personagens, e estes estejam participando do mesmo evento, caçada, dominação ou atividade semelhante, ele deverá escolher os buffs provenientes de apenas uma única relação, não sendo permitido acumular os benefícios de múltiplos vínculos. Os buffs são cumulativos. Isso significa que, a cada nível de relação alcançado, os envolvidos também passam a usufruir dos benefícios obtidos nos níveis anteriores. É importante destacar que existem requisitos para a ativação desses benefícios. Em sua maioria, os buffs exigem que os envolvidos estejam juntos ou lutando lado a lado para que possam usufruir de seus efeitos. Em outras palavras, trata-se de um buff ativo. Portanto, sim, seu funcionamento é semelhante ao das Meitous, dependendo do cumprimento das condições estabelecidas para que seus efeitos sejam aplicados."
+          descrip3: "Posso fazer relação amorosas com alguém do mesmo sexo?",
+          additional3: "Mano 🤨🏳️‍🌈?",
+          descrip4: "Observações",
+          additional4: "Caso um player possua mais de uma relação ativa com diferentes personagens, e estes estejam participando do mesmo evento, caçada, dominação ou atividade semelhante, ele deverá escolher os buffs provenientes de apenas uma única relação, não sendo permitido acumular os benefícios de múltiplos vínculos. Os buffs são cumulativos. Isso significa que, a cada nível de relação alcançado, os envolvidos também passam a usufruir dos benefícios obtidos nos níveis anteriores. É importante destacar que existem requisitos para a ativação desses benefícios. Em sua maioria, os buffs exigem que os envolvidos estejam juntos ou lutando lado a lado para que possam usufruir de seus efeitos. Em outras palavras, trata-se de um buff ativo. Portanto, sim, seu funcionamento é semelhante ao das Meitous, dependendo do cumprimento das condições estabelecidas para que seus efeitos sejam aplicados."
         }
       ]
     }
