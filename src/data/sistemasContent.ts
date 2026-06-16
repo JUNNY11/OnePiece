@@ -1650,6 +1650,130 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           description: "Em relação às divulgações em grupos, é importante observar que há um limite estabelecido. Cada jogador poderá realizar até 10 divulgações em grupos, com um limite máximo de bonificação de 12 níveis (LvL). Esse tipo de divulgação poderá ser feito apenas uma vez por semana. Já no caso das divulgações que resultem na entrada de novos jogadores, também existe um limite semanal. Ao trazer 1 pessoa, a bonificação será de 6 níveis (LvL), sendo essa premiação individual válida para até 4 pessoas. Caso sejam trazidas 5 pessoas, o jogador receberá a bonificação máxima de 20 níveis (LvL). A divulgação de até 5 pessoas poderá ser realizada uma vez por semana; acima desse número, não haverá bonificação adicional. Ressalta-se que, para que a recompensa seja validada, os novos jogadores deverão realizar ao menos uma cena e permanecer no grupo por um período mínimo de 48 horas."
         }
       ]
+    },
+    "Laços": {
+      intro: "Este sistema possibilitará aos players um desenvolvimento mais aprofundado, além de proporcionar benefícios mútuos entre os membros do RPG. A proposta é permitir um avanço significativo não apenas na lore do personagem, mas também em seu poder, por meio dos vínculos e da proximidade com determinado indivíduo. Dessa forma, as relações construídas em jogo terão um impacto real tanto na narrativa quanto no desenvolvimento dos personagens.",
+      items: [
+        {
+          name: "Relações Amigáveis",
+          additional: "Os laços de amizade são aqueles fundamentados em uma relação de companheirismo entre dois indivíduos. Amigos compartilham experiências, emoções e momentos entre si, desenvolvendo gradualmente sua afinidade. Essa relação será dividida em três níveis de afinidade, variando desde uma amizade comum até o vínculo de melhores amigos.",
+          descrip1: "LvL 1",
+          details2: [
+            "Amigos comuns",
+            "Mínimo: 5 PTR",
+            "Buff: 15% em força"
+          ],
+          descrip3: "LvL 2",
+          details3: [
+            "Amizade mais profunda",
+            "Mínimo: 8 PTR",
+            "Buff: 20% em destreza"
+          ],
+          descrip4: "LvL 3",
+          details4: [
+            "Amizade verdadeira",
+            "Mínimo: 30 PTR",
+            "Buff: 30% em Velocidade"
+          ],
+          descrip5: "Ao alcançarem o 3º nível de amizade, as partes envolvidas passam a compartilhar um vínculo tão profundo que são capazes de amenizar os efeitos do sistema de dano quando estiverem juntos.",
+          details5: [
+            "Ataques inferiores a 30% terão seus debuffs completamente ignorados.",
+            "Lesões entre 30% e 50% serão tratadas como lesões do estágio anterior, aplicando apenas os efeitos correspondentes ao debuff de menos 30%.",
+            "Lesões entre 50% e 70% serão reduzidas ao estágio equivalente ao intervalo de 30% a 50%.",
+            "Já lesões iguais ou superiores a 100% concedem ao aliado a oportunidade de retirar seu amigo do estado de “Morrendo”. Contudo, esse resgate deverá ocorrer até o turno seguinte, caso contrário os efeitos normais do sistema voltarão a prevalecer."
+          ]
+        },
+        {
+          name: "Relações Familiares",
+          additional: "As relações familiares, como o próprio nome sugere, são aquelas cuja afinidade se fundamenta em laços de parentesco, como entre pai e filho, mãe e filha ou irmãos. Além disso, personagens pertencentes à mesma raça ou linhagem possuirão automaticamente um vínculo de afinidade de nível 2. Esses laços poderão ser desenvolvidos e fortalecidos entre os players com base na narrativa e nas relações construídas ao longo da história.",
+          descrip1: "LvL 1",
+          details2: [
+            "Similaridade",
+            "Mínimo: 8 PTR",
+            "Buff: 25% em Resistência"
+          ],
+          descrip2: "LvL 2",
+          details3: [
+            "Laço sanguíneo",
+            "Mínimo: 20 PTR",
+            "Buff: 30% em força"
+          ],
+          descrip3: "Os laços familiares são marcados por um instinto natural de proteção mútua. Assim como irmãos que se recusam a permitir que outros machuquem aqueles que amam, os envolvidos compartilham uma ligação capaz de fazê-los suportar a dor em conjunto. Enquanto estiverem próximos um do outro, poderão ativar a Cobertura de Sangue, concedendo os seguintes benefícios:",
+          details4: [
+            "Os efeitos do primeiro estágio de dano são completamente ignorados.",
+            "Caso um dos envolvidos receba um dano que o colocaria no estágio seguinte de debuff, o outro poderá intervir no golpe, assumindo metade do dano recebido e protegendo seu familiar."
+          ],
+          descrip4: "Observação: A Cobertura de Sangue somente pode ser utilizada enquanto ambos estiverem presentes na mesma cena, representando o instinto de proteger aqueles ligados pelo sangue.",
+          descrip5: "LvL3",
+          details5: [
+            "Afeto genético",
+            "Mínimo: 40 PTR",
+            "Buff: Caso um dos envolvidos seja reduzido ao estado terminal ou sofra um golpe equivalente a 100% ou mais de seu HP na presença do outro, o sobrevivente poderá declarar “Fúria de Sangue”, entrando imediatamente em um estado de berserk. Este estado perdurará até o fim da cena ou até que o familiar seja estabilizado."
+          ],
+          descrip6: "Durante a Fúria de Sangue, os seguintes efeitos são aplicados:",
+          details6: [
+            "Todos os debuffs ativos sobre o personagem são completamente ignorados.",
+            "Suas técnicas passam a possuir uma estrela acima da que normalmente teriam.",
+            "Buff de 30% em todos os atributos."
+          ],
+          descrip7: "Ao término da Fúria de Sangue, o personagem entrará automaticamente em um estágio de lesão correspondente ao esforço realizado. A gravidade da lesão será determinada pelo narrador, levando em consideração os acontecimentos da cena."
+        },
+        {
+          name: "Relações de Rivalidade",
+          additional: "As relações de rivalidade estão ligadas à inimizade pessoal entre dois personagens, os quais compartilham o objetivo de superar um ao outro. Por essa razão, naturalmente não poderão manter uma relação harmoniosa entre si. Ainda assim, tais vínculos podem servir como um importante fator de desenvolvimento, impulsionando ambos os personagens a evoluírem constantemente em busca de se sobrepujarem.",
+          descrip1: "LvL 1",
+          details: [
+            "Conflito",
+            "Mínimo: 20 PTR",
+            "Buff: 30% em Velocidade quando no mesmo evento. +direito de realizar dois ataques ofensivos, sendo que ambos terão seus danos acumulados."
+          ],
+          descrip2: "LvL 2",
+          details2: [
+            "Inimizade",
+            "Mínimo: 35 PTR",
+            "Buff: 50% em Destreza e resistência, quando no mesmo evento. +direito de realizar três ataques ofensivos, sendo que estes terão seus danos acumulados."
+          ],
+          descrip3: "LvL 3",
+          details3: [
+            "Ódio recíproco",
+            "Mínimo: 50 PTR",
+            "Buff: Quando 1 morrer, o outro ganha automaticamente todos os itens que este possuía. +direito de realizar quatro ataques ofensivos, sendo que estes terão seus danos acumulados."
+          ]
+        },
+        {
+          name: "Relações Amorosas",
+          additional: "As relações amorosas possuem uma peculiaridade própria. Diferentemente das demais categorias, seus três níveis de afinidade apresentam características exclusivas. No terceiro nível, os dois personagens envolvidos passam a usufruir de uma capacidade que transcende o comum, despertando aquilo que é conhecido como o “Poder do Amor”, um vínculo especial capaz de conceder benefícios além do esperado.",
+          descrip1: "LvL 1",
+          details: [
+            "Eu protejo você",
+            "Mínimo: 30 PTR",
+            "Buff: Os dois envolvidos têm seu instinto de proteção um pelo outro intensificado quando submetidos a uma situação de perigo, recebendo um aumento de 30% em todos os atributos."
+          ],
+          descrip2: "LvL 2",
+          details2: [
+            "Eu amo você",
+            "Mínimo: 50 PTR",
+            "Buff:os Quando estiverem separados e houver a necessidade de alcançar rapidamente o(a) amado(a) para protegê-lo(a), ambos os envolvidos receberão um aumento de 40% em velocidade, impulsionados pelo instinto de proteção e pelo vínculo que compartilham."
+          ],
+          descrip3: "LvL 3",
+          details3: [
+            "Amor verdadeiro",
+            "Mínimo: - PTR",
+            "Buff: A cada 1 PTR obtido na relação, os envolvidos receberão um aumento de 0,5% em um atributo físico de sua escolha, podendo distribuí-lo conforme desejarem. O bônus total, entretanto, possui um limite máximo de 50%."
+          ]
+        },
+        {
+          name: "Duvidas",
+          description: "O QUE SÃO PTR?",
+          additional: "PTR é a abreviação de Pontos de Relação, uma pontuação obtida exclusivamente por meio das interações entre os personagens envolvidos em determinado vínculo.",
+          descrip1: "Como consigo PTR?",
+          additional2: "Os PTR são adquiridos através das interações de laços e relações. Será possível realizar até 4 interações, concedendo 3 PTR (Pontos de Relação) por interação. Cada cena de interação deverá possuir, no mínimo, 10 linhas, sendo exigidas ao menos 5 cenas de cada player envolvido.",
+          descrip2: "Posso fazer relação amorosas com alguém do mesmo sexo?",
+          underline: "Mano 🤨🏳️‍🌈?",
+          descrip3: "Observações",
+          additional3: "Caso um player possua mais de uma relação ativa com diferentes personagens, e estes estejam participando do mesmo evento, caçada, dominação ou atividade semelhante, ele deverá escolher os buffs provenientes de apenas uma única relação, não sendo permitido acumular os benefícios de múltiplos vínculos. Os buffs são cumulativos. Isso significa que, a cada nível de relação alcançado, os envolvidos também passam a usufruir dos benefícios obtidos nos níveis anteriores. É importante destacar que existem requisitos para a ativação desses benefícios. Em sua maioria, os buffs exigem que os envolvidos estejam juntos ou lutando lado a lado para que possam usufruir de seus efeitos. Em outras palavras, trata-se de um buff ativo. Portanto, sim, seu funcionamento é semelhante ao das Meitous, dependendo do cumprimento das condições estabelecidas para que seus efeitos sejam aplicados."
+        }
+      ]
     }
   },
   "Organizações": {
