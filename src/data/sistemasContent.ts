@@ -41,6 +41,7 @@ export interface ContentItem {
   details15?: string[];
   underline?: string;
   additional?: string;
+  additional1?: string;
   additional2?: string;
   additional3?: string;
   additional4?: string;
@@ -1766,7 +1767,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "Duvidas",
           descrip1: "O QUE SÃO PTR?",
-          additional: "PTR é a abreviação de Pontos de Relação, uma pontuação obtida exclusivamente por meio das interações entre os personagens envolvidos em determinado vínculo.",
+          additional1: "PTR é a abreviação de Pontos de Relação, uma pontuação obtida exclusivamente por meio das interações entre os personagens envolvidos em determinado vínculo.",
           descrip2: "Como consigo PTR?",
           additional2: "Os PTR são adquiridos através das interações de laços e relações. Será possível realizar até 4 interações, concedendo 3 PTR (Pontos de Relação) por interação. Cada cena de interação deverá possuir, no mínimo, 10 linhas, sendo exigidas ao menos 5 cenas de cada player envolvido.",
           descrip3: "Posso fazer relação amorosas com alguém do mesmo sexo?",
