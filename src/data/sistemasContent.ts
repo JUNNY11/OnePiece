@@ -24,6 +24,7 @@ export interface ContentItem {
   descrip14?: string,
   descrip15?: string,
   details?: string[];
+  details1?: string[];
   details2?: string[];
   details3?: string[];
   details4?: string[];
@@ -1658,25 +1659,25 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Relações Amigáveis",
           additional: "Os laços de amizade são aqueles fundamentados em uma relação de companheirismo entre dois indivíduos. Amigos compartilham experiências, emoções e momentos entre si, desenvolvendo gradualmente sua afinidade. Essa relação será dividida em três níveis de afinidade, variando desde uma amizade comum até o vínculo de melhores amigos.",
           descrip1: "LvL 1",
-          details2: [
+          details1: [
             "Amigos comuns",
             "Mínimo: 5 PTR",
             "Buff: 15% em força"
           ],
-          descrip3: "LvL 2",
-          details3: [
+          descrip2: "LvL 2",
+          details2: [
             "Amizade mais profunda",
             "Mínimo: 8 PTR",
             "Buff: 20% em destreza"
           ],
-          descrip4: "LvL 3",
-          details4: [
+          descrip3: "LvL 3",
+          details3: [
             "Amizade verdadeira",
             "Mínimo: 30 PTR",
             "Buff: 30% em Velocidade"
           ],
-          descrip5: "Ao alcançarem o 3º nível de amizade, as partes envolvidas passam a compartilhar um vínculo tão profundo que são capazes de amenizar os efeitos do sistema de dano quando estiverem juntos.",
-          details5: [
+          descrip4: "Ao alcançarem o 3º nível de amizade, as partes envolvidas passam a compartilhar um vínculo tão profundo que são capazes de amenizar os efeitos do sistema de dano quando estiverem juntos.",
+          details4: [
             "Ataques inferiores a 30% terão seus debuffs completamente ignorados.",
             "Lesões entre 30% e 50% serão tratadas como lesões do estágio anterior, aplicando apenas os efeitos correspondentes ao debuff de menos 30%.",
             "Lesões entre 50% e 70% serão reduzidas ao estágio equivalente ao intervalo de 30% a 50%.",
@@ -1687,19 +1688,19 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Relações Familiares",
           additional: "As relações familiares, como o próprio nome sugere, são aquelas cuja afinidade se fundamenta em laços de parentesco, como entre pai e filho, mãe e filha ou irmãos. Além disso, personagens pertencentes à mesma raça ou linhagem possuirão automaticamente um vínculo de afinidade de nível 2. Esses laços poderão ser desenvolvidos e fortalecidos entre os players com base na narrativa e nas relações construídas ao longo da história.",
           descrip1: "LvL 1",
-          details2: [
+          details1: [
             "Similaridade",
             "Mínimo: 8 PTR",
             "Buff: 25% em Resistência"
           ],
           descrip2: "LvL 2",
-          details3: [
+          details2: [
             "Laço sanguíneo",
             "Mínimo: 20 PTR",
             "Buff: 30% em força"
           ],
           descrip3: "Os laços familiares são marcados por um instinto natural de proteção mútua. Assim como irmãos que se recusam a permitir que outros machuquem aqueles que amam, os envolvidos compartilham uma ligação capaz de fazê-los suportar a dor em conjunto. Enquanto estiverem próximos um do outro, poderão ativar a Cobertura de Sangue, concedendo os seguintes benefícios:",
-          details4: [
+          details3: [
             "Os efeitos do primeiro estágio de dano são completamente ignorados.",
             "Caso um dos envolvidos receba um dano que o colocaria no estágio seguinte de debuff, o outro poderá intervir no golpe, assumindo metade do dano recebido e protegendo seu familiar."
           ],
@@ -1722,7 +1723,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Relações de Rivalidade",
           additional: "As relações de rivalidade estão ligadas à inimizade pessoal entre dois personagens, os quais compartilham o objetivo de superar um ao outro. Por essa razão, naturalmente não poderão manter uma relação harmoniosa entre si. Ainda assim, tais vínculos podem servir como um importante fator de desenvolvimento, impulsionando ambos os personagens a evoluírem constantemente em busca de se sobrepujarem.",
           descrip1: "LvL 1",
-          details: [
+          details1: [
             "Conflito",
             "Mínimo: 20 PTR",
             "Buff: 30% em Velocidade quando no mesmo evento. +direito de realizar dois ataques ofensivos, sendo que ambos terão seus danos acumulados."
@@ -1744,7 +1745,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "Relações Amorosas",
           additional: "As relações amorosas possuem uma peculiaridade própria. Diferentemente das demais categorias, seus três níveis de afinidade apresentam características exclusivas. No terceiro nível, os dois personagens envolvidos passam a usufruir de uma capacidade que transcende o comum, despertando aquilo que é conhecido como o “Poder do Amor”, um vínculo especial capaz de conceder benefícios além do esperado.",
           descrip1: "LvL 1",
-          details: [
+          details1: [
             "Eu protejo você",
             "Mínimo: 30 PTR",
             "Buff: Os dois envolvidos têm seu instinto de proteção um pelo outro intensificado quando submetidos a uma situação de perigo, recebendo um aumento de 30% em todos os atributos."
