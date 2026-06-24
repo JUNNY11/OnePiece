@@ -229,7 +229,6 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "1.6x Força",
             "1.6x Resistência",
             "HP - (+40%)",
-            "Debuff - Speed (-40%)"
           ]
         }
       ]
