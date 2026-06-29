@@ -1648,7 +1648,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         },
         {
           name: "[ 6 ] Sobre as divulgações",
-          description: "Em relação às divulgações em grupos, é importante observar que há um limite estabelecido. Cada jogador poderá realizar até 10 divulgações em grupos, com um limite máximo de bonificação de 12 níveis (LvL). Esse tipo de divulgação poderá ser feito apenas uma vez por semana. Já no caso das divulgações que resultem na entrada de novos jogadores, também existe um limite semanal. Ao trazer 1 pessoa, a bonificação será de 6 níveis (LvL), sendo essa premiação individual válida para até 4 pessoas. Caso sejam trazidas 5 pessoas, o jogador receberá a bonificação máxima de 20 níveis (LvL). A divulgação de até 5 pessoas poderá ser realizada uma vez por semana; acima desse número, não haverá bonificação adicional. Ressalta-se que, para que a recompensa seja validada, os novos jogadores deverão realizar ao menos uma cena e permanecer no grupo por um período mínimo de 48 horas."
+          description: "Em relação às divulgações em grupos, é importante observar que há um limite estabelecido. Cada jogador poderá realizar até 10 divulgações em grupos, com um limite máximo de bonificação de 12 níveis (LvL). Esse tipo de divulgação poderá ser feito apenas uma vez por semana. Já no caso das divulgações que resultem na entrada de novos jogadores, também existe um limite semanal. Ao trazer 1 pessoa, a bonificação será de 6 níveis (LvL), sendo essa premiação individual válida para até 4 pessoas. Caso sejam trazidas 5 pessoas, o jogador receberá a bonificação máxima de 30 níveis (LvL). A divulgação de até 5 pessoas poderá ser realizada uma vez por semana; acima desse número, não haverá bonificação adicional. Ressalta-se que, para que a recompensa seja validada, os novos jogadores deverão realizar ao menos uma cena e permanecer no grupo por um período mínimo de 48 horas."
         }
       ]
     },
@@ -2327,8 +2327,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "🏴‍☠️ Observações Gerais",
           details: [
             "1. Ao criar sua linhagem, você disporá de um total de 1.6x em multiplicadores, distribuídos entre seus atributos físicos. Máximo por atributo físico: 1.3x. Limite para Haki Geral: 1.2x.",
-            "2. Na categoria Mestre de Haki, o limite máximo de multiplicadores é de 1.3x, podendo ser ampliado até 1.35x caso exista algum fator adicional de raça ou linhagem que conceda bônus extras ao Haki Geral.",
-            "3. Para os Mestres de Combate, é vedado, em qualquer hipótese, o uso de qualquer recurso além dos próprios punhos durante uma luta. Armamentos ofensivos diretos são totalmente proibidos. Isso, contudo, não impede o personagem de utilizar dispositivos ou engenhocas de suporte, como botas a jato, por exemplo."
+            "2. Para os Mestres de Combate, é vedado, em qualquer hipótese, o uso de qualquer recurso além dos próprios punhos durante uma luta. Armamentos ofensivos diretos são totalmente proibidos. Isso, contudo, não impede o personagem de utilizar dispositivos ou engenhocas de suporte, como botas a jato, por exemplo."
           ]
         }
       ]
