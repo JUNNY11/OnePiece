@@ -503,67 +503,31 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
       items: [
         {
           name: "Os D.",
-          description: "O clã D. é um clã misterioso e lendário no mundo de One Piece. Eles são uma linhagem que tem sido objeto de grande interesse por parte do Governo Mundial, já que possuem uma conexão estreita com a história da criação do mundo e o relacionamento de seus membros com o poder da Vontade do Povo.",
-          details: [
-            "1.5× em Haki Geral",
-            "Precisa apenas da metade dos requisitos para tudo que envolve Haki, exceto no que se refere aos níveis e ao Haoshoku.",
-            "História Mínima: 35 Linhas"
-          ]
+          description: "O clã D. é um clã misterioso e lendário no mundo de One Piece. Eles são uma linhagem que tem sido objeto de grande interesse por parte do Governo Mundial, já que possuem uma conexão estreita com a história da criação do mundo e o relacionamento de seus membros com o poder da Vontade do Povo."
         },
         {
           name: "Figarland",
-          description: "Tal clã possui um mistério inexplicável, a origem de seu surgimento ainda permanece um mistério mas se sabe de sua conexão nobre com o governo, quase como se fossem deuses modernos. Necessário explicar na história como se tornou pirata/marine.",
-          details: [
-            "1.3x Velocidade",
-            "1.3x Haki geral"
-          ]
+          description: "Tal clã possui um mistério inexplicável, a origem de seu surgimento ainda permanece um mistério mas se sabe de sua conexão nobre com o governo, quase como se fossem deuses modernos. Necessário explicar na história como se tornou pirata/marine."
         },
         {
           name: "Kozuki",
-          description: "A linhagem dos Kozuki é uma família nobre e antiga do país de Wano, uma das regiões mais isoladas e enigmáticas do mundo de One Piece. Eles são conhecidos por seu papel importante na história de Wano, por serem habilidosos em uma variedade de disciplinas, incluindo artes marciais, poesia e arquitetura.",
-          details: [
-            "1.4× em Destreza",
-            "Inicia com uma Arma de Wano de grau desconhecido com dano de: 4000",
-            "História Mínima: 25 Linhas"
-          ]
+          description: "A linhagem dos Kozuki é uma família nobre e antiga do país de Wano, uma das regiões mais isoladas e enigmáticas do mundo de One Piece. Eles são conhecidos por seu papel importante na história de Wano, por serem habilidosos em uma variedade de disciplinas, incluindo artes marciais, poesia e arquitetura."
         },
         {
           name: "Shimotsuki",
-          description: "O clã Shimotsuki é uma família de samurais que vive no país de Wano, no mundo de One Piece. Eles são conhecidos por terem lutado ao lado dos Kozukis, outra família de samurais importantes de Wano, na defesa do país. Apesar de terem sido leais aos Kozukis, o Clã Shimotsuki acabou se separando deles e se mudando para a ilha de Kuri.",
-          details: [
-            "1.2× em Destreza",
-            "1.25× em Speed",
-            "Inicia com uma Arma de Wano de grau desconhecido com dano de: 4000",
-            "História Mínima: 25 Linhas"
-          ]
+          description: "O clã Shimotsuki é uma família de samurais que vive no país de Wano, no mundo de One Piece. Eles são conhecidos por terem lutado ao lado dos Kozukis, outra família de samurais importantes de Wano, na defesa do país. Apesar de terem sido leais aos Kozukis, o Clã Shimotsuki acabou se separando deles e se mudando para a ilha de Kuri."
         },
         {
           name: "Silvers",
-          description: "Os Silvers possuem plenas habilidades combativas, sendo samurais ou espadachins, é um fato quase que absoluto que eles são formidáveis em manuseio com lâminas.",
-          details: [
-            "1.4x em Destreza",
-            "1.2x em Haki Geral",
-            "Recebem +1.000 de dano base em qualquer arma de lâmina que usem."
-          ]
+          description: "Os Silvers possuem plenas habilidades combativas, sendo samurais ou espadachins, é um fato quase que absoluto que eles são formidáveis em manuseio com lâminas."
         },
         {
           name: "Charlotte",
-          description: "Os membros do Clã Charlotte são conhecidos por serem muito fortes e habilidosos, com diferentes habilidades e personalidades. Além disso, o clã também é conhecido por ser cruel e impiedoso, com seus membros não hesitando em matar ou ferir aqueles que se opõem a sua causa.",
-          details: [
-            "1.3× em Força ou Resistência",
-            "Os membros da família Charlotte podem ser Híbridos, pegando o melhor de 2 raças, inclusive seus buffs.",
-            "História Mínima: 25 Linhas"
-          ]
+          description: "Os membros do Clã Charlotte são conhecidos por serem muito fortes e habilidosos, com diferentes habilidades e personalidades. Além disso, o clã também é conhecido por ser cruel e impiedoso, com seus membros não hesitando em matar ou ferir aqueles que se opõem a sua causa."
         },
         {
           name: "Donquixote",
-          description: "São conhecidos por serem extremamente estratégicos e astutos, bem como por sua habilidade em manipulação. Eles são capazes de controlar a opinião pública e têm influência sobre vários países e líderes de todo o mundo. Os Donquixotes são conhecidos por seu estilo de vida luxuoso, com mansões elaboradas e roupas caras. Eles detêm forte controle na Ilha de Dressrosa, onde possuem muitos cidadãos sob seu poder.",
-          details: [
-            "1.2× em Haki",
-            "1.2× em Destreza",
-            "Os membros dessa família têm desconto de 35% na loja e 50% em uma única compra do mercado negro.",
-            "História Mínima: 25 Linhas"
-          ]
+          description: "São conhecidos por serem extremamente estratégicos e astutos, bem como por sua habilidade em manipulação. Eles são capazes de controlar a opinião pública e têm influência sobre vários países e líderes de todo o mundo. Os Donquixotes são conhecidos por seu estilo de vida luxuoso, com mansões elaboradas e roupas caras. Eles detêm forte controle na Ilha de Dressrosa, onde possuem muitos cidadãos sob seu poder."
         },
         {
           name: "Vinsmoke",
@@ -574,32 +538,15 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             { name: "⚡ Dengeki Blue", description: "Com esse poder é possível gerar cargas de eletricidade que podem ferir o alvo e se tornar imune a outras descargas elétricas, bem como absorver de acordo com o que pode gerar. Se sofre uma carga maior do que aquilo que pode gerar, então sofre uma sobrecarga. Destreza × 1,3 = Dano Dengeki Blue." },
             { name: "👊 Winch Green", description: "Através dessa habilidade recebe uma força e uma resistência além do comum nos padrões Vinsmokes e faz essa pessoa superior fisicamente aos demais. Buff: 1,3x de Força (é um poder que deve ser ligado e desligado)." },
             { name: "🌑 Stalf Black", description: "Esse poder torna o seu portador invisível e indetectável, até mesmo para o Haki de Observação. Buff: A cada 2000 de Destreza, 1 rodada invisível. Para recarregar, passe uma rodada visível." }
-          ],
-          details: [
-            "1.4× em Resistência",
-            "Se forem membros da Germa já iniciam com seus Raid Suit (caso saiam da Germa o Raid Suit se autodestrói).",
-            "História Mínima: 35 Linhas"
           ]
         },
         {
           name: "Newgate",
-          description: "Com seus membros forjando laços tão estreitos que pareciam mais irmãos do que companheiros de navio. Juntos, eles navegaram pelo mundo, lutando contra a injustiça e defendendo aqueles que não tinham ninguém para protegê-los. Ao longo dos anos, a família Newgate enfrentou muitos desafios, incluindo o cerco de ferro da Marinha e batalhas contra outros piratas poderosos. Porém, nenhum deles abalou, sempre mantendo sua lealdade e companheirismo inabaláveis.",
-          details: [
-            "1.3× em Força",
-            "1.4× em Resistência",
-            "+2.000 em Resistência",
-            "História Mínima: 25 Linhas"
-          ]
+          description: "Com seus membros forjando laços tão estreitos que pareciam mais irmãos do que companheiros de navio. Juntos, eles navegaram pelo mundo, lutando contra a injustiça e defendendo aqueles que não tinham ninguém para protegê-los. Ao longo dos anos, a família Newgate enfrentou muitos desafios, incluindo o cerco de ferro da Marinha e batalhas contra outros piratas poderosos. Porém, nenhum deles abalou, sempre mantendo sua lealdade e companheirismo inabaláveis."
         },
         {
           name: "Don",
-          description: "A família Don, do personagem Don Chinjao na obra, são uma gangue que habita as terras da Ilha Kano. Grande parte dos mares conhecem esse sobrenome, pois grande parte deles saem ao mar para serem Piratas. Mas o que torna os \"Don's\" tão poderosos, se dá graças a um estilo de luta elaborado por eles mesmos, o tão famoso e sonhado \"Hassoken\".",
-          details: [
-            "1.2× em Força",
-            "1.2× em Resistência",
-            "Acesso único ao Hassoken",
-            "História Mínima: 25 Linhas"
-          ]
+          description: "A família Don, do personagem Don Chinjao na obra, são uma gangue que habita as terras da Ilha Kano. Grande parte dos mares conhecem esse sobrenome, pois grande parte deles saem ao mar para serem Piratas. Mas o que torna os \"Don's\" tão poderosos, se dá graças a um estilo de luta elaborado por eles mesmos, o tão famoso e sonhado \"Hassoken\"."
         }
       ]
     },
