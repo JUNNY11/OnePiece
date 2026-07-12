@@ -1074,11 +1074,10 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "30.001 à 45.000  → 3.000",
                 "45.001 à 50.000  → 3.500",
                 "50.001 à 60.000  → 4.000",
-                "60.001 à 70.000  → 4.500"
+                "60.001 à 70.000  → 4.500",
+                "A partir de 70.001, cada 10.000 pontos adicionais de Resistência concedem +500 de Estamina, sem teto definido."
               ],
-              descrip1: "",
-              additional1: "A partir de 70.001, cada 10.000 pontos adicionais de Resistência concedem +500 de Estamina, sem teto definido.",
-              additional2: "Desconto por Destreza",
+              additional1: "Desconto por Destreza",
               details2: [
                 "A cada 1.000 pontos de Destreza, o custo de ativação de qualquer técnica reduz em 1%.",
                 "Teto máximo de redução: 40%."
