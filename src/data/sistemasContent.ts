@@ -1111,7 +1111,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "2.001 à 2.500 → 4.500"
               ],
               additional1: "Bônus secundário por Haki Geral",
-              details1: ["A cada 100 pontos de Haki Geral, +1 ponto na reserva de Energia Espiritual"]
+              details2: ["A cada 100 pontos de Haki Geral, +1 ponto na reserva de Energia Espiritual"]
             },
             {
               name: "Rank da Técnica e seus custos",
