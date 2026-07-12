@@ -1160,14 +1160,14 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "Nutricionista ➝ 350 de Estamina por refeição",
                 "Mestre Cuca ➝ 500 de Estamina por refeição"
               ],
-              underline: "Observação:",
+              additional2: "Observação:",
               details3: [
                 "O efeito de recuperação de Estamina existe em todas as classes de Cozinheiro, desde a base, mas se intensifica conforme a especialização escolhida.",
                 "Esse bônus de Estamina é independente dos efeitos próprios de cada evolução (cura de HP do Mestre Cuca, buff de atributo do Nutricionista), ambos os efeitos podem ocorrer no mesmo prato.",
                 "Para comer, necessariamente não pode atacar os seus inimigos ou está em perigo, desse modo, também entra também a recuperação de 'Completamente parado'"
               ],
-              descrip2: "Recuperação por itens médicos",
-              additional2: "Estimulantes, picos de adrenalina e soros agem diretamente sobre o corpo, forçando-o a continuar operando além do limite natural. Como o foco médico está primariamente em HP, esse recurso é tratado como secundário nessa hierarquia, resultando em valores mais discretos do que os da culinária",
+              descrip3: "Recuperação por itens médicos",
+              additional3: "Estimulantes, picos de adrenalina e soros agem diretamente sobre o corpo, forçando-o a continuar operando além do limite natural. Como o foco médico está primariamente em HP, esse recurso é tratado como secundário nessa hierarquia, resultando em valores mais discretos do que os da culinária",
               details4: [
                 "[Classe ➝ Recuperação de Estamina]",
                 "Médico (base) ➝ 100 de Estamina por aplicação",
