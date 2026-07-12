@@ -1147,9 +1147,16 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             {
               name: "Recuperação de Estamina e Energia Espiritual",
               description: "",
-              additional: "",
+              additional: "Estamina física",
               details: [
-
+                "[Ação em on ➝ Recuperação de Estamina]",
+                "1 cena sem usar técnica ➝ 50 de estamina",
+                "1 cena completamente parado (sem atacar) ➝ 150 de estamina"
+              ],
+              additional1: "Recuperação por alimentação (Cozinheiros)",
+              descrip1: "A comida ocupa um papel central na recuperação de Estamina, refletindo a tradição culinária de One Piece, pois um bom prato alimenta e devolve fôlego para a batalha. Por isso, entre as classes de suporte, o Cozinheiro carrega a maior responsabilidade na recuperação desse recurso.",
+              details2: [
+                
               ]
             }
           ]
