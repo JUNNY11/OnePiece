@@ -1114,6 +1114,25 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               details2: ["A cada 100 pontos de Haki Geral, +1 ponto na reserva de Energia Espiritual"]
             },
             {
+              name: "O Peso de Escolher um Caminho",
+              description: "Quem decide se especializar em um único Haki através do Caminho do Haki aprende a sustentar aquele poder com uma naturalidade que escapa a qualquer outro usuário. Por isso, técnicas avançadas do Haki escolhido custam significativamente menos Energia Espiritual do que as mesmas técnicas usadas por qualquer outro combatente, recompensando a especialização sem tornar as demais formas de Haki inacessíveis.",
+              additional: "Desconto do Caminho",
+              details: [
+                "-70% no custo de ativação de técnicas avançadas do Haki correspondente ao Caminho escolhido.",
+                "Demais Hakis avançados mantêm o custo cheio."
+              ],
+              additional1: "Mapeamento de Rank das técnicas avançadas:",
+              details2: [
+                "[Técnica > Haki  →  Rank]",
+                "Pressão do Rei > Haoshoku → B",
+                "Emissão (Barreira/Interna) > Busoshoku → A",
+                "Previsão > Kenbushoku → A",
+                "Infusão do Rei > Haoshoku → A",
+                "Assassinato da Observação > Haoshoku → S",
+                "Desarme Espiritual > Haoshoku → S"
+              ]
+            },
+            {
               name: "Rank da Técnica e seus custos",
               description: "Essa regra vale igualmente para Estamina e Energia Espiritual, e por isso os básicos de cada Haki (Koka, Presença, Intenção, Incapacitação) são tratados como Rank C, gastos praticamente nulos, pois representam o uso mais elementar e natural daquele poder, algo que qualquer usuário deveria conseguir sustentar por um combate inteiro sem pensar duas vezes (Fullbody tem seu próprio sistema de gasto)",
               additional: "Custo de ativação por Rank (válido para Estamina e Energia Espiritual)",
@@ -1123,6 +1142,14 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "B → 80",
                 "A → 200",
                 "S → 450"
+              ]
+            },
+            {
+              name: "Recuperação de Estamina e Energia Espiritual",
+              description: "",
+              additional: "",
+              details: [
+
               ]
             }
           ]
