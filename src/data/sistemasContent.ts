@@ -1057,6 +1057,73 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               descrip5: "Quando em confronto com um personagem de elevada capacidade, sua resistência, e, consequentemente, seu HP, será naturalmente superior, tornando inviável eliminá-lo com um único golpe em condições normais. Contudo, os danos aplicados são cumulativos, assim como os debuffs decorrentes deles. Isso significa que, ao causar, por exemplo, 30.000 de dano em um personagem com 50.000 de HP, ele não será derrotado de imediato, mas permanecerá significativamente debilitado. A aplicação de um novo golpe de mesmo valor será suficiente para levá-lo à derrota, salvo nos casos em que o alvo possua técnicas ou Akuma no Mi capazes de restaurar ou sustentar sua condição física. Em síntese, a lógica central do sistema permanece inalterada, é necessário causar um dano equivalente a 101% ou mais do HP total para garantir a eliminação em um único golpe. A inovação reside na introdução de condições residuais, isto é, os efeitos acumulativos e penalidades adquiridas após cada impacto recebido, o que confere maior organização, progressão e realismo ao sistema de combate dentro do RPG."
             }
           ]
+        },
+        {
+          name: "Sistema de Estamina e Energia Espiritual",
+          description: "Todo combatente, por mais habilidoso que seja, encontra limites, o seu corpo cansa, os músculos pesam, a respiração falha e, mesmo que a sua vontade seja inquebrantável, ela precisa de uma pausa para se reerguer quando exigida ao extremo. É justamente essa fragilidade que separa um combatente real de uma máquina de guerra incansável, e é ela que transforma todos os combatea em uma decisão constante se vale a pena gastar os seus recursos agora ou guardar para o momento decisivo. Por isso, todo personagem possui duas reservas distintas que regem seu desempenho em combate: a _Estamina_, que governa o corpo, e a _Energia Espiritual_, que governa o Haki. Ambas existem para que o combate não seja uma simples troca infinita de técnicas cada vez mais poderosas, mas sim um teste de gestão, estratégia e risco, mas sem transformar as cenas em uma planilha de Excel. Técnicas simples, do dia a dia de qualquer combatente, continuam praticamente livres de custo, ou seja, apenas quando alguém decide invocar o que há de mais alto em sua técnica ou em seu Haki é que o desgaste real se manifesta.",
+          subitems: [
+            {
+              name: "Estamina — O Limite do Corpo",
+              description: "A Estamina representa o quanto o corpo de um personagem ainda tem para entregar antes que a exaustão física comece a comprometer seu desempenho. Ela está diretamente ligada à _Resistência_, atributo que define o quão robusto e duradouro é aquele corpo, desse modo, quanto maior a Resistência, maior a reserva de Estamina disponível. Enquanto que a Destreza, por sua vez, entra como um fator de eficiência, ou seja, um combatente preciso desperdiça menos energia em cada movimento, aplicando exatamente a força necessária no momento certo, e por isso gasta proporcionalmente menos Estamina a cada técnica usada, mesmo possuindo uma reserva modesta.",
+              additional: "Reserva de Estamina (definida pela Resistência)",
+              details: [
+                "[Resistência → Reserva de Estamina]",
+                "0 à 5.000 → 500",
+                "5.001 à 15.000  → 1.200",
+                "15.001 à 30.000  → 2.000",
+                "30.001 à 45.000  → 3.000",
+                "45.001 à 50.000  → 3.500",
+                "50.001 à 60.000  → 4.000",
+                "60.001 à 70.000  → 4.500"
+              ],
+              additional1: "",
+              details1: ["A partir de 70.001, cada 10.000 pontos adicionais de Resistência concedem +500 de Estamina, sem teto definido."],
+              additional2: "Desconto por Destreza",
+              details2: [
+                "A cada 1.000 pontos de Destreza, o custo de ativação de qualquer técnica reduz em 1%.",
+                "Teto máximo de redução: 40%."
+              ],
+              additional3: "Bônus de Estamina para Zoans",
+              details3: [
+                "[Tipo de Zoan ➝ Bônus de Estamina]",
+                "Zoan Comum ➝ 1.000",
+                "Zoan Ancestral ➝ 2.000",
+                "Zoan Mítica ➝ 3.000"
+              ],
+              additional4: "Observações:",
+              details4: [
+                "Esse bônus é fixo e somado diretamente à reserva calculada pela Resistência, independentemente da faixa em que o personagem se encontra.",
+                "O bônus reflete a vitalidade natural do animal, e não a técnica do usuário, por isso não interage com Destreza ou outros descontos percentuais."
+              ]
+            },
+            {
+              name: "Energia Espiritual — O Limite da Vontade",
+              description: "Diferente do corpo, o Haki se esgota por desgaste espiritual, ou seja, a vontade exigida para sustentar uma percepção sobre-humana, uma armadura impenetrável ou uma presença capaz de subjugar é imensa, e mesmo os usuários mais talentosos sentem esse peso quando levados ao extremo. Por isso, a Energia Espiritual não depende de quão forte é o corpo, mas de quão desenvolvida é a alma do personagem e é exatamente por isso que ela escala com o _Nível_ do seu personagem, e não com nenhum atributo físico. Quanto mais um personagem vivencia, evolui e se fortalece como um todo, mais resiliente sua vontade se torna, e maior é sua capacidade de sustentar o próprio Haki em combate. O Haki Geral entra apenas como um reforço secundário e modesto a essa reserva, pois entra representando o refinamento técnico de quem treinou de fato aquele poder, mas nunca rivaliza com o papel central do Nível, já que, em essência, o Haki nasce da força de vontade e ela se constrói com a própria jornada do personagem.",
+              additional: "Reserva de Energia Espiritual (definida pelo Nível):",
+              details: [
+                "[Nível → Reserva de Energia Espiritual]",
+                "1 à 500 → 500",
+                "501 à 1.000  → 1.200",
+                "1.001 à 1.500 → 2.000",
+                "1.501 à 2.000 → 3.000",
+                "2.001 à 2.500 → 4.500"
+              ],
+              additional1: "Bônus secundário por Haki Geral",
+              details1: ["A cada 100 pontos de Haki Geral, +1 ponto na reserva de Energia Espiritual"]
+            },
+            {
+              name: "Rank da Técnica e seus custos",
+              description: "Essa regra vale igualmente para Estamina e Energia Espiritual, e por isso os básicos de cada Haki (Koka, Presença, Intenção, Incapacitação) são tratados como Rank C, gastos praticamente nulos, pois representam o uso mais elementar e natural daquele poder, algo que qualquer usuário deveria conseguir sustentar por um combate inteiro sem pensar duas vezes (Fullbody tem seu próprio sistema de gasto)",
+              additional: "Custo de ativação por Rank (válido para Estamina e Energia Espiritual)",
+              details: [
+                "Rank → Custo de ativação",
+                "C → 0",
+                "B → 80",
+                "A → 200",
+                "S → 450"
+              ]
+            }
+          ]
         }
       ]
     }
