@@ -1078,13 +1078,13 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "A partir de 70.001, cada 10.000 pontos adicionais de Resistência concedem +500 de Estamina, sem teto definido."
               ],
               descrip1: "",
-              additional1: "Desconto por Destreza",
+              additional2: "Desconto por Destreza",
               details1: [
                 "A cada 1.000 pontos de Destreza, o custo de ativação de qualquer técnica reduz em 1%.",
                 "Teto máximo de redução: 40%."
               ],
               descrip2: "",
-              additional2: "Bônus de Estamina para Zoans",
+              additional3: "Bônus de Estamina para Zoans",
               details2: [
                 "[Tipo de Zoan ➝ Bônus de Estamina]",
                 "Zoan Comum ➝ 1.000",
@@ -1092,7 +1092,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "Zoan Mítica ➝ 3.000"
               ],
               descrip3: "",
-              additional3: "Observações:",
+              additional4: "Observações:",
               details3: [
                 "Esse bônus é fixo e somado diretamente à reserva calculada pela Resistência, independentemente da faixa em que o personagem se encontra.",
                 "O bônus reflete a vitalidade natural do animal, e não a técnica do usuário, por isso não interage com Destreza ou outros descontos percentuais."
