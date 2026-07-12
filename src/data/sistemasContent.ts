@@ -1147,6 +1147,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             {
               name: "Recuperação de Estamina e Energia Espiritual",
               description: "Estamina física",
+              additional: "",
               details: [
                 "[Ação em on ➝ Recuperação de Estamina]",
                 "1 cena sem usar técnica ➝ 50 de estamina",
