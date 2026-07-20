@@ -1145,7 +1145,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               ]
             },
             {
-              name: "Recuperação de Estamina e Energia Espiritual",
+              name: "Recuperação de Estamina e Energia Espiritual - 1",
               description: "Estamina física",
               additional: "-",
               details: [
@@ -1167,33 +1167,33 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "O efeito de recuperação de Estamina existe em todas as classes de Cozinheiro, desde a base, mas se intensifica conforme a especialização escolhida.",
                 "Esse bônus de Estamina é independente dos efeitos próprios de cada evolução (cura de HP do Mestre Cuca, buff de atributo do Nutricionista), ambos os efeitos podem ocorrer no mesmo prato.",
                 "Para comer, necessariamente não pode atacar os seus inimigos ou está em perigo, desse modo, também entra também a recuperação de 'Completamente parado'"
-              ],
-              descrip5: "Recuperação por itens médicos",
-              descrip6: "Estimulantes, picos de adrenalina e soros agem diretamente sobre o corpo, forçando-o a continuar operando além do limite natural. Como o foco médico está primariamente em HP, esse recurso é tratado como secundário nessa hierarquia, resultando em valores mais discretos do que os da culinária",
-              details6: [
+              ]
+            },
+            {
+              name: "Recuperação de Estamina e Energia Espiritual - 2",
+              description: "Recuperação por itens médicos",
+              descrip1: "Estimulantes, picos de adrenalina e soros agem diretamente sobre o corpo, forçando-o a continuar operando além do limite natural. Como o foco médico está primariamente em HP, esse recurso é tratado como secundário nessa hierarquia, resultando em valores mais discretos do que os da culinária",
+              details1: [
                 "[Classe ➝ Recuperação de Estamina]",
                 "Médico (base) ➝ 100 de Estamina por aplicação",
                 "Cirurgião ➝ 180 de Estamina por aplicação",
                 "Cientista ➝ 280 de Estamina por aplicação"
               ],
-              descrip7: "Itens médicos genéricos (vendidos na loja, sem exigir uma classe específica para aplicar) recuperam um valor fixo de 80 de Estamina, sempre abaixo do que qualquer classe médica oferece, refletindo a ausência de conhecimento técnico no preparo.",
-              descrip8: "Toda recuperação por item médico carrega um efeito colateral narrativo a critério do narrador (crash de energia, tremores, dependência em uso repetido), reforçando que não é uma solução isenta de custo.",
-              descrip9: "Bloqueio de Haki ao zerar a Energia Espiritual",
-              descrip10: "Diferente da Estamina, que apenas diminui o fôlego de um combatente, a Energia Espiritual, ao chegar a zero, bloqueia completamente o acesso ao Haki, exatamente como aconteceu quando Luffy, após esgotar seu Busoshoku, ficou impossibilitado de usar qualquer forma de Haki contra Doflamingo ou Katakuri, mas ainda manteve plena capacidade de lutar com suas técnicas e seu Akuma no Mi, ou seja, o corpo continua funcionando, mas a vontade espiritual precisa de um tempo para se reerguer.",
-              details10: [
+              descrip2: "Itens médicos genéricos (vendidos na loja, sem exigir uma classe específica para aplicar) recuperam um valor fixo de 80 de Estamina, sempre abaixo do que qualquer classe médica oferece, refletindo a ausência de conhecimento técnico no preparo.",
+              descrip3: "Toda recuperação por item médico carrega um efeito colateral narrativo a critério do narrador (crash de energia, tremores, dependência em uso repetido), reforçando que não é uma solução isenta de custo.",
+              descrip4: "Bloqueio de Haki ao zerar a Energia Espiritual",
+              descrip5: "Diferente da Estamina, que apenas diminui o fôlego de um combatente, a Energia Espiritual, ao chegar a zero, bloqueia completamente o acesso ao Haki, exatamente como aconteceu quando Luffy, após esgotar seu Busoshoku, ficou impossibilitado de usar qualquer forma de Haki contra Doflamingo ou Katakuri, mas ainda manteve plena capacidade de lutar com suas técnicas e seu Akuma no Mi, ou seja, o corpo continua funcionando, mas a vontade espiritual precisa de um tempo para se reerguer.",
+              details5: [
                 "Akumados: 2 turnos sem acesso a nenhuma forma de Haki",
                 "Mestres de Haki (qualquer Caminho): 1 turno sem acesso a nenhuma forma de Haki",
                 "Após o período de bloqueio, a Energia Espiritual retorna integralmente, e o personagem pode voltar a utilizar seu Haki normalmente",
                 "Não pode ser restaurada por comida, itens médicos ou qualquer recurso externo ao corpo, já que representa força de vontade, não vigor físico."
               ],
-              descrip11: "O Sistema de Cola (Exclusivo de Cyborgs)",
-              descrip12: "Mitigação de Estamina por modificação",
-              descrip13: "A modificação corporal substitui parte do tecido orgânico por estrutura mecânica, reduzindo a fadiga natural do corpo. Cada modificação focada em Resistência interfere diretamente nesse cansaço, tornando o combatente capaz de sustentar esforços físicos por mais tempo sem comprometer seu desempenho.",
-              details13: [
-                "Cada modificação corporal com vertente em Resistência reduz o custo de ativação de técnicas físicas em 10%. Esse desconto é cumulativo com o desconto de Destreza, mas respeita o teto geral de redução (40%, conforme já estabelecido).",
-                "A mitigação de Estamina concedida por modificações com vertente em Resistência não é ilimitada, já que no máximo 3 modificações podem ser usadas para esse fim, totalizando até 30% de redução no custo de ativação de técnicas físicas. O restante do teto geral (40%) só pode ser completado através de Destreza. Exceção: modificações realizadas por Vegapunk/Vegamaster, que podem ultrapassar esse limite e até anular completamente o gasto de Estamina daquela modificação específica, porém, como já estabelecido, abrindo mão de qualquer outro bônus na modificação que escolher essa anulação.",
-                "Cyborgs modificados por Vegamaster possuem 2 slots de modificação personalizada, podendo escolher livremente se um, ambos, ou nenhum deles segue essa lógica de anulação."
-              ]
+              descrip6: "O Sistema de Cola — Recurso Exclusivo de Cyborgs",
+              descrip7: "A modificação corporal substitui parte do tecido orgânico por estrutura mecânica, reduzindo a fadiga natural do corpo. Cada modificação focada em Resistência interfere diretamente nesse cansaço, tornando o combatente capaz de sustentar esforços físicos por mais tempo sem comprometer seu desempenho.",
+              descrip8: "➝ Cada modificação corporal com vertente em Resistência reduz o custo de ativação de técnicas físicas em 10%. Esse desconto é cumulativo com o desconto de Destreza, mas respeita o teto geral de redução (40%, conforme já estabelecido).",
+              descrip9: "➝ A mitigação de Estamina concedida por modificações com vertente em Resistência não é ilimitada, já que no máximo 3 modificações podem ser usadas para esse fim, totalizando até 30% de redução no custo de ativação de técnicas físicas. O restante do teto geral (40%) só pode ser completado através de Destreza. Exceção: modificações realizadas por Vegapunk/Vegamaster, que podem ultrapassar esse limite e até anular completamente o gasto de Estamina daquela modificação específica, porém, como já estabelecido, abrindo mão de qualquer outro bônus na modificação que escolher essa anulação.",
+              descrip10: "➝ Cyborgs modificados por Vegamaster possuem 2 slots de modificação personalizada, podendo escolher livremente se um, ambos, ou nenhum deles segue essa lógica de anulação."
             }
           ]
         }
