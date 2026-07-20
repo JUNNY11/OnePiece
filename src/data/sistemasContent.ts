@@ -1036,6 +1036,14 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "Ponto Vital (Crítico):* Se o atirador narrar uma mira perfeita em um ponto vital (olho, coração, articulação) e o oponente falhar na esquiva/defesa, o dano da Destreza no cálculo base aumenta em 50%(ou seja se possui 10.000 de destreza com buffs,no calculo de dano usaria 15.000) representando a letalidade do acerto.",
                 "Recuo: Atiradores com Força(força ganha por buso nao conta) muito baixa (menos de 30% da Destreza) sofrem um debuff de -10% em Velocidade após dispararem armas pesadas, devido ao coice do armamento.",
                 "Atiradores se limitam a um tiro por cena (por pessoa)por quesito balanceamento ou seja,não pode fuzilar o maluco de tiro ja que as armas de OP todas sao de tiro unico"
+              ],
+              descrip7: "[Sobre classes]:",
+              details7: [
+                "BAKA SOMBRIA:buff 1.2x buso",
+                "MIRA PERFEITA:1.2x ken",
+                "ATIRADOR MESTRE:buff de 50% no alcance",
+                "ARSENAL BELICO:buff de 10% dano final em armas de larga escala belica como bazucas e etc",
+                "EXTRA:atiradores nao podem usar raids suits"
               ]
             },
             {
