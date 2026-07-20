@@ -1009,6 +1009,36 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               additional6: "(A base é a mesma dos combatentes, sendo a diferença que, lâminas possuem um valor base maior.)"
             },
             {
+              name: "Dano por Combate - Atiradores",
+              description: "Os “Atiradores” representam a precisão e a letalidade à distância. Diferente dos porradeiros ou espadachins, o atirador não depende da força bruta, mas sim da sua capacidade de rastreio, percepção e, principalmente, coordenação motora fina. Como exemplos, temos Usopp, Van Augur, Yasopp e Izou. No RPG, o atirador é aquele que domina armas de projéteis (rifles, pistolas, estilingues ou até arcos).",
+              descrip1: "☝️🤓 - ADM, se eu não uso força, meu tiro é fraco?",
+              descrip2: "Negativo, jovem gafanhoto. O dano de um atirador vem da Destreza , que representa a precisão em atingir pontos vitais e a maestria no manuseio da arma. Além disso, a Velocidade aqui não influencia apenas o seu corpo, mas a aceleração e a cadência dos seus disparos. A formulação do dano para atiradores se estabelece da seguinte maneira:",
+              details2: [
+                "Dano = Destreza + 50% da velocidade + Busoshoku(podem imbuir balas com koka)"
+              ],
+              descrip3: "Alcance e Velocidade do Projétil",
+              details3: [
+                "Diferente das outras classes, o atirador precisa calcular o quão longe seu projétil chega e quão difícil é para o inimigo desviar.O alcance é determinado pela sua Destreza,sua capacidade de compensar o vento e a gravidade) somada à qualidade da sua arma."
+              ],
+              descrip4: "Cálculo de Alcance (em metros):",
+              details4: [
+                "Destreza ÷ 10",
+                "Exemplo: Com 1.000 de Destreza, seu alcance efetivo é de 100 metros",
+                "Nota: Armas de precisão (Snipers) podem dobrar esse valor narrativamente."
+              ],
+              descrip5: "Velocidade do Tiro:",
+              details5: [
+                "[Para fins de esquiva do oponente, a velocidade do projétil é superior à velocidade do corpo do atirador]",
+                "Velocidade do Projétil: Velocidade do atirador + 50% da destreza"
+              ],
+              descrip6: "Regras Adicionais para Atiradores:",
+              details6: [
+                "Ponto Vital (Crítico):* Se o atirador narrar uma mira perfeita em um ponto vital (olho, coração, articulação) e o oponente falhar na esquiva/defesa, o dano da Destreza no cálculo base aumenta em 50%(ou seja se possui 10.000 de destreza com buffs,no calculo de dano usaria 15.000) representando a letalidade do acerto.",
+                "Recuo: Atiradores com Força(força ganha por buso nao conta) muito baixa (menos de 30% da Destreza) sofrem um debuff de -10% em Velocidade após dispararem armas pesadas, devido ao coice do armamento.",
+                "Atiradores se limitam a um tiro por cena (por pessoa)por quesito balanceamento ou seja,não pode fuzilar o maluco de tiro ja que as armas de OP todas sao de tiro unico"
+              ]
+            },
+            {
               name: "Health Points — HP (Física Aplicada)",
               description: "Esta seção é destinada à abordagem dos pontos de vida de um personagem, ou seja, a quantidade de dano que ele é capaz de suportar antes de sucumbir em combate. Em suma, trata-se de um sistema simples. Para isso, serão estabelecidas faixas representadas por porcentagens, as quais indicarão o estado físico do personagem e sua condição geral após receber determinado nível de dano.",
               additional: "Classificação de Dano em relação ao HP:",
