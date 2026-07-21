@@ -547,6 +547,127 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "Don",
           description: "A família Don, do personagem Don Chinjao na obra, são uma gangue que habita as terras da Ilha Kano. Grande parte dos mares conhecem esse sobrenome, pois grande parte deles saem ao mar para serem Piratas. Mas o que torna os \"Don's\" tão poderosos, se dá graças a um estilo de luta elaborado por eles mesmos, o tão famoso e sonhado \"Hassoken\"."
+        },
+        {
+          name: "Beckman",
+          description: "Conhecidos pela inteligência tática, calma sob pressão e uma precisão assustadora, os membros desta linhagem são estrategistas natos que não desperdiçam movimentos, focando sempre em pontos críticos.",
+          details: [
+            "1.3× Haki.",
+            "1.4× Destreza.",
+            "+2.OOO de Dano em ataques realizados com armas de fogo",
+            "30 linhas de História(Mínimo)"
+          ]
+        },
+        {
+          name: "Boa",
+          description: "A Linhagem lendária associada à beleza, poder de comando e uma elegância mortal, elas possuem uma afinidade natural com o domínio sobre os outros, sendo extremamente eficazes em combate corpo a corpo (apenas Kujas).",
+          details: [
+            "1.4× Força.",
+            "1.3× Buso.",
+            "+2.000 Buso",
+            "30 linhas de História(Mínimo)"
+          ]
+        },
+        {
+          name: "Sakazuki",
+          description: "O clã da determinação absoluta e do 'fogo' inabalável da Justiça, estes são conhecidos por uma resiliência física extrema. Uma família marinheira tradicional, todos os Sakazuki são marinheiros.",
+          details: [
+            "🔒[Exclusivo para marinheiros]🔒",
+            "1.35× Resistência.",
+            "1.35× Força.",
+            "Buff de 'Justiça Absoluta':* _Sempre que o personagem lutar contra algum pirata ele terá um ganho de +1,2× em Haki geral.",
+            "30 linhas de História(Mínimo)"
+          ]
+        },
+        {
+          name: "Nico",
+          description: "Uma linhagem voltada para o intelecto, arqueologia e o oculto, embora não sejam os mais fortes fisicamente, compensam com uma percepção aguçada e um estilo de luta baseado em versatilidade e alcance, não são os mais fortes fisicamente, são do ramo da intelectualidade, mas isso não quer dizer que não são perigosos.",
+          details: [
+            "🔒[Exclusivo somente á classe Arqueólogo]🔒",
+            "1.5× em Destreza.",
+            "1.3× em percepção.",
+            "Inicia Com uma recompensa de 50 milhões pela cabeça, pois são extremamente cobiçados pelo Governo Mundial. (Podem ter o conhecimento de Segredos do governo 200 níveis antes do necessário).",
+            "25 linhas de História(Mínimo)"
+          ]
+        },
+        {
+          name: "Neptune",
+          description: "Descendentes da antiga realeza da Ilha dos Homens-Peixe, os Neptune carregam em suas veias a imponência dos mares profundos. Conhecidos por sua honra, resistência monstruosa e domínio absoluto em ambientes aquáticos, são guerreiros nobres que protegem seus aliados com a força esmagadora das correntes oceânicas.",
+          details: [
+            "🔒[Exclusivo a Tritão ou Sereiano]🔒",
+            "1.25× em Resistência.",
+            "1.25× em Força.",
+            "Em combate dentro da água recebem +1.2× em todos os atributos físicos.",
+            "Possuem capacidade natural de comunicação parcial com criaturas marinhas.",
+            "30 linhas de História(Mínimo)"
+          ]
+        },
+        {
+          name: "Dracule",
+          description: "Os portadores da linhagem Dracule herdam uma presença intimidadora e traços únicos. Eles são conhecidos mundialmente pelos seus peculiares 'olhos de gavião' amarelos e pela postura aristocrática e solitária. Esta linhagem não depende de Akuma no Mi; seu verdadeiro poder reside na dedicação absoluta à maestria física e mental, tornando-os os espadachins e rastreadores mais temidos dos mares.",
+          details: [
+            "1.5× Destreza (1.6× usando lâminas).",
+            "1.2× percepção.",
+            "Permite ver 1 segundo no futuro a cada 750 pontos em kenbunshoku. Caso seja mestre em haki, será 500 pontos em kenbunshoku para contar cada segundo.",
+            "30 linhas de História(Mínimo)"
+          ]
+        },
+        {
+          name: "Cyborg",
+          description: "No vasto oceano de One Piece, enquanto alguns buscam o poder nas frutas místicas, outros depositam sua fé no aço. Ao realizar a transição, o personagem ganha acesso a 3 Espaços de Vertente, algo semelhante a um tronco de habilidades. Ele pode distribuir esses espaços como desejar entre as três categorias fundamentais, permitindo especialização total ou um equilíbrio versátil. Cada vertente concederá um bônus numérico + um bônus a depender da modificação.",
+          descrip1: "[Vertente Ofensiva]",
+          details1: [
+            "10k dano arma comum (limite de 3)",
+            "20k dano arma poderosa (limite de 2)",
+            "50k dano arma suprema (limite de 1)"
+          ],
+          descrip2: "Ou",
+          details2: [
+            "1,2×//1,3× em força."
+          ],
+          descrip3: "Não pode somar modificações de dano com a de buff.",
+          descrip4: "[Vertente Defensiva]",
+          details4: [
+            "1,2×//1,3× resistência"
+          ],
+          descrip5: "Ou",
+          details5: [
+            "10k comum (limite 3)",
+            "20k forte (limite 2)",
+            "50k suprema (limite 1)"
+          ],
+          descrip6: "Ou",
+          details6: [
+            "modificação personalizada ao que o player quer (adaptação pra akuma, mitigação de stamina, etc)"
+          ],
+          descrip7: "[Vertente Mobilidade]",
+          details7: [
+            "1,2× // 1,3× velocidade"
+          ],
+          descrip8: "Ou",
+          details8: [
+            "modificação personalizada de um player (botas a jato pra voo, etc)."
+          ],
+          descrip9: "Limitações:",
+          details9: [
+            "Carpinteiro - 3 slots de modificações. (1,2× ou efeitos simples).",
+            "Inventor - 5 modificações. (1,3× ou efeitos intermediário).",
+            "Vegamaster - 8 modificações. (1,3× ou efeitos avançados)."
+          ],
+          descrip10: "Combustível",
+          details10: [
+            "mantém o cálculo de \"resistência ÷100\" pra calcular quanta cola o cyborg carrega.",
+            "Descreva apenas que o player pode criar combustível pra servir como cola, como o óleo vegetal que Juan fez com sua modificação cyborg.",
+            "diga também que haverá gasto do combustível sempre que usar os buffa de forma continua, sendo ela de 10 normal, ou mais."
+          ],
+          descrip11: "Requisitos:",
+          details11: [
+            "Ser carpinteiro (e depois Inventor).",
+            "Gastar 1 Bilhão de berries (o player não lucra com isso).",
+            "Não pode usar Raid's Suit.",
+            "Akumados não podem usar vertentes ofensivas, nem ganhar buffs usando modificações.",
+            "A modificação em terceiros, por parte do player carpinteiro/ inventor, deve ser canônica."
+          ]
         }
       ]
     },
