@@ -613,7 +613,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ]
         },
         {
-          name: "Cyborg",
+          name: "Cyborg - parte1",
           description: "No vasto oceano de One Piece, enquanto alguns buscam o poder nas frutas místicas, outros depositam sua fé no aço. Ao realizar a transição, o personagem ganha acesso a 3 Espaços de Vertente, algo semelhante a um tronco de habilidades. Ele pode distribuir esses espaços como desejar entre as três categorias fundamentais, permitindo especialização total ou um equilíbrio versátil. Cada vertente concederá um bônus numérico + um bônus a depender da modificação.",
           descrip1: "[Vertente Ofensiva]",
           details1: [
@@ -639,29 +639,32 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           descrip6: "Ou",
           details6: [
             "modificação personalizada ao que o player quer (adaptação pra akuma, mitigação de stamina, etc)"
-          ],
-          descrip7: "[Vertente Mobilidade]",
-          details7: [
+          ]
+        },
+        {
+          name: "Cyborg - parte2",
+          description: "[Vertente Mobilidade]",
+          details: [
             "1,2× // 1,3× velocidade"
           ],
-          descrip8: "Ou",
-          details8: [
+          descrip1: "Ou",
+          details1: [
             "modificação personalizada de um player (botas a jato pra voo, etc)."
           ],
-          descrip9: "Limitações:",
-          details9: [
+          descrip2: "Limitações:",
+          details2: [
             "Carpinteiro - 3 slots de modificações. (1,2× ou efeitos simples).",
             "Inventor - 5 modificações. (1,3× ou efeitos intermediário).",
             "Vegamaster - 8 modificações. (1,3× ou efeitos avançados)."
           ],
-          descrip10: "Combustível",
-          details10: [
+          descrip3: "Combustível",
+          details3: [
             "mantém o cálculo de \"resistência ÷100\" pra calcular quanta cola o cyborg carrega.",
             "Descreva apenas que o player pode criar combustível pra servir como cola, como o óleo vegetal que Juan fez com sua modificação cyborg.",
             "diga também que haverá gasto do combustível sempre que usar os buffa de forma continua, sendo ela de 10 normal, ou mais."
           ],
-          descrip11: "Requisitos:",
-          details11: [
+          descrip4: "Requisitos:",
+          details4: [
             "Ser carpinteiro (e depois Inventor).",
             "Gastar 1 Bilhão de berries (o player não lucra com isso).",
             "Não pode usar Raid's Suit.",
