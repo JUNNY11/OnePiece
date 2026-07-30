@@ -2172,7 +2172,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "🏴‍☠️ Mestre dos Punhos (Mestre em Combate Corpo a Corpo)",
           description: "Também existem aqueles cuja força reside nas próprias mãos, guiados por uma confiança inabalável no combate corporal — a boa e velha força bruta. Para esses, oferecemos a oportunidade de se dedicar por completo às artes do combate corpo a corpo, tornando-se verdadeiros mestres dos punhos. Contudo, essa escolha também estará sujeita a determinadas condições.",
-          descrip1: "Ganhos (akumados/cyborgs)"
+          descrip1: "Ganhos (akumados/cyborgs)",
           details1: [
             "1.4x (Força ou speed)",
             "1.25x (Destreza ou Resistência)",
