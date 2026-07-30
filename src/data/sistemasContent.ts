@@ -2146,34 +2146,55 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           name: "🏴‍☠️ Criar sua própria Linhagem",
           description: "Haverá, dentro do RPG, a possibilidade de o jogador criar sua própria linhagem, destinada àqueles que desejarem forjar e espalhar a fama de seu próprio sangue pelos mares. Para isso, será necessário abdicar de qualquer outra linhagem preexistente, bem como desenvolver uma história convincente e bem detalhada acerca da origem e das características dessa linhagem.",
           details: [
-            "Ganhos: 1.6x (Para divisão)",
-            "Máximo de 1.3x por ATB",
-            "Máximo 1.2x em Haki Geral"
+            "1.8x (Para divisão)",
+            "Máximo de 1.6x por ATB",
+            "Máximo 1.3x em Haki Geral, kenbunshoku ou Busoshoku."
           ]
         },
         {
           name: "🏴‍☠️ Mestre em Haki",
           description: "Há aqueles cuja vontade se sobrepõe ao desejo de utilizar Akuma no Mi. Para esses indivíduos, haverá a possibilidade de se especializar plenamente no domínio do Haki.",
           details: [
-            "Ganhos: 1.5x Haki Geral (Máx. 1.5x)",
-            "1.25x em um ATB (Sua escolha)"
+            "1.5x Haki Geral (Max. 1.5x)",
+            "1.25x em um ATB (Sua escolha)",
+            "1.3× kenbunshoku."
+          ],
+          descrip1: "Ao adquirir os avançados",
+          details1: [
+            "2× em haki geral",
+            "1.3× em Busoshoku"
+          ],
+          descrip2: "Ganhos ao adquirir Haoshoku",
+          details2: [
+            "2.5× haki geral"
           ]
         },
         {
           name: "🏴‍☠️ Mestre dos Punhos (Mestre em Combate Corpo a Corpo)",
           description: "Também existem aqueles cuja força reside nas próprias mãos, guiados por uma confiança inabalável no combate corporal — a boa e velha força bruta. Para esses, oferecemos a oportunidade de se dedicar por completo às artes do combate corpo a corpo, tornando-se verdadeiros mestres dos punhos. Contudo, essa escolha também estará sujeita a determinadas condições.",
-          details: [
-            "Ganhos: 1.4x (Força ou Speed)",
-            "1.2x (Destreza ou Resistência)",
-            "+1.25x (HP)",
-            "Condição: Abdicar de qualquer armamento"
+          descrip1: "Ganhos (akumados/cyborgs)"
+          details1: [
+            "1.4x (Força ou speed)",
+            "1.25x (Destreza ou Resistência)",
+            "+1.35x (HP)",
+            "+1.2× percepção",
+            "+1.2× Reserva para distribuir entre os atributos físicos."
+          ],
+          descrip2: "Ganhos (apenas sendo mestre em haki e sem portar arma, armadura ou qualquer coisa que dê buff)"
+          details2: [
+            "1.4x Força e speed",
+            "1.25x Destreza e resistência",
+            "+1.35x (HP)",
+            "+1.2× percepção",
+            "+1.5× Reserva para distribuir entre os atributos físicos."
           ]
         },
         {
           name: "🏴‍☠️ Observações Gerais",
           details: [
-            "1. Ao criar sua linhagem, você disporá de um total de 1.6x em multiplicadores, distribuídos entre seus atributos físicos. Máximo por atributo físico: 1.3x. Limite para Haki Geral: 1.2x.",
-            "2. Para os Mestres de Combate, é vedado, em qualquer hipótese, o uso de qualquer recurso além dos próprios punhos durante uma luta. Armamentos ofensivos diretos são totalmente proibidos. Isso, contudo, não impede o personagem de utilizar dispositivos ou engenhocas de suporte, como botas a jato, por exemplo."
+            "1. Ao criar sua linhagem, você disporá de um total de 1.8x em multiplicadores, os quais deverão ser distribuídos entre seus atributos físicos. Vale ressaltar que o valor máximo que um único atributo físico pode receber é 1.6x, enquanto o limite para Haki Geral, Kenbunshoku ou Busoshoku é de 1.3x.",
+            "2. Há um teto de buff em busoshoku e kenbunshoku haki, sendo eles de 1.7×. caso o buff acumulado estrapole esse limite, o excesso será cortado da ficha e se manterá no limite. A única exceção é em caso possuir o caminho de um dos hakis em específicos (busoshoku ou kenbunshoku), pra assim adquirir o teto máximo de 2× nesse haki.",
+            "3. Para os Mestres de Combate, é vedado, em qualquer hipótese, o uso de qualquer recurso além dos próprios punhos durante uma luta. Armamentos ofensivos diretos são totalmente proibidos. Isso, contudo, não impede o personagem de utilizar dispositivos ou engenhocas de suporte, como botas a jato, por exemplo."
           ]
         }
       ]
