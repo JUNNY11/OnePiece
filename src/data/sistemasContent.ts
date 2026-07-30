@@ -2180,7 +2180,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "+1.2× percepção",
             "+1.2× Reserva para distribuir entre os atributos físicos."
           ],
-          descrip2: "Ganhos (apenas sendo mestre em haki e sem portar arma, armadura ou qualquer coisa que dê buff)"
+          descrip2: "Ganhos (apenas sendo mestre em haki e sem portar arma, armadura ou qualquer coisa que dê buff)",
           details2: [
             "1.4x Força e speed",
             "1.25x Destreza e resistência",
