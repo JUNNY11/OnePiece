@@ -739,6 +739,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
   "Força Vital": {
     "Haki": {
       intro: "O Haki é um poder misterioso que permite aos indivíduos canalizar sua própria energia espiritual para realizar feitos sobre-humanos. Como essa energia se manifesta a partir da força de vontade, ela é, em teoria, acessível a todas as criaturas vivas do mundo. Contudo, a grande maioria é incapaz de despertá-la ou desconhece completamente sua existência. Usuários de Haki são relativamente comuns no Novo Mundo, raros no Paraíso e praticamente inexistentes nos Quatro Blues. Segue abaixo as informações referentes aos meios de treinamento, obtenção e aprimoramento tanto do Haki da Observação quanto do Haki do Armamento.",
+      description: "Teste de description",
       items: [
         {
           name: "Haki do Armamento — Básico/Koka",
