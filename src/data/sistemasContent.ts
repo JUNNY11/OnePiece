@@ -1827,7 +1827,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ]
         },
         { name: "RECRUTA", description: "Como recruta, você deve mostrar seu valor, fazendo com que todos vejam que não é um espião da Cipher Poll ou da Marinha disfarçado, e que possui enorme determinação para lutar pela causa. Você será devidamente testado.", details: ["Salário: 25.000.000", "Nível: 1"] },
-        { name: "SOLDADO", description: "Agora que passou no Exército Revolucionário, você é visto como alguém confiável. Poderá escolher onde deseja servir, mas saiba que estará na linha de frente quase o tempo todo.", details: ["Salário: 75.000.000", "Nível: 200"] },
+        { name: "SOLDADO", description: "Agora que passou no Exército Revolucionário, você é visto como alguém confiável. Poderá escolher onde deseja servir, mas saiba que estará na linha de frente quase o tempo todo.", details: ["Salário: 75.000.000", "Nível: 20"] },
         { name: "SARGENTO", description: "Agora você comanda um pequeno grupo de soldados e recrutas durante suas viagens ao longo de sua jornada.", details: ["Salário: 175.000.000", "Nível: 40"] },
         { name: "MAJOR", description: "Você agora é uma figura reconhecida dentro do Exército Revolucionário. Além de comandar soldados, recrutas e sargentos, você possui duas bases próprias para recrutar e convencer pessoas a se unirem à sua causa.", details: ["Salário: 350.000.000", "Nível: 60"] },
         {
