@@ -1303,7 +1303,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               additional3: "5.000 (50% do atributo secundário: destreza ou força) = 15.000",
               additional4: "A partir desse valor base, seguem-se as demais etapas já estabelecidas no sistema de dano (buffs, Busoshoku e etc.).",
               additional5: "Dano = Força/Destreza + 50% (Força/Destreza) + Busoshoku (Emissão): 29.000",
-              additional6: "(A base é a mesma dos combatentes, sendo a diferença que, lâminas possuem um valor base maior.)"
+              additional6: "(A base é a mesma dos combatentes, sendo a diferença que, lâminas possuem um valor base maior. )"
             },
             {
               name: "Dano por Combate - Atiradores",
