@@ -780,13 +780,24 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "Haki do Armamento — Fullbody",
           details: [
-            "1 Treino solo ou Duo",
-            "3.000 PT mínimos em Haki (Buso)",
-            "+40% (Buso) em Dano Final",
-            "+100% (Buso) na Defesa",
-            "limite de Uso: Mestres em Haki - 5 Turnos",
-            "limite de uso: Não mestres - 3 turnos"
+            "Nível 35",
+            "25.000 PT em Busoshoku",
+            "Possuir Koka",
+            "1 Treino Solo ou Duo",
+            "Permite revestir todo o corpo simultaneamente",
+            "Utiliza 60% do Busoshoku na defesa de todo o corpo",
+            "Mestres em Haki utilizam 75% do Busoshoku na defesa"
           ],
+          descrip1: "Limite de utilização:",
+          details1: [
+            "Usuários comuns — 3 turnos",
+            "Mestres em Haki — 5 turnos"
+          ],
+          descrip2: "Diferentemente do Koka, o Fullbody prioriza cobertura em vez de concentração.",
+          descrip3: "Enquanto o Koka utiliza 100% do Busoshoku para defender uma região específica, o Fullbody distribui o Haki por todo o corpo, reduzindo sua eficiência individual em troca de proteção completa.",
+          descrip4: "Koka e Fullbody não terão seus valores defensivos acumulados.",
+          descrip5: "Caso um personagem utilizando Fullbody decida concentrar novamente seu Haki em uma região específica, aquela região poderá utilizar 100% do Busoshoku.",
+          descrip6: "Entretanto, durante essa concentração, o restante do corpo perderá temporariamente a proteção fornecida pelo Fullbody.",
           subitems: [
             { name: "🔗 Referência", description: "https://rpg-the-omniverse.fandom.com/pt-br/wiki/Haki_Techniques:_K%C5%8Dka_-_Full_Body" }
           ]
@@ -794,13 +805,23 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "Haki do Armamento — Emissão",
           details: [
+            "Nível 60",
             "Estar no Novo Mundo",
-            "4.000 PT em Busoshoku",
-            "2 Treinos Solos",
-            "+40% (A mais) de dano (utiliza 100% do buso no cálculo)",
-            "Buso total +40% = defesa da barreira de emissão, o resultado desse cálculo será a redução de dano",
-            "Alcance da emissão em metros: Para não mestres de haki buso (com os 40% da emissão) ÷ 300. Para mestres haki é ÷ por 200"
+            "50.000 PT em Busoshoku",
+            "Possuir Fullbody",
+            "2 Treinos Solo",
+            "Adiciona 60% do Busoshoku ao dano",
+            "Permite atacar sem necessidade de contato físico direto",
+            "Possui capacidade de Penetração contra defesas externas"
           ],
+          descrip1: "A Emissão permite projetar o Haki para fora do corpo, podendo ser utilizada tanto ofensivamente quanto defensivamente.",
+          descrip2: "Quando utilizada defensivamente, o Busoshoku poderá formar uma barreira de Haki responsável pela redução do dano recebido.",
+          descrip3: "Alcance máximo da Emissão:",
+          details3: [
+            "Usuários comuns — 5 metros",
+            "Mestres em Haki — 10 metros"
+          ],
+          descrip4: "O alcance não aumenta indefinidamente conforme os pontos investidos em Busoshoku.",
           subitems: [
             { name: "🔗 Referência", description: "https://onepiece.fandom.com/pt/wiki/Haki/Haki_do_Armamento" }
           ]
