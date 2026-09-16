@@ -738,8 +738,30 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
   },
   "Força Vital": {
     "Haki": {
-      intro: "O Haki é um poder misterioso que permite aos indivíduos canalizar sua própria energia espiritual para realizar feitos sobre-humanos. Como essa energia se manifesta a partir da força de vontade, ela é, em teoria, acessível a todas as criaturas vivas do mundo. Contudo, a grande maioria é incapaz de despertá-la ou desconhece completamente sua existência. Usuários de Haki são relativamente comuns no Novo Mundo, raros no Paraíso e praticamente inexistentes nos Quatro Blues. Segue abaixo as informações referentes aos meios de treinamento, obtenção e aprimoramento tanto do Haki da Observação quanto do Haki do Armamento.",
+      intro: "O Haki é um poder misterioso que permite aos indivíduos canalizar sua própria energia espiritual para realizar feitos sobre-humanos. Como essa energia se manifesta a partir da força de vontade, ela é, em teoria, acessível a todas as criaturas vivas do mundo. Contudo, a grande maioria é incapaz de despertá-la ou desconhece completamente sua existência.",
       items: [
+        {
+          name: "Usuários de Haki",
+          description: "Usuários de Haki são relativamente comuns no Novo Mundo, raros no Paraíso e praticamente inexistentes nos Quatro Blues."
+          descrip1: "Os pontos investidos no atributo Haki deverão ser distribuídos entre suas duas principais vertentes:"
+          details1: [
+            "Busoshoku — Haki do Armamento",
+            "Kenbunshoku — Haki da Observação"
+          ],
+          descrip2: "Dessa forma, possuir determinado valor no atributo Haki não significa possuir automaticamente o mesmo valor em Busoshoku e Kenbunshoku.",
+          descrip3: "Exemplo:",
+          details3: [
+            "50.000 PT em Haki",
+            "30.000 PT podem estar em Busoshoku",
+            "20.000 PT podem estar em Kenbunshoku"
+          ]
+        },
+        {
+          name: "Mestre em Hakis",
+          description: "São considerados Mestres em Haki os personagens que abrem mão do uso de Akuma no Mi, especializando sua progressão nas diferentes aplicações do Haki.",
+          descrip1: "Por essa especialização, Mestres em Haki recebem determinadas vantagens exclusivas em técnicas avançadas, como Fullbody, Emissão e Previsão.",
+          descrip2: "Um Mestre em Haki não poderá utilizar Akuma no Mi."
+        },
         {
           name: "Haki do Armamento — Básico/Koka",
           details: [
