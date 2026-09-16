@@ -742,8 +742,8 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
       items: [
         {
           name: "Usuários de Haki",
-          description: "Usuários de Haki são relativamente comuns no Novo Mundo, raros no Paraíso e praticamente inexistentes nos Quatro Blues."
-          descrip1: "Os pontos investidos no atributo Haki deverão ser distribuídos entre suas duas principais vertentes:"
+          description: "Usuários de Haki são relativamente comuns no Novo Mundo, raros no Paraíso e praticamente inexistentes nos Quatro Blues.",
+          descrip1: "Os pontos investidos no atributo Haki deverão ser distribuídos entre suas duas principais vertentes:",
           details1: [
             "Busoshoku — Haki do Armamento",
             "Kenbunshoku — Haki da Observação"
