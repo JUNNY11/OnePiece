@@ -757,7 +757,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ]
         },
         {
-          name: "Mestre em Hakis",
+          name: "Mestre em Haki",
           description: "São considerados Mestres em Haki os personagens que abrem mão do uso de Akuma no Mi, especializando sua progressão nas diferentes aplicações do Haki.",
           descrip1: "Por essa especialização, Mestres em Haki recebem determinadas vantagens exclusivas em técnicas avançadas, como Fullbody, Emissão e Previsão.",
           descrip2: "Um Mestre em Haki não poderá utilizar Akuma no Mi."
@@ -829,11 +829,18 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "Haki do Armamento — Emissão (Destruição Interna)",
           details: [
+            "Nível 80",
             "Estar no Novo Mundo",
-            "4.000 PT em Busoshoku",
+            "75.000 PT em Busoshoku",
+            "Possuir Emissão",
             "2 Treinos Solos",
-            "+60% (A mais) de dano (utiliza 100% do buso no cálculo), além disso ultrapassa qualquer defesa no contato físico"
+            "Adiciona 80% do Busoshoku ao dano",
+            "Necessita contato físico ou estar dentro do alcance da Emissão",
+            "Possui 50% de Penetração"
           ],
+          descrip1: "A Destruição Interna é uma evolução da Emissão capaz de fazer o Haki penetrar as defesas externas de um alvo e atingir seu interior.",
+          descrip2: "Entretanto, essa capacidade não ignora completamente a defesa adversária.",
+          descrip3: "Ataques utilizando Destruição Interna possuem 50% de Penetração, permitindo atravessar parcialmente Resistência, Haki e outras formas de proteção.",
           subitems: [
             { name: "🔗 Referência", description: "https://onepiece.fandom.com/pt/wiki/Haki/Haki_do_Armamento" }
           ]
@@ -841,32 +848,71 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "Haki de Observação — Básico",
           details: [
-            "Nível 100",
-            "1 Ponto em Kenbushoku",
-            "1 Treino solo",
-            "Sente presenças Próximas"
-          ]
+            "Nível 15",
+            "10.000 PT em Kenbunshoku",
+            "1 Treino Solo",
+            "Permite sentir presenças próximas",
+            "Permite identificar aproximadamente a localização de seres vivos dentro de seu alcance"
+          ],
+          descrip1: "O Haki da Observação permite ao usuário ampliar sua percepção sobre o ambiente e perceber indivíduos mesmo sem necessariamente enxergá-los diretamente."
         },
         {
           name: "Haki de Observação — Intenção",
           details: [
-            "Nível 100",
-            "2.000 PT em Kenbushoku",
-            "Sente a intenção dos golpes Alheios",
-            "Distingue Níveis de Poder",
-            "Soma ken +20% na percepção"
-          ]
+            "Nível 35",
+            "25.000 PT em Kenbunshoku",
+            "Possuir Kenbunshoku Básico",
+            "1 Treino Solo",
+            "Permite sentir a intenção por trás dos movimentos adversários",
+            "Permite realizar uma estimativa do nível de poder de outras presenças",
+            "Adiciona 20% do Kenbunshoku à Percepção"
+          ],
+          descrip1: "A leitura de intenção não significa conhecer perfeitamente todas as ações futuras do adversário.",
+          descrip2: "Ela permite perceber hostilidade, direção de ataques e intenções imediatas, auxiliando diretamente na capacidade de reação do personagem."
         },
         {
           name: "Haki de Observação — Previsão",
           details: [
+            "Nível 70",
             "Estar no Novo Mundo",
-            "3.000 PT em Kenbushoku",
+            "30.000 PT em Kenbunshoku",
+            "Possuir Kenbunshoku de Intenção",
             "2 Treinos solos",
-            "Cada 1.000 em ken é 1 segundo no futuro para akumados e 750 para mestres haki",
-            "Cada segundo de previsão vale 1.000 de percepção extra",
-            "Usando previsão, o valor para a contagem de segundos é ken +40%"
-          ]
+            "Permite visualizar acontecimentos alguns segundos antes de ocorrerem",
+            "Durante sua utilização, adiciona 40% do Kenbunshoku à Percepção"
+          ],
+          descrip1: "A quantidade de segundos que o usuário consegue visualizar no futuro será definida pela quantidade de pontos investidos em Kenbunshoku.",
+          descrip2: "USUÁRIOS COMUNS:",
+          details2: [
+            "30.000 Ken — 3 segundos",
+            "37.500 Ken — 4 segundos",
+            "45.000 Ken — 5 segundos",
+            "52.500 Ken — 6 segundos",
+            "60.000 Ken — 7 segundos",
+            "67.500 Ken — 8 segundos",
+            "75.000 Ken — 9 segundos",
+            "82.500 Ken — 10 segundos"
+          ],
+          descrip3: "Após os 30.000 PT iniciais, cada 7.500 PT adicionais em Kenbunshoku concedem +1 segundo de previsão.",
+          details3: ["Limite máximo: 10 segundos"],
+          descrip4: "MESTRES EM HAKI",
+          details4: [
+            "30.000 Ken — 5 segundos",
+            "35.000 Ken — 6 segundos",
+            "40.000 Ken — 7 segundos",
+            "45.000 Ken — 8 segundos",
+            "50.000 Ken — 9 segundos",
+            "55.000 Ken — 10 segundos",
+            "60.000 Ken — 11 segundos",
+            "65.000 Ken — 12 segundos",
+            "70.000 Ken — 13 segundos",
+            "75.000 Ken — 14 segundos",
+            "80.000 Ken — 15 segundos"
+          ],
+          descrip5: "Após os 30.000 PT iniciais, cada 5.000 PT adicionais em Kenbunshoku concedem +1 segundo de previsão.",
+          details5: ["Limite máximo: 15 segundos"],
+          descrip6: "A Previsão representa a capacidade de visualizar acontecimentos futuros, mas não transforma essas ações em esquivas automáticas.",
+          descrip7: "Mesmo conhecendo uma ação antecipadamente, o personagem ainda dependerá de sua Percepção, Velocidade e demais condições da batalha para conseguir reagir adequadamente."
         },
         {
           name: "🜙ᭂ◈ Haoshoku Haki",
