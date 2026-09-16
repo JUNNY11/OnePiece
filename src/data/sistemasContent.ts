@@ -1108,27 +1108,109 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
       items: [
         {
           name: "➝ Categoria — Atributos",
-          description: "Iremos analisar, de forma detalhada, a função de cada atributo físico, buscando compreender com clareza sua utilidade e aplicação dentro dos aspectos que compõem a identidade física de cada personagem.",
+          description: "Nesta categoria serão abordadas, de forma detalhada, as funções de cada atributo físico, buscando compreender sua utilidade e aplicação dentro dos aspectos que compõem a identidade física e combativa de cada personagem.",
           subitems: [
             {
               name: "Força",
-              description: "A Força representa a capacidade física de um indivíduo de impor sua ação sobre o mundo material, determinando tanto a intensidade de seus impactos quanto sua própria resistência. Em síntese, trata-se de um dos principais atributos responsáveis pelo dano resultante. Personagens que lutam com os punhos utilizam a força de maneira direta na aplicação de seus golpes. Da mesma forma, até mesmo espadachins dependem da força para imprimir potência ao longo da trajetória de seus ataques, o que, por consequência, impacta diretamente no dano final. Além de seu papel ofensivo, para aqueles que decidem por usar o seu físico ao máximo, a Força também atua como um dos pilares de sustentação física exigidos de usuários de Haki do Armamento mais especializados, ou seja, aqueles que escolhem aprofundar-se ao extremo nesse Haki precisam manter uma base mínima de robustez corporal, sob risco de perderem parte do refinamento conquistado em sua especialização espiritual. Essa exigência corresponde a, no mínimo, 15% do valor de Busoshoku alocado em relação ao valor bruto de Força (vale para qualquer usuário de Haki focado em força [bônus ativos não contam])."
+              description: "A Força representa a capacidade física de um indivíduo de impor sua ação sobre o mundo material, determinando principalmente a intensidade de seus impactos e a potência empregada em seus movimentos.",
+              descrip1: "Em síntese, trata-se de um dos principais atributos responsáveis pela geração de dano.",
+              descrip2: "Personagens que lutam utilizando os próprios punhos aplicam a Força diretamente em seus golpes. Da mesma forma, espadachins podem depender desse atributo para imprimir potência ao longo da trajetória de seus ataques, aumentando consequentemente sua capacidade ofensiva.",
+              descrip3: "Além de sua função direta no combate, a Força também poderá servir como uma das bases físicas necessárias para usuários extremamente especializados em Haki do Armamento.",
+              descrip4: "Um personagem que utilize a Força como sustentação física de seu Busoshoku deverá possuir, em valor bruto:",
+              details4: [
+                "Força mínima = 30% do valor de Busoshoku"
+              ],
+              descrip5: "Exemplo:",
+              details5: [
+                "Busoshoku: 50.000",
+                "Força mínima: 15.000"
+              ],
+              descrip6: "Buffs temporários, transformações ou demais aumentos ativos não serão considerados para cumprir esse requisito.",
+              descrip7: "O personagem poderá utilizar Força ou Destreza como atributo físico de sustentação de seu Busoshoku, não sendo necessário atingir o requisito simultaneamente nos dois atributos."
             },
             {
               name: "Velocidade",
-              description: "A Velocidade de um corpo corresponde à sua capacidade de deslocar-se do ponto A ao ponto B em um determinado intervalo de tempo. Em termos práticos, quanto maior a velocidade, menor será o tempo necessário para atingir o destino. Além disso, a velocidade também passa a influenciar diretamente a capacidade de percepção de um indivíduo, de modo que, quanto mais veloz ele for, maior será sua aptidão para reagir e compreender estímulos ao seu redor, sendo a Percepção, em parte, uma extensão natural de quão rápido o corpo processa e responde ao que ocorre à sua volta. Quando a disparidade de velocidade entre dois combatentes torna-se extrema o suficiente, o mais lento perde por completo a capacidade de reagir aos movimentos do oponente, sendo surpreendido antes que qualquer resposta seja possível."
+              description: "A Velocidade corresponde à capacidade de um corpo de deslocar-se do ponto A ao ponto B dentro de determinado intervalo de tempo.",
+              descrip1: "Em termos práticos, quanto maior sua Velocidade, menor será o tempo necessário para executar deslocamentos, movimentações e demais ações físicas.",
+              descrip2: "A Velocidade também influencia diretamente a capacidade natural de percepção de um personagem.",
+              descrip3: "Todavia, possuir determinada Velocidade não significa que o indivíduo consiga processar naturalmente estímulos exatamente na mesma proporção em que seu corpo consegue se mover.",
+              descrip4: "Por esse motivo, a relação entre Velocidade e Percepção será:",
+              details4: [
+                "A cada 100 pontos de Velocidade, são gerados 70 pontos de Percepção."
+              ],
+              descrip5: "Ou:",
+              details5: [
+                "Percepção Natural = 70% da Velocidade"
+              ],
+              descrip6: "Exemplos:",
+              details6: [
+                "10.000 Velocidade = 7.000 Percepção Natural",
+                "20.000 Velocidade = 14.000 Percepção Natural",
+                "50.000 Velocidade = 35.000 Percepção Natural"
+              ],
+              descrip7: "Quando a diferença entre a Velocidade de uma ação e a Percepção do adversário se torna suficientemente elevada, poderá ocorrer um Speed Blitz."
             },
             {
               name: "Resistência",
-              description: "A resistência é a propriedade que define a integridade de um corpo frente a forças externas, determinando sua capacidade de manter-se íntegro, seja por rigidez, absorção ou distribuição do impacto. Ela também determina a capacidade de um indivíduo em resistir à fadiga durante um combate. Quanto maior for sua resistência física, maior será sua permanência em batalha sem apresentar sinais de exaustão, tornando-o mais durável frente ao desgaste físico, conseguindo fazer mais técnicas complexas de forma simultânea."
+              description: "A Resistência é o atributo que define a integridade física de um personagem diante de forças externas, ferimentos, impactos e desgaste corporal.",
+              descrip1: "Ela representa sua capacidade de permanecer funcional mesmo após sofrer danos consideráveis, além de influenciar diretamente sua tolerância à fadiga durante um combate.",
+              descrip2: "Quanto maior a Resistência, maior será a capacidade do personagem de permanecer em batalha antes que seus ferimentos comprometam severamente seu desempenho.",
+              descrip3: "A Resistência também será responsável pela determinação dos Health Points — HP.",
+              descrip4: "A relação será:",
+              details4: [
+                "HP = Resistência × 5"
+              ],
+              descrip5: "Exemplos:",
+              details5: [
+                "1.000 Resistência = 5.000 HP",
+                "10.000 Resistência = 50.000 HP",
+                "50.000 Resistência = 250.000 HP"
+              ],
+              descrip6: "Buffs temporários de Resistência não aumentam automaticamente o HP máximo do personagem durante o combate, salvo quando a própria habilidade determinar expressamente esse efeito."
             },
             {
               name: "Destreza",
-              description: "A Destreza corresponde à capacidade de executar movimentos com precisão, coordenação e controle refinado, especialmente em ações que exigem ajustes rápidos e eficientes de força e trajetória. Esse atributo envolve precisão, tempo de resposta, controle de força e ajuste de trajetória. Em essência, a destreza permite que o personagem aplique a quantidade exata de força na direção correta, adaptando-se em tempo real às variações do ambiente. Dentro do RPG, a destreza desempenhará um papel fundamental, sobretudo para usuários de Akuma no Mi, que dependerão diretamente desse atributo para uma utilização eficiente de suas habilidades. Da mesma forma, será essencial para espadachins experientes e também para combatentes corporais que utilizam estilos baseados em técnica, como o kung fu. Assim como a Força, a Destreza também compõe a base física mínima exigida de usuários de Haki do Armamento extremamente especializados, servindo como alternativa para personagens cuja construção prioriza técnica e precisão em vez de robustez bruta. Da mesma forma, esse mínimo corresponde a 15% do valor de Busoshoku alocado em relação ao valor bruto da destreza (vale para todo usuário de Haki que é focado em destreza [bônus ativos não contam])."
+              description: "A Destreza corresponde à capacidade de executar movimentos com precisão, coordenação e controle refinado.",
+              descrip1: "Esse atributo envolve fatores como:",
+              details1: [
+                "Precisão",
+                "Coordenação motora",
+                "Controle de força",
+                "Ajuste de trajetória",
+                "Manipulação de armas",
+                "Execução técnica"
+              ],
+              descrip2: "Em essência, a Destreza representa a capacidade do personagem de aplicar exatamente a quantidade necessária de força, no ângulo e direção corretos, adaptando seus movimentos às condições presentes durante uma ação.",
+              descrip3: "Dentro do RPG, terá grande importância para usuários de Akuma no Mi, espadachins focados em técnica, atiradores e combatentes corporais que utilizem estilos dependentes de precisão e controle.",
+              descrip4: "Assim como a Força, a Destreza também poderá servir como base física para personagens extremamente especializados em Busoshoku.",
+              descrip5: "Caso o personagem utilize a Destreza como sustentação física de seu Haki do Armamento:",
+              details5: [
+                "Destreza mínima = 30% do valor de Busoshoku"
+              ],
+              descrip6: "Exemplo:",
+              details6: [
+                "Busoshoku: 50.000",
+                "Destreza mínima: 15.000"
+              ],
+              descrip7: "Buffs temporários ou ativos não serão considerados para cumprir esse requisito."
             },
             {
               name: "Percepção",
-              description: "A Percepção é o atributo que determina o quanto um personagem consegue captar, processar e responder ao que acontece ao seu redor em combate. Ela representa a capacidade de ler o mundo, enxergar um golpe vindo, sentir uma presença hostil, distinguir a intenção por trás de um movimento antes que ele se complete. Em termos práticos, é a Percepção que define se um personagem sequer tem condições de tentar reagir ao que o atinge, e é por isso que ela ocupa um papel tão central na dinâmica de combate do RPG. O Haki da Observação entra como a segunda grande fonte de Percepção, refinando os sentidos a um ponto que transcende qualquer limite físico natural, permitindo que o usuário detecte presenças, leia intenções e antecipe movimentos de formas que a velocidade sozinha jamais poderia proporcionar. Contudo, existe um equilíbrio obrigatório entre Kenbunshoku e velocidade de 50%, de outro modo, pra possuir 20.000 de Kenbunshoku sem ao menos 10.000 de Velocidade significa que, por mais que o personagem consiga perceber o golpe vindo, seu corpo simplesmente não tem capacidade de responder a tempo. Percepção sem velocidade de reação é apenas a consciência de estar sendo atingido.",
+              description: "A Percepção é o atributo responsável por determinar o quanto um personagem consegue captar, interpretar e acompanhar os acontecimentos ao seu redor durante um combate.",
+              descrip1: "Ela representa a capacidade de enxergar um golpe vindo, acompanhar uma movimentação, perceber uma presença hostil e compreender estímulos antes que estes sejam concluídos.",
+              descrip2: "Em termos práticos, é através da Percepção que será determinado se um personagem possui condições de acompanhar determinada ação adversária.",
+              descrip3: "Entretanto, perceber uma ação não significa automaticamente possuir capacidade física para evitá-la.",
+              descrip4: "A Percepção terá duas principais fontes:",
+              details4: [
+                "Velocidade",
+                "Kenbunshoku"
+              ],
+              descrip5: "A Velocidade representa a capacidade natural dos sentidos e do corpo de acompanhar acontecimentos.",
+              descrip6: "Sua contribuição será:",
+              details6: [
+                "Percepção Natural = 70% da Velocidade"
+              ],
+              descrip7: "O Haki da Observação poderá ampliar essa capacidade além dos limites naturais."
             },
             {
               name: "HP — Health Points",
