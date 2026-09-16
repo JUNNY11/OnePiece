@@ -765,12 +765,14 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         {
           name: "Haki do Armamento — Básico/Koka",
           details: [
-            "100 LvL",
-            "1 Ponto em Busoshoku",
+            "Nível 15",
+            "10.000 PT em Busoshoku",
             "1 Treino Solo ou Duo",
-            "+40% (Haki) somado ao dano Final",
-            "100% Na defesa (Haki)"
+            "+40% do Busoshoku ao dano do ataque revestido",
+            "Adiciona 100% do Busoshoku à defesa da região revestida"
           ],
+          descrip1: "O Koka permite revestir partes específicas do corpo, armas ou objetos utilizados pelo personagem com Haki do Armamento.",
+          descrip2: "Sua principal característica é a concentração. O usuário concentra seu Busoshoku em determinada região, obtendo a eficiência máxima de sua defesa naquele local.",
           subitems: [
             { name: "🔗 Referência", description: "https://onepiece.fandom.com/pt/wiki/Haki/Haki_do_Armamento" }
           ]
