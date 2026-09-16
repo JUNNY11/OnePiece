@@ -882,7 +882,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Durante sua utilização, adiciona 40% do Kenbunshoku à Percepção"
           ],
           descrip1: "A quantidade de segundos que o usuário consegue visualizar no futuro será definida pela quantidade de pontos investidos em Kenbunshoku.",
-          descrip2: "USUÁRIOS COMUNS:",
+          descrip2: "[USUÁRIOS COMUNS]:",
           details2: [
             "30.000 Ken — 3 segundos",
             "37.500 Ken — 4 segundos",
@@ -895,7 +895,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ],
           descrip3: "Após os 30.000 PT iniciais, cada 7.500 PT adicionais em Kenbunshoku concedem +1 segundo de previsão.",
           details3: ["Limite máximo: 10 segundos"],
-          descrip4: "MESTRES EM HAKI",
+          descrip4: "[MESTRES EM HAKI]",
           details4: [
             "30.000 Ken — 5 segundos",
             "35.000 Ken — 6 segundos",
