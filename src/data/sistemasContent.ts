@@ -1353,17 +1353,16 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             {
               name: "Dano por Combate — Porradeiros",
               description: "Os chamados \"Porradeiros\" referem-se àqueles cujo estilo de combate se fundamenta exclusivamente no uso do próprio corpo, abdicando de armas como espadas, pistolas, rifles ou quaisquer outros instrumentos bélicos. Como exemplos, podem ser citados Luffy, Rob Lucci, Sanji e, talvez como seu maior representante, Monkey D. Garp.",
-              descrip1: "☝️🤓 - Tá ADM mas de onde vem nosso Dano?",
-              additional: "",
-              descrip2: "Pois bem, jovem gafanhoto, o dano de um Porradeiro deriva majoritariamente de sua Força como epicentro, como já é de se esperar. Contudo, há uma influência secundária da Destreza, ainda que de forma limitada, tendo em vista que determinados estilos marciais se valem desse atributo para aprimorar sua execução e eficiência. Portanto, a formulação do dano se estabelece da seguinte maneira:",
-              details: [
+              additional: "☝️🤓 - Tá ADM mas de onde vem nosso Dano?",
+              descrip1: "Pois bem, jovem gafanhoto, o dano de um Porradeiro deriva majoritariamente de sua Força como epicentro, como já é de se esperar. Contudo, há uma influência secundária da Destreza, ainda que de forma limitada, tendo em vista que determinados estilos marciais se valem desse atributo para aprimorar sua execução e eficiência. Portanto, a formulação do dano se estabelece da seguinte maneira:",
+              details1: [
                 "Dano = Força + 50% da Destreza + Buso.",
                 "Ou (No caso de uma técnica)",
                 "Dano: Força + Técnica + Buso.",
                 "Ou (No caso de Equipamento com Dano Base)",
                 "Dano: Item¹ + Técnica + Buso.",
               ],
-              additional2: "Na prática, teremos a seguinte aplicação. Tomemos como base uma ficha hipotética de um personagem:",
+              descrip2: "Na prática, teremos a seguinte aplicação. Tomemos como base uma ficha hipotética de um personagem:",
               details2: [
                 "Força: 10.000",
                 "Velocidade: 10.000",
@@ -1371,20 +1370,20 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "Destreza: 10.000",
                 "Busoshoku: 10.000",
               ],
-              additional3: "A partir dessa configuração, utilizaremos o personagem, que chamaremos, de forma ilustrativa, de Cleitin, para demonstrar o cálculo do dano, tornando o entendimento mais claro àqueles que ainda possuam dúvidas",
-              additional4:"Partiremos do atributo Força (10.000) e somaremos com 50% da Destreza (5.000) + Busoshoku (14.000):",
-              details3: [
+              descrip3: "A partir dessa configuração, utilizaremos o personagem, que chamaremos, de forma ilustrativa, de Cleitin, para demonstrar o cálculo do dano, tornando o entendimento mais claro àqueles que ainda possuam dúvidas",
+              descrip4:"Partiremos do atributo Força (10.000) e somaremos com 50% da Destreza (5.000) + Busoshoku (14.000):",
+              details4: [
                 "Exemplo1: 10.000 (Força) + 5.000 (Destreza 50%) + 4.000 (Buso 40%) = 19.000",
                 "Exemplo2 (Com Técnica): 10.000 (Força) + 70.000 (Tier S⁵) + 4.000 (Buso) = 84.000",
                 "Exemplo3 (Com Item e Técnica): 18.000 (item) + 70.000 (tier S⁵) + 4.000 (Buso) = 92.000",
               ],
-              additional5: "Obtido esse valor, adiciona-se 40% do Busoshoku (no estágio básico/Koka). Caso esteja no estágio avançado, em vez de adicionar 40% do valor, adiciona o valor + 40%, na forma como o sistema conduz.",
-              details4: [
+              descrip5: "Obtido esse valor, adiciona-se 40% do Busoshoku (no estágio básico/Koka). Caso esteja no estágio avançado, em vez de adicionar 40% do valor, adiciona o valor + 40%, na forma como o sistema conduz.",
+              details5: [
                 "Exemplo1: 10.000 (Força) + 5.000 (Destreza 50%) + 14.000 (Buso + 40%) = 29.000",
                 "Exemplo2 (Com Técnica): 10.000 (Força) + 70.000 (Tier S⁵) + 14.000 (Buso +40%) = 94.000",
                 "Exemplo3 (Com Item e Técnica): 18.000 (item) + 70.000 (tier S⁵) + 14.000 (Buso +40%) = 102.000",
               ], 
-              descrip3: "Dessa forma, obtém-se o dano final. Ressalta-se que os valores de Força e Destreza considerados já devem estar devidamente ajustados pelos buffs provenientes de raça ou linhagem, caso existam."
+              descrip6: "Dessa forma, obtém-se o dano final. Ressalta-se que os valores de Força e Destreza considerados já devem estar devidamente ajustados pelos buffs provenientes de raça ou linhagem, caso existam."
             },
             {
               name: "Dano por Combate — Espadachins",
