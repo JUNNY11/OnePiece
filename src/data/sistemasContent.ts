@@ -1457,23 +1457,21 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               subitems: [
                 {
                   name: "Alcance",
-                  description: "A Destreza será utilizada como referência para determinar o alcance eficiente de ataques realizados por Atiradores."
+                  description: "A Destreza será utilizada como referência para determinar o alcance eficiente de ataques realizados por Atiradores.",
+                  descrip1: "Fórmula:",
+                  details1: [
+                    "Destreza ÷ 100 = alcance base em metros."
+                  ],
+                  descrip2: "Exemplos:",
+                  details2: [
+                    "10.000 de Destreza = 100 metros.",
+                    "30.000 de Destreza = 300 metros.",
+                    "50.000 de Destreza = 500 metros.",
+                    "100.000 de Destreza = 1.000 metros."
+                  ],
+                  additional2: "OBS - Características da arma, Técnicas, equipamentos ou especializações próprias poderão modificar esse alcance."
                 }
-              ],
-              descrip7: "[Alcance]",
-              descrip8: "",
-              descrip9: "Fórmula:",
-              details9: [
-                "Destreza ÷ 100 = alcance base em metros."
-              ],
-              descrip10: "Exemplos:",
-              details10: [
-                "10.000 de Destreza = 100 metros.",
-                "30.000 de Destreza = 300 metros.",
-                "50.000 de Destreza = 500 metros.",
-                "100.000 de Destreza = 1.000 metros."
-              ],
-              additional10: "OBS - Características da arma, Técnicas, equipamentos ou especializações próprias poderão modificar esse alcance."
+              ]
             },
             {
               name: "Health Points — HP (Física Aplicada)",
