@@ -1017,7 +1017,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ],
           descrip5: "O Speed Blitz representa a incapacidade do alvo de acompanhar e reagir adequadamente àquela determinada ação. Entretanto, isso não significa necessariamente derrota automática. Habilidades defensivas previamente estabelecidas, características passivas, proteções automáticas ou outras condições válidas ainda poderão interferir no resultado final.",
           descrip6: "Da mesma forma, o Speed Blitz não significa que o personagem mais veloz possua superioridade absoluta em todos os aspectos do combate; sua aplicação refere-se especificamente à capacidade do adversário de acompanhar e reagir à ação executada naquele momento."
-        }
+        },
         {
           name: "🜙ᭂ◈ Haoshoku Haki",
           description: "O Haoshoku Haki é uma forma rara e majestosa de Haki que permite ao usuário impor sua vontade sobre os outros. Diferente do Busoshoku e do Kenbunshoku, este poder não pode ser obtido por treino — é um dom inato, reservado a um em vários milhões. Aqueles que o despertam são conhecidos como Conquistadores, indivíduos destinados a liderar, dominar ou inspirar multidões. Entre os mais temidos portadores estão figuras como Gol D. Roger, Shanks, Kaido, Big Mom e Monkey D. Luffy. De acordo com Marigold e Trebol, o Haoshoku é a prova viva de uma alma nascida para governar — um espírito que se ergue acima do comum, impulsionado por uma ambição inquebrantável. Os usuários exercem o poder da dominação espiritual: subjugam multidões, desmaiam inimigos de vontade fraca ou afetam o ambiente físico com pura pressão espiritual. Sua força é diretamente proporcional à diferença de poder entre as vontades envolvidas.",
