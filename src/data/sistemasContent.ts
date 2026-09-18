@@ -1389,25 +1389,29 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             {
               name: "Dano por Combate — Espadachins",
               description: "Os espadachins, ou usuários de espadas, são aqueles que, como o próprio nome sugere, utilizam lâminas como principal meio de combate. Embora, à primeira vista, possam parecer iguais, no contexto do RPG haverá uma subdivisão, espadachins do tipo força e espadachins do tipo destreza. Tal distinção existe para melhor organizar e complementar os diferentes estilos de combate que envolvem o uso de espadas. Tomemos como exemplo nosso personagem hipotético, Cleitin. Após se cansar do combate corpo a corpo, ele decide empunhar a espada herdada de seu avô. Inicialmente, Cleitin desfere golpes brutos, intensos, focados puramente em força. Seus ataques são capazes de partir o solo, rasgar paredes e gerar impactos devastadores, tudo isso fruto direto de sua potência física. Ele percebe que, quanto mais força aplica no ângulo de seus movimentos, maior é o poder de corte gerado. Entretanto, com o passar do tempo, Cleitin começa a questionar sua abordagem: e se, ao invés de depender exclusivamente da força, ele refinasse sua técnica? Ao focar em precisão, pontos vitais e eficiência de movimento, ele passa a utilizar uma espada mais leve, realizando golpes mais rápidos, fluidos e controlados, quase como uma dança. Nesse novo estilo, o excesso de força se torna desnecessário, pois a eficácia está na execução. Essa distinção ilustra perfeitamente a diferença entre dois arquétipos clássicos: enquanto Zoro representa o espadachim voltado à força, com golpes pesados e destrutivos, Brook exemplifica o espadachim de destreza, priorizando leveza, velocidade e precisão em seus cortes.",
-              descrip1: "☝️🤓 - Nossa, ADM, mas isso não faz sentido… já vimos o Zoro sendo tão preciso quanto o Brook. Melhor rever a obra hein",
-              descrip2: "Sim, jovem gafanhoto. De fato, essa não é uma regra rígida dentro da obra original. No entanto, no contexto do RPG, adotaremos essa distinção como forma de organização. Ainda que tal separação seja apenas sutilmente sugerida por Oda-sensei, aqui ela servirá para estruturar melhor os estilos de combate. Em termos práticos, dentro do roleplay, essa diferenciação não impõe limitações absolutas. O essencial é que o jogador compreenda a principal fonte de poder por trás do uso de sua katana, seja ela baseada em força ou em destreza.",
-              descrip3: "☝️🤓 - Ok, ADM… mas e os danos?",
-              descrip4: "No que diz respeito ao dano, o funcionamento será, em Suma, semelhante entre os estilos, diferenciando-se apenas pela fonte do atributo principal. Caso o espadachim seja do tipo força, este será seu atributo base, caso seja do tipo destreza, o mesmo princípio se aplica.",
-              descrip5: "Em termos práticos, o cálculo parte do valor total do atributo principal, somado a 50% do atributo secundário.",
-              descrip6: "Tomemos como base a seguinte ficha:",
-              details: [
+              additional: "☝️🤓 - Nossa, ADM, mas isso não faz sentido… já vimos o Zoro sendo tão preciso quanto o Brook. Melhor rever a obra hein",
+              descrip1: "Sim, jovem gafanhoto. De fato, essa não é uma regra rígida dentro da obra original. No entanto, no contexto do RPG, adotaremos essa distinção como forma de organização. Ainda que tal separação seja apenas sutilmente sugerida por Oda-sensei, aqui ela servirá para estruturar melhor os estilos de combate. Em termos práticos, dentro do roleplay, essa diferenciação não impõe limitações absolutas. O essencial é que o jogador compreenda a principal fonte de poder por trás do uso de sua katana, seja ela baseada em força ou em destreza.",
+              additional1: "☝️🤓 - Ok, ADM… mas e os danos?",
+              descrip2: "No que diz respeito ao dano, o funcionamento será, em Suma, semelhante entre os estilos, diferenciando-se apenas pela fonte do atributo principal. Caso o espadachim seja do tipo força, este será seu atributo base, caso seja do tipo destreza, o mesmo princípio se aplica.",
+              descrip3: "Em termos práticos, o cálculo parte do valor total do atributo principal, somado a 50% do atributo secundário.",
+              descrip4: "Tomemos como base a seguinte ficha:",
+              details4: [
                 "Força: 10.000",
                 "Velocidade: 10.000",
                 "Resistência: 10.000",
                 "Destreza: 10.000",
                 "Busoshoku: 10.000",
               ],
-              additional: "O cálculo se dará da seguinte forma:",
-              additional2: "10.000 (atributo principal: força ou destreza)",
-              additional3: "5.000 (50% do atributo secundário: destreza ou força) = 15.000",
-              additional4: "A partir desse valor base, seguem-se as demais etapas já estabelecidas no sistema de dano (buffs, Busoshoku e etc.).",
-              additional5: "Dano = Força/Destreza + 50% (Força/Destreza) + Busoshoku (Emissão): 29.000",
-              additional6: "(A base é a mesma dos combatentes, sendo a diferença que, lâminas possuem um valor base maior. )"
+              descrip5: "O cálculo se dará da seguinte forma:",
+              details5: [
+                "10.000 (atributo principal: força ou destreza)",
+                "5.000 (50% do atributo secundário: destreza ou força) = 15.000"
+              ],
+              descrip6: "A partir desse valor base, seguem-se as demais etapas já estabelecidas no sistema de dano (buffs, Busoshoku e etc.).",
+              details6: [
+                "Dano = Força/Destreza + 50% (Força/Destreza) + Busoshoku (Emissão): 29.000"
+              ],
+              descrip7: "(A base é a mesma dos combatentes, sendo a diferença que, lâminas possuem um valor base maior. )"
             },
             {
               name: "Dano por Combate - Atiradores",
