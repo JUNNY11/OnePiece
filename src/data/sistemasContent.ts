@@ -1458,7 +1458,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 {
                   name: "Alcance"
                 }
-              ]
+              ],
               descrip7: "[Alcance]",
               descrip8: "A Destreza será utilizada como referência para determinar o alcance eficiente de ataques realizados por Atiradores.",
               descrip9: "Fórmula:",
