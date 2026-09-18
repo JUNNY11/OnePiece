@@ -1363,104 +1363,116 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ],
           subitems: [
             {
-              name: "Dano por Combate — Porradeiros",
-              description: "Os chamados \"Porradeiros\" referem-se àqueles cujo estilo de combate se fundamenta exclusivamente no uso do próprio corpo, abdicando de armas como espadas, pistolas, rifles ou quaisquer outros instrumentos bélicos. Como exemplos, podem ser citados Luffy, Rob Lucci, Sanji e, talvez como seu maior representante, Monkey D. Garp.",
-              additional: "☝️🤓 - Tá ADM mas de onde vem nosso Dano?",
-              descrip1: "Pois bem, jovem gafanhoto, o dano de um Porradeiro deriva majoritariamente de sua Força como epicentro, como já é de se esperar. Contudo, há uma influência secundária da Destreza, ainda que de forma limitada, tendo em vista que determinados estilos marciais se valem desse atributo para aprimorar sua execução e eficiência. Portanto, a formulação do dano se estabelece da seguinte maneira:",
+              name: "FONTES DE DANO",
+              description: "Ataques comuns utilizarão normalmente as fórmulas estabelecidas para cada estilo de combate.",
+              descrip1: "Ao utilizar uma Técnica Ofensiva, deverá ser respeitada a regra estabelecida pelo Sistema Geral de Escalonamento de Técnicas:",
               details1: [
-                "Dano = Força + 50% da Destreza + Buso.",
-                "Ou (No caso de uma técnica)",
-                "Dano: Força + Técnica + Buso.",
-                "Ou (No caso de Equipamento com Dano Base)",
-                "Dano: Item¹ + Técnica + Buso.",
+                "Dano Técnico + até 2 Fontes Numéricas Adicionais."
               ],
-              descrip2: "Na prática, teremos a seguinte aplicação. Tomemos como base uma ficha hipotética de um personagem:",
+              descrip2: "Poderão funcionar como Fontes Numéricas Adicionais, quando aplicáveis:",
               details2: [
-                "Força: 10.000",
-                "Velocidade: 10.000",
-                "Resistência: 10.000",
-                "Destreza: 10.000",
-                "Busoshoku: 10.000",
+                "Força.",
+                "Destreza.",
+                "Velocidade ou uma porcentagem dela.",
+                "Haki.",
+                "Dano Base de armas ou equipamentos.",
+                "Outras fontes numéricas expressamente permitidas pela Técnica."
               ],
-              descrip3: "A partir dessa configuração, utilizaremos o personagem, que chamaremos, de forma ilustrativa, de Cleitin, para demonstrar o cálculo do dano, tornando o entendimento mais claro àqueles que ainda possuam dúvidas",
-              descrip4:"Partiremos do atributo Força (10.000) e somaremos com 50% da Destreza (5.000) + Busoshoku (14.000):",
+              descrip3: "Exemplos válidos:",
+              details3: [
+                "Técnica + Força + Haki.",
+                "Técnica + Força + Espada.",
+                "Técnica + Destreza + Haki.",
+                "Técnica + Espada + Haki."
+              ],
+              descrip4: "Exemplo inválido:",
               details4: [
-                "Exemplo1: 10.000 (Força) + 5.000 (Destreza 50%) + 4.000 (Buso 40%) = 19.000",
-                "Exemplo2 (Com Técnica): 10.000 (Força) + 70.000 (Tier S⁵) + 4.000 (Buso) = 84.000",
-                "Exemplo3 (Com Item e Técnica): 18.000 (item) + 70.000 (tier S⁵) + 4.000 (Buso) = 92.000",
+                "Técnica + Força + Espada + Haki."
               ],
-              descrip5: "Obtido esse valor, adiciona-se 40% do Busoshoku (no estágio básico/Koka). Caso esteja no estágio avançado, em vez de adicionar 40% do valor, adiciona o valor + 40%, na forma como o sistema conduz.",
-              details5: [
-                "Exemplo1: 10.000 (Força) + 5.000 (Destreza 50%) + 14.000 (Buso + 40%) = 29.000",
-                "Exemplo2 (Com Técnica): 10.000 (Força) + 70.000 (Tier S⁵) + 14.000 (Buso +40%) = 94.000",
-                "Exemplo3 (Com Item e Técnica): 18.000 (item) + 70.000 (tier S⁵) + 14.000 (Buso +40%) = 102.000",
-              ], 
-              descrip6: "Dessa forma, obtém-se o dano final. Ressalta-se que os valores de Força e Destreza considerados já devem estar devidamente ajustados pelos buffs provenientes de raça ou linhagem, caso existam."
+              additional4: "OBS - Qualquer valor adicionado diretamente ao dano de uma Técnica será considerado uma Fonte Numérica Adicional, salvo quando outra regra estabelecer expressamente o contrário."
             },
             {
-              name: "Dano por Combate — Espadachins",
-              description: "Os espadachins, ou usuários de espadas, são aqueles que, como o próprio nome sugere, utilizam lâminas como principal meio de combate. Embora, à primeira vista, possam parecer iguais, no contexto do RPG haverá uma subdivisão, espadachins do tipo força e espadachins do tipo destreza. Tal distinção existe para melhor organizar e complementar os diferentes estilos de combate que envolvem o uso de espadas. Tomemos como exemplo nosso personagem hipotético, Cleitin. Após se cansar do combate corpo a corpo, ele decide empunhar a espada herdada de seu avô. Inicialmente, Cleitin desfere golpes brutos, intensos, focados puramente em força. Seus ataques são capazes de partir o solo, rasgar paredes e gerar impactos devastadores, tudo isso fruto direto de sua potência física. Ele percebe que, quanto mais força aplica no ângulo de seus movimentos, maior é o poder de corte gerado. Entretanto, com o passar do tempo, Cleitin começa a questionar sua abordagem: e se, ao invés de depender exclusivamente da força, ele refinasse sua técnica? Ao focar em precisão, pontos vitais e eficiência de movimento, ele passa a utilizar uma espada mais leve, realizando golpes mais rápidos, fluidos e controlados, quase como uma dança. Nesse novo estilo, o excesso de força se torna desnecessário, pois a eficácia está na execução. Essa distinção ilustra perfeitamente a diferença entre dois arquétipos clássicos: enquanto Zoro representa o espadachim voltado à força, com golpes pesados e destrutivos, Brook exemplifica o espadachim de destreza, priorizando leveza, velocidade e precisão em seus cortes.",
-              additional: "☝️🤓 - Nossa, ADM, mas isso não faz sentido… já vimos o Zoro sendo tão preciso quanto o Brook. Melhor rever a obra hein",
-              descrip1: "Sim, jovem gafanhoto. De fato, essa não é uma regra rígida dentro da obra original. No entanto, no contexto do RPG, adotaremos essa distinção como forma de organização. Ainda que tal separação seja apenas sutilmente sugerida por Oda-sensei, aqui ela servirá para estruturar melhor os estilos de combate. Em termos práticos, dentro do roleplay, essa diferenciação não impõe limitações absolutas. O essencial é que o jogador compreenda a principal fonte de poder por trás do uso de sua katana, seja ela baseada em força ou em destreza.",
-              additional1: "☝️🤓 - Ok, ADM… mas e os danos?",
-              descrip2: "No que diz respeito ao dano, o funcionamento será, em Suma, semelhante entre os estilos, diferenciando-se apenas pela fonte do atributo principal. Caso o espadachim seja do tipo força, este será seu atributo base, caso seja do tipo destreza, o mesmo princípio se aplica.",
-              descrip3: "Em termos práticos, o cálculo parte do valor total do atributo principal, somado a 50% do atributo secundário.",
-              descrip4: "Tomemos como base a seguinte ficha:",
+              name: "Dano por Combate — Porradeiros",
+              description: "Porradeiros utilizarão principalmente a Força como fonte de dano físico, enquanto a Destreza auxiliará na execução e aplicação dos golpes.",
+              descrip1: "Ataque Comum:",
+              details1: [
+                "Força + 50% da Destreza + contribuição do Haki."
+              ],
+              descrip2: "Técnica Ofensiva:",
+              details2: [
+                "Dano Técnico + até 2 Fontes Numéricas Adicionais."
+              ],
+              descrip3: "Exemplo:",
+              details3: [
+                "Técnica + Força + Haki."
+              ],
+              descrip4: "Os 50% da Destreza utilizados nos ataques comuns não serão adicionados automaticamente quando uma Técnica Ofensiva estiver sendo utilizada.",
+              additional4: "OBS - Caso determinada Técnica possua funcionamento baseado em outro atributo, isso deverá estar previsto em sua descrição."
+            },
+            {
+              name: "ESPADACHINS",
+              description: "Espadachins poderão possuir especialização predominante em Força ou Destreza.",
+              descrip1: "Ataque Comum — Força:",
+              details1: [
+                "Força + 50% da Destreza + Dano Base da Arma + contribuição do Haki."
+              ],
+              descrip2: "Ataque Comum — Destreza:",
+              details2: [
+                "Destreza + 50% da Força + Dano Base da Arma + contribuição do Haki."
+              ],
+              descrip3: "Técnica Ofensiva:",
+              details3: [
+                "Dano Técnico + até 2 Fontes Numéricas Adicionais."
+              ],
+              descrip4: "Exemplos:",
               details4: [
-                "Força: 10.000",
-                "Velocidade: 10.000",
-                "Resistência: 10.000",
-                "Destreza: 10.000",
-                "Busoshoku: 10.000",
+                "Técnica + Força + Espada.",
+                "Técnica + Destreza + Espada.",
+                "Técnica + Força + Haki.",
+                "Técnica + Espada + Haki."
               ],
-              descrip5: "O cálculo se dará da seguinte forma:",
-              details5: [
-                "10.000 (atributo principal: força ou destreza)",
-                "5.000 (50% do atributo secundário: destreza ou força) = 15.000"
-              ],
-              descrip6: "A partir desse valor base, seguem-se as demais etapas já estabelecidas no sistema de dano (buffs, Busoshoku e etc.).",
-              details6: [
-                "Dano = Força/Destreza + 50% (Força/Destreza) + Busoshoku (Emissão): 29.000"
-              ],
-              descrip7: "(A base é a mesma dos combatentes, sendo a diferença que, lâminas possuem um valor base maior. )"
+              descrip5: "O Dano Base da arma não será substituído obrigatoriamente pelo Dano Técnico.",
+              descrip6: "Quando utilizado juntamente à Técnica, o Dano Base da arma ocupará uma das duas Fontes Numéricas Adicionais disponíveis.",
+              additional6: "OBS - Efeitos especiais e características próprias de determinadas armas continuarão funcionando conforme suas respectivas descrições. Caso acrescentem diretamente um novo valor numérico ao dano, deverão respeitar as limitações do Sistema de Técnicas."
             },
             {
               name: "Dano por Combate - Atiradores",
-              description: "Os “Atiradores” representam a precisão e a letalidade à distância. Diferente dos porradeiros ou espadachins, o atirador não depende da força bruta, mas sim da sua capacidade de rastreio, percepção e, principalmente, coordenação motora fina. Como exemplos, temos Usopp, Van Augur, Yasopp e Izou. No RPG, o atirador é aquele que domina armas de projéteis (rifles, pistolas, estilingues ou até arcos).",
-              descrip1: "☝️🤓 - ADM, se eu não uso força, meu tiro é fraco?",
-              descrip2: "Negativo, jovem gafanhoto. O dano de um atirador vem da Destreza , que representa a precisão em atingir pontos vitais e a maestria no manuseio da arma. Além disso, a Velocidade aqui não influencia apenas o seu corpo, mas a aceleração e a cadência dos seus disparos. A formulação do dano para atiradores se estabelece da seguinte maneira:",
+              description: "Atiradores utilizarão principalmente a Destreza para determinar a eficiência e potência de seus disparos, enquanto a Velocidade contribuirá para sua execução.",
+              descrip1: "Ataque Comum:",
+              details1: [
+                "Destreza + 50% da Velocidade + contribuição do Haki."
+              ],
+              descrip2: "Técnica Ofensiva:",
               details2: [
-                "Dano = Destreza + 50% da velocidade + Busoshoku(podem imbuir balas com koka)"
+                "Dano Técnico + até 2 Fontes Numéricas Adicionais."
               ],
-              descrip3: "Alcance e Velocidade do Projétil",
+              descrip3: "Exemplos:",
               details3: [
-                "Diferente das outras classes, o atirador precisa calcular o quão longe seu projétil chega e quão difícil é para o inimigo desviar.O alcance é determinado pela sua Destreza,sua capacidade de compensar o vento e a gravidade) somada à qualidade da sua arma."
+                "Técnica + Destreza + Haki.",
+                "Técnica + Destreza + 50% da Velocidade."
               ],
-              descrip4: "Cálculo de Alcance (em metros):",
-              details4: [
-                "Destreza ÷ 10",
-                "Exemplo: Com 1.000 de Destreza, seu alcance efetivo é de 100 metros",
-                "Nota: Armas de precisão (Snipers) podem dobrar esse valor narrativamente."
-              ],
-              descrip5: "Velocidade do Tiro:",
-              details5: [
-                "[Para fins de esquiva do oponente, a velocidade do projétil é superior à velocidade do corpo do atirador]",
-                "Velocidade do Projétil: Velocidade do atirador + 50% da destreza"
-              ],
-              descrip6: "Regras Adicionais para Atiradores:",
-              details6: [
-                "Ponto Vital (Crítico):* Se o atirador narrar uma mira perfeita em um ponto vital (olho, coração, articulação) e o oponente falhar na esquiva/defesa, o dano da Destreza no cálculo base aumenta em 50%(ou seja se possui 10.000 de destreza com buffs,no calculo de dano usaria 15.000) representando a letalidade do acerto.",
-                "Recuo: Atiradores com Força(força ganha por buso nao conta) muito baixa (menos de 30% da Destreza) sofrem um debuff de -10% em Velocidade após dispararem armas pesadas, devido ao coice do armamento.",
-                "Atiradores se limitam a um tiro por cena (por pessoa)por quesito balanceamento ou seja,não pode fuzilar o maluco de tiro ja que as armas de OP todas sao de tiro unico"
-              ],
-              descrip7: "[Sobre classes]:",
-              details7: [
-                "BAKA SOMBRIA:buff 1.2x buso",
-                "MIRA PERFEITA:1.2x ken",
-                "ATIRADOR MESTRE:buff de 50% no alcance",
-                "ARSENAL BELICO:buff de 10% dano final em armas de larga escala belica como bazucas e etc",
-                "EXTRA:atiradores nao podem usar raids suits"
+              descrip4: "Destreza + 50% da Velocidade + Haki não serão adicionados simultaneamente ao Dano Técnico.",
+              descrip5: "Projéteis poderão ser revestidos normalmente através do Koka.",
+              descrip6: "A utilização de Emissão ou Destruição Interna através de projéteis dependerá de Técnica, arma ou efeito que permita expressamente essa aplicação.",
+              subitems: [
+                {
+                  name: "Alcance"
+                }
               ]
+              descrip7: "[Alcance]",
+              descrip8: "A Destreza será utilizada como referência para determinar o alcance eficiente de ataques realizados por Atiradores.",
+              descrip9: "Fórmula:",
+              details9: [
+                "Destreza ÷ 100 = alcance base em metros."
+              ],
+              descrip10: "Exemplos:",
+              details10: [
+                "10.000 de Destreza = 100 metros.",
+                "30.000 de Destreza = 300 metros.",
+                "50.000 de Destreza = 500 metros.",
+                "100.000 de Destreza = 1.000 metros."
+              ],
+              additional10: "OBS - Características da arma, Técnicas, equipamentos ou especializações próprias poderão modificar esse alcance."
             },
             {
               name: "Health Points — HP (Física Aplicada)",
