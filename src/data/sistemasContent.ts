@@ -1348,7 +1348,19 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
         },
         {
           name: "➝ Categoria — Física Aplicada",
-          description: "No contexto do RPG, a \"Física Aplicada\" refere-se à forma como atributos, buffs e porcentagens se manifestam na prática dentro de uma cena, seja em combate ou em situações cotidianas. Trata-se, portanto, da funcionalidade, usabilidade e aplicação direta desses elementos na narrativa.",
+          description: "A Física Aplicada será responsável por estabelecer as principais fórmulas utilizadas durante combates, determinando a relação entre atributos, dano, armas, Haki, Resistência e demais características físicas dos personagens.",
+          details: [
+            "Fontes de Dano",
+            "Porradeiros",
+            "Espadachins",
+            "Atiradores",
+            "Busoshoku no Dano",
+            "Crítico e Super Crítico",
+            "Resistência e HP",
+            "Condições Físicas",
+            "Hit Kill",
+            "Observações Gerais"
+          ],
           subitems: [
             {
               name: "Dano por Combate — Porradeiros",
