@@ -912,6 +912,113 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           descrip7: "Mesmo conhecendo uma ação antecipadamente, o personagem ainda dependerá de sua Percepção, Velocidade e demais condições da batalha para conseguir reagir adequadamente."
         },
         {
+          name: "Intenção e Previsão",
+          descrip1: "KENBUNSHOKU — INTENÇÃO",
+          descrip2: "Usuários que possuírem o estágio de Intenção receberão:",
+          details2: [
+            "Percepção = 70% da Velocidade + 20% do Kenbunshoku efetivo"
+          ],
+          descrip3: "KENBUNSHOKU — PREVISÃO",
+          descrip4: "Usuários capazes de utilizar Previsão receberão:",
+          details4: [
+            "Percepção = 70% da Velocidade + 40% do Kenbunshoku efetivo"
+          ],
+          descrip5: "Os valores de Intenção e Previsão não serão acumulados.",
+          descrip6: "Portanto:",
+          details6: [
+            "Intenção = +20% Ken",
+            "Previsão = +40% Ken"
+          ],
+          descrip7: "Um usuário de Previsão não receberá +60%."
+        },
+        {
+          name: "Kenbunshoku + Velocidade",
+          description: "O Kenbunshoku permite ao personagem perceber, interpretar e até antecipar movimentos. Contudo, visualizar um ataque não significa possuir automaticamente capacidade física para evitá-lo. Por esse motivo, existirá uma relação obrigatória entre Kenbunshoku e Velocidade para fins de reação.",
+          descrip1: "Para utilizar integralmente o Kenbunshoku no cálculo de Percepção, o personagem deverá possuir:",
+          details1: [
+            "Velocidade equivalente a, no mínimo, 50% do valor de Kenbunshoku."
+          ],
+          descrip2: "Exemplo:",
+          details2: [
+            "Kenbunshoku: 20.000",
+            "Velocidade mínima necessária: 10.000"
+          ],
+          descrip3: "Caso a Velocidade seja inferior a essa proporção, o personagem não perderá seus pontos de Kenbunshoku. Entretanto, apenas parte deles poderá contribuir para sua capacidade de reação.",
+          descrip4: "A relação será:",
+          details4: [
+            "Kenbunshoku efetivo para reação = Velocidade × 2"
+          ],
+          descrip5: "Exemplo:",
+          details5: [
+            "Kenbunshoku total: 30.000",
+            "Velocidade: 10.000",
+            "Velocidade necessária para utilizar integralmente o Ken: 15.000"
+          ],
+          descrip6: "Como o personagem possui apenas 10.000:",
+          details6: [
+            "10.000 × 2 = 20.000"
+          ],
+          descrip7: "Portanto:",
+          details7: [
+            "Ken total = 30.000",
+            "Ken efetivo para Percepção = 20.000"
+          ],
+          descrip8: "Os outros 10.000 pontos continuam existindo normalmente.",
+          descrip9: "Eles ainda poderão ser utilizados para:",
+          details9: [
+            "Requisitos de habilidades",
+            "Alcance sensorial",
+            "Quantidade de segundos da Previsão",
+            "Demais propriedades do Kenbunshoku"
+          ],
+          descrip10: "Entretanto, não aumentarão sua capacidade física de reação.",
+          descrip11: "Em síntese:",
+          details11: [
+            "O Kenbunshoku determina aquilo que o personagem consegue perceber ou antecipar. A Velocidade determina o quanto seu corpo é capaz de acompanhar aquilo que foi percebido.",
+            "Perceber um ataque não significa automaticamente possuir Velocidade suficiente para evitá-lo."
+          ]
+        },
+        {
+          name: "Percepção + Velocidade",
+          description: "Durante um combate, a Velocidade utilizada em uma ação será comparada diretamente à Percepção do personagem que precisa reagir. Uma Velocidade superior à Percepção adversária representa uma vantagem na execução daquela ação, porém não significa automaticamente que o alvo seja incapaz de reagir.",
+          descrip1: "Enquanto a diferença permanecer abaixo do limite de Speed Blitz, o resultado da interação poderá depender também de fatores como:",
+          details1: [
+            "Distância entre os personagens",
+            "Posicionamento",
+            "Direção do ataque",
+            "Antecipação da ação",
+            "Kenbunshoku",
+            "Técnicas utilizadas",
+            "Condições físicas dos envolvidos",
+            "Contexto narrativo da cena"
+          ],
+          descrip2: "Dessa forma, não haverá uma tabela fixa de porcentagens para determinar vantagens intermediárias. A única diferença percentual que gera uma consequência automática será aquela necessária para configurar o Speed Blitz."
+        },
+        {
+          name: "Speed Blitz",
+          description: "O Speed Blitz ocorre quando a Velocidade utilizada em uma ação supera de maneira extrema a Percepção do adversário, tornando impossível que este acompanhe adequadamente o movimento. Para ocorrer um Speed Blitz, a Velocidade deverá ser 120% superior à Percepção do alvo.",
+          descrip1: "A fórmula será:",
+          details1: [
+            "Speed Blitz = Velocidade ≥ Percepção + 120% da Percepção"
+          ],
+          descrip2: "Ou:",
+          details2: [
+            "Speed Blitz = 220% da Percepção do adversário"
+          ],
+          descrip3: "Exemplo:",
+          details3: [
+            "Percepção do alvo: 10.000",
+            "120% de 10.000 = 12.000",
+            "10.000 + 12.000 = 22.000"
+          ],
+          descrip4: "Portanto:",
+          details4: [
+            "22.000 Velocidade contra 10.000 Percepção = Speed Blitz"
+          ],
+          descrip5: "O Speed Blitz representa a incapacidade do alvo de acompanhar e reagir adequadamente àquela determinada ação. Entretanto, isso não significa necessariamente derrota automática. Habilidades defensivas previamente estabelecidas, características passivas, proteções automáticas ou outras condições válidas ainda poderão interferir no resultado final.",
+          descrip6: "Da mesma forma, o Speed Blitz não significa que o personagem mais veloz possua superioridade absoluta em todos os aspectos do combate; sua aplicação refere-se especificamente à capacidade do adversário de acompanhar e reagir à ação executada naquele momento."
+        }
+        {
           name: "🜙ᭂ◈ Haoshoku Haki",
           description: "O Haoshoku Haki é uma forma rara e majestosa de Haki que permite ao usuário impor sua vontade sobre os outros. Diferente do Busoshoku e do Kenbunshoku, este poder não pode ser obtido por treino — é um dom inato, reservado a um em vários milhões. Aqueles que o despertam são conhecidos como Conquistadores, indivíduos destinados a liderar, dominar ou inspirar multidões. Entre os mais temidos portadores estão figuras como Gol D. Roger, Shanks, Kaido, Big Mom e Monkey D. Luffy. De acordo com Marigold e Trebol, o Haoshoku é a prova viva de uma alma nascida para governar — um espírito que se ergue acima do comum, impulsionado por uma ambição inquebrantável. Os usuários exercem o poder da dominação espiritual: subjugam multidões, desmaiam inimigos de vontade fraca ou afetam o ambiente físico com pura pressão espiritual. Sua força é diretamente proporcional à diferença de poder entre as vontades envolvidas.",
           subitems: [
