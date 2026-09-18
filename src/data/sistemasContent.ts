@@ -838,9 +838,6 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Necessita contato físico ou estar dentro do alcance da Emissão",
             "Possui 50% de Penetração"
           ],
-          descrip1: "A Destruição Interna é uma evolução da Emissão capaz de fazer o Haki penetrar as defesas externas de um alvo e atingir seu interior.",
-          descrip2: "Entretanto, essa capacidade não ignora completamente a defesa adversária.",
-          descrip3: "Ataques utilizando Destruição Interna possuem 50% de Penetração, permitindo atravessar parcialmente Resistência, Haki e outras formas de proteção.",
           subitems: [
             { name: "🔗 Referência", description: "https://onepiece.fandom.com/pt/wiki/Haki/Haki_do_Armamento" }
           ]
