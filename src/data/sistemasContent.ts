@@ -1456,11 +1456,12 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               descrip6: "A utilização de Emissão ou Destruição Interna através de projéteis dependerá de Técnica, arma ou efeito que permita expressamente essa aplicação.",
               subitems: [
                 {
-                  name: "Alcance"
+                  name: "Alcance",
+                  description: "A Destreza será utilizada como referência para determinar o alcance eficiente de ataques realizados por Atiradores."
                 }
               ],
               descrip7: "[Alcance]",
-              descrip8: "A Destreza será utilizada como referência para determinar o alcance eficiente de ataques realizados por Atiradores.",
+              descrip8: "",
               descrip9: "Fórmula:",
               details9: [
                 "Destreza ÷ 100 = alcance base em metros."
