@@ -1410,7 +1410,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               additional4: "OBS - Caso determinada Técnica possua funcionamento baseado em outro atributo, isso deverá estar previsto em sua descrição."
             },
             {
-              name: "ESPADACHINS",
+              name: "Dano por Combate — Espadachins",
               description: "Espadachins poderão possuir especialização predominante em Força ou Destreza.",
               descrip1: "Ataque Comum — Força:",
               details1: [
@@ -1470,6 +1470,18 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                     "100.000 de Destreza = 1.000 metros."
                   ],
                   additional2: "OBS - Características da arma, Técnicas, equipamentos ou especializações próprias poderão modificar esse alcance."
+                },
+                {
+                  name: "Recuo",
+                  description: "Armas de grande potência poderão exigir determinada capacidade física para suportar adequadamente seu recuo.",
+                  descrip1: "Quando aplicável, será necessário possuir Força bruta equivalente a pelo menos 30% da Destreza utilizada.",
+                  descrip2: "Exemplo:",
+                  details2: [
+                    "50.000 de Destreza.",
+                    "15.000 de Força necessária."
+                  ],
+                  descrip3: "Caso o requisito não seja cumprido, o personagem sofrerá uma redução de 10% em sua Velocidade após efetuar o disparo.",
+                  additional3: "OBS - Busoshoku e aumentos temporários não serão considerados para cumprir esse requisito."
                 }
               ]
             },
