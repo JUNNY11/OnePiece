@@ -1360,7 +1360,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Condições Físicas",
             "Hit Kill",
             "Observações Gerais"
-          ]
+          ],
           subitems: [
             {
               name: "Fontes de Dano",
