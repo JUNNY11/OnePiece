@@ -1479,6 +1479,37 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               ]
             },
             {
+              name: "Busoshoku no Dano",
+              description: "O Busoshoku não adicionará integralmente seu valor ao dano.",
+              descrip1: "Sua contribuição dependerá do estágio utilizado.",
+              details1: [
+                "[Koka]:",
+                "+40% do Busoshoku.",
+                "[Emissão]:"~,
+                "+60% do Busoshoku.",
+                "[Destruição Interna]:",
+                "+80% do Busoshoku."
+              ],
+              descrip2: "Exemplo:",
+              details2: [
+                "10.000 de Busoshoku utilizando Koka.",
+                "Contribuição ofensiva: 4.000."
+              ],
+              descrip3: "Quando utilizado em uma Técnica Ofensiva, o Haki ocupará uma das duas Fontes Numéricas Adicionais permitidas.",
+              additional3: "OBS - Os valores representam apenas a porcentagem correspondente do Busoshoku, e não o Busoshoku integral acrescido dessa porcentagem."
+            },
+            {
+              name: "CRÍTICO E SUPER CRÍTICO",
+              description: "Crítico e Super Crítico seguirão diretamente as regras estabelecidas pelo Sistema Geral de Escalonamento de Técnicas.",
+              descrip1: "Seus multiplicadores serão aplicados exclusivamente sobre o Dano Técnico.",
+              descrip2: "Fórmula:",
+              details2: [
+                "Dano Final = (Dano Técnico × Multiplicador Crítico) + Fontes Numéricas Adicionais."
+              ],
+              descrip3: "Força, Destreza, Haki, armas e demais Fontes Numéricas Adicionais não serão multiplicadas pelo Crítico.",
+              descrip4: "Caso dois multiplicadores críticos sejam aplicáveis simultaneamente, será utilizado apenas o maior."
+            },
+            {
               name: "Health Points — HP (Física Aplicada)",
               description: "Esta seção é destinada à abordagem dos pontos de vida de um personagem, ou seja, a quantidade de dano que ele é capaz de suportar antes de sucumbir em combate. Em suma, trata-se de um sistema simples. Para isso, serão estabelecidas faixas representadas por porcentagens, as quais indicarão o estado físico do personagem e sua condição geral após receber determinado nível de dano.",
               additional: "Classificação de Dano em relação ao HP:",
