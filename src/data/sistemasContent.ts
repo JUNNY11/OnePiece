@@ -1485,7 +1485,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               details1: [
                 "[Koka]:",
                 "+40% do Busoshoku.",
-                "[Emissão]:"~,
+                "[Emissão]:",
                 "+60% do Busoshoku.",
                 "[Destruição Interna]:",
                 "+80% do Busoshoku."
