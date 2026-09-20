@@ -1544,7 +1544,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "[100%]:",
                 "Derrota ou incapacitação."
               ],
-              additional: "OBS - As penalidades não serão acumulativas. A faixa atual substituirá as anteriores."
+              additional1: "OBS - As penalidades não serão acumulativas. A faixa atual substituirá as anteriores."
             }
           ]
         },
