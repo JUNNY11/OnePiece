@@ -1545,6 +1545,29 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
                 "Derrota ou incapacitação."
               ],
               additional1: "OBS - As penalidades não serão acumulativas. A faixa atual substituirá as anteriores."
+            },
+            {
+              name: "HIT KILL",
+              description: "A perda de 100% do HP através do acúmulo de diferentes ataques resultará normalmente na derrota ou incapacitação.",
+              descrip1: "Caso um único ataque cause dano equivalente ou superior a 101% do HP máximo do alvo após as defesas aplicáveis, será considerado Hit Kill.",
+              descrip2: "Exemplo:",
+              details2: [
+                "HP Máximo: 100.000.",
+                "101.000 ou mais de dano efetivamente recebido em um único ataque = Hit Kill."
+              ]
+            },
+            {
+              name: "Observações Gerais",
+              details: [
+                "O Sistema Geral de Escalonamento de Técnicas possuirá prioridade sempre que uma Técnica Ofensiva estiver sendo utilizada.",
+                "As fórmulas completas de ataques comuns não serão automaticamente transferidas para Técnicas.",
+                "Toda Técnica Ofensiva possuirá seu Dano Técnico e poderá receber no máximo duas Fontes Numéricas Adicionais.",
+                "Conceitos como Cortante, Perfurante, Esmagador, Elemental, Espiritual ou Interno não constituem Fontes Numéricas de Dano.",
+                "Esses conceitos modificarão a natureza e as interações do ataque, mas não acrescentarão números por si próprios.",
+                "Não existirá uma proporção universal considerada ideal entre dano e HP.",
+                "Builds poderão priorizar ataque, defesa ou equilíbrio conforme a distribuição dos Pontos de Atributo.",
+                "Diferenças elevadas entre dano e HP não representarão automaticamente desequilíbrio, devendo ser analisados os investimentos e sacrifícios realizados para alcançar determinado resultado."
+              ]
             }
           ]
         },
