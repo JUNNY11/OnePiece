@@ -1510,52 +1510,41 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               descrip4: "Caso dois multiplicadores críticos sejam aplicáveis simultaneamente, será utilizado apenas o maior."
             },
             {
-              name: "Health Points — HP (Física Aplicada)",
-              description: "Esta seção é destinada à abordagem dos pontos de vida de um personagem, ou seja, a quantidade de dano que ele é capaz de suportar antes de sucumbir em combate. Em suma, trata-se de um sistema simples. Para isso, serão estabelecidas faixas representadas por porcentagens, as quais indicarão o estado físico do personagem e sua condição geral após receber determinado nível de dano.",
-              additional: "Classificação de Dano em relação ao HP:",
-              details: [
-                "Inferior a 30% do HP — Escoriações Leves / Fadiga inexistente / Debuff: -5% (Força/Speed)",
-                "Entre 30% e 50% do HP — Escoriações Leve > Moderada / Fadiga Leve > Moderada / Debuff: -20% (For/Velo/Dest)",
-                "Entre 50% e 70% do HP — Escoriações Moderadas+ > Graves+ / Fadiga Moderada+ > Pesada / Debuff: -35% (For/Velo/Dest)",
-                "Igual ou superior a 100% do HP — Escoriações Mortais+ (Hit Kill) / Fadiga (Óbito Imediato)",
+              name: "RESISTÊNCIA E HP",
+              description: "A Resistência determinará diretamente a quantidade máxima de HP do personagem.",
+              descrip1: "Fórmula:",
+              details1: [
+                "HP = Resistência ×5."
               ],
-              descrip1: "O sistema organiza a forma como o dano impacta um personagem em combate, considerando que, ao sofrer danos elevados, sua capacidade de luta é naturalmente comprometida, resultando na aplicação de debuffs em seus atributos. Tais penalidades serão dadas pelo narrador, sendo este indispensável em combates de maior relevância.",
-              additional2: "Abaixo, segue o exemplo e exposição matemática dos cálculos:",
+              descrip2: "Exemplos:",
               details2: [
-                "Personagem A",
-                "Resistência: 1.000",
-                "HP: 8.000"
+                "10.000 de Resistência = 50.000 HP.",
+                "50.000 de Resistência = 250.000 HP.",
+                "100.000 de Resistência = 500.000 HP."
               ],
-              details3: [
-                "Personagem B",
-                "Força: 1.000",
-                "Velocidade: 1.000",
-                "Destreza: 1.000",
-                "Busoshoku: 1.000",
+              descrip3: "Todo dano recebido será acumulado sobre o HP.",
+              additional3: "OBS - Aumentos temporários de Resistência não aumentarão automaticamente o HP máximo.",
+              descrip4: "Uma habilidade somente aumentará também o HP quando isso estiver expressamente previsto em sua descrição."
+            },
+            {
+              name: "CONDIÇÕES FÍSICAS",
+              details: [
+                "[Menos de 30% do HP perdido]:",
+                "Ferimentos leves.",
+                "-5% em Força e Velocidade.",
+                "[30% a 49%]:",
+                "Ferimentos moderados.",
+                "-20% em Força, Velocidade e Destreza.",
+                "[50% a 69%]:",
+                "Ferimentos graves.",
+                "35% em Força, Velocidade e Destreza.",
+                "[70% a 99%]:",
+                "Estado crítico.",
+                "-50% em Força, Velocidade e Destreza.",
+                "[100%]:",
+                "Derrota ou incapacitação."
               ],
-              additional3: "Cálculo do dano (Personagem B → A):",
-              details4: [
-                "1. Força + 50% Destreza → 1.000 + 500 = 1.500",
-                "2. 2. Adição da Velocidade (30%) → 1.500 + 300 = 1.800",
-                "3. 3. Adição do Busoshoku (40%) → 1.800 + 400 = 2.200",
-              ],
-              descrip2: "Cálculo da porcentagem de dano em relação ao HP:",
-              additional4: "Fórmula: (Dano ÷ HP total) × 100",
-              details5: [
-                "(2.200 ÷ 8.000) × 100",
-                "0,275 × 100",
-                "27,5%",
-              ],
-              additional5: "Resultado:",
-              descrip3: "_O dano causado foi de 27,5% do HP total do Personagem A.",
-              descrip4:"De acordo com a tabela previamente estabelecida:",
-              details6: [
-                "Enquadra-se em dano inferior a 30%",
-                "Escoriações leves",
-                "Fadiga praticamente inexistente",
-                "Debuff: -5% nos atributos"
-              ],
-              descrip5: "Quando em confronto com um personagem de elevada capacidade, sua resistência, e, consequentemente, seu HP, será naturalmente superior, tornando inviável eliminá-lo com um único golpe em condições normais. Contudo, os danos aplicados são cumulativos, assim como os debuffs decorrentes deles. Isso significa que, ao causar, por exemplo, 30.000 de dano em um personagem com 50.000 de HP, ele não será derrotado de imediato, mas permanecerá significativamente debilitado. A aplicação de um novo golpe de mesmo valor será suficiente para levá-lo à derrota, salvo nos casos em que o alvo possua técnicas ou Akuma no Mi capazes de restaurar ou sustentar sua condição física. Em síntese, a lógica central do sistema permanece inalterada, é necessário causar um dano equivalente a 101% ou mais do HP total para garantir a eliminação em um único golpe. A inovação reside na introdução de condições residuais, isto é, os efeitos acumulativos e penalidades adquiridas após cada impacto recebido, o que confere maior organização, progressão e realismo ao sistema de combate dentro do RPG."
+              additional: "OBS - As penalidades não serão acumulativas. A faixa atual substituirá as anteriores."
             }
           ]
         },
