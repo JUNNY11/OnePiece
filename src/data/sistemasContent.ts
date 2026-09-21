@@ -1035,7 +1035,135 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           subitems: [
             {
               name: "FORÇA ESPIRITUAL",
-              description: "O Haoshoku será desenvolvido através de uma porcentagem de domínio que poderá variar até 100%."
+              description: "O Haoshoku será desenvolvido através de uma porcentagem de domínio que poderá variar até 100%.",
+              descrip1: "O valor numérico utilizado nas comparações de vontade será chamado de Força Espiritual do Haoshoku.",
+              details1: [
+                "[Fórmula]:",
+                "Haki Geral × Domínio do Haoshoku = Força Espiritual.",
+                "[Exemplo]:",
+                "100.000 de Haki Geral.",
+                "60% de Haoshoku.",
+                "60.000 de Força Espiritual."
+              ],
+              descrip2: "Multiplicadores permanentes de Haki serão considerados antes do cálculo do Haoshoku.",
+              additional2: "OBS - Buffs temporários de Haki não aumentarão temporariamente a porcentagem de domínio do Haoshoku."
+            },
+            {
+              name: "INCAPACITAÇÃO",
+              description: "Ao liberar sua vontade diretamente sobre os indivíduos ao redor, o usuário poderá intimidar, enfraquecer ou incapacitar aqueles cuja força espiritual seja significativamente inferior à sua.",
+              details: [
+                "[Requisito]:",
+                "40% de Haoshoku.",
+                "[Enfraquecimento]:",
+                "Caso a Força Espiritual do Haoshoku seja pelo menos 25% superior ao Haki Geral do adversário, este sofrerá:",
+                "-25% em Força, Velocidade e Destreza.",
+                "Duração: 1 turno.",
+                "[Incapacitação]:",
+                "Caso a Força Espiritual do Haoshoku seja equivalente ao dobro ou mais do Haki Geral do adversário, o alvo poderá ser imediatamente incapacitado."
+              ],
+              additional1: "OBS¹ - Contra personagens ou NPCs sem Haki desenvolvido, a Administração ou Narrador poderá considerar diretamente a diferença de poder e importância narrativa.",
+              additional2: "OBS² - A Incapacitação não deverá ser tratada como uma ferramenta automática contra personagens de poder semelhante."
+            },
+            {
+              name: "PRESSÃO DO REI",
+              description: "Ao alcançar maior domínio sobre sua vontade, o Haoshoku deixa de afetar somente seres vivos e passa a exercer pressão sobre o próprio ambiente. Estruturas poderão estremecer, objetos poderão ser danificados e colisões entre dois usuários poderão produzir as características descargas espirituais conhecidas como “raios negros”.",
+              details: [
+                "[Requisitos]:",
+                "50% de Haoshoku.",
+                "Nível 55.",
+                "Mestre em Haki: Nível 50."
+              ],
+              descrip1: "Rank: B.",
+              descrip2: "A Pressão possui caráter principalmente espiritual e ambiental, não adicionando automaticamente uma nova Fonte Numérica de dano."
+            },
+            {
+              name: "INFUSÃO DO REI",
+              description: "A Infusão representa a capacidade de canalizar Haoshoku diretamente através do corpo ou de uma arma, revestindo ataques com a vontade do próprio usuário. Essa capacidade poderá ser combinada ao Busoshoku, formando uma única manifestação espiritual durante o ataque.",
+              details: [
+                "[Requisitos]:",
+                "60% de Haoshoku.",
+                "Nível 75.",
+                "Mestre em Haki: Nível 70.",
+                "Possuir Emissão e Destruição Interna."
+              ],
+              descrip1: "Rank: A.",
+              details1: [
+                "[Ataques com Infusão]:",
+                "A contribuição normal do Busoshoku será mantida conforme o estágio utilizado.",
+                "A ela poderá ser acrescentado até 80% da Força Espiritual do Haoshoku.",
+                "[Exemplo]:",
+                "Contribuição do Busoshoku + 80% do Haoshoku."
+              ],
+              descrip2: "Busoshoku e Haoshoku utilizados através da Infusão serão considerados conjuntamente como uma única Fonte Numérica de Haki.",
+              additional2: "OBS - A Infusão não permitirá ultrapassar o limite estabelecido pela Física Aplicada de Dano Técnico + até duas Fontes Numéricas Adicionais."
+            },
+            {
+              name: "ASSASSINATO DA OBSERVAÇÃO",
+              description: "Técnica extremamente avançada de Haoshoku capaz de suprimir a presença espiritual do próprio usuário e interferir diretamente na capacidade sensorial de seus adversários. Ao ser aplicada com sucesso, o alvo perde temporariamente sua capacidade de utilizar Kenbunshoku contra aquele usuário.",
+              details: [
+                "[Requisitos]:",
+                "80% de Haoshoku.",
+                "Nível 85.",
+                "Mestre em Haki: Nível 80.",
+                "Possuir Visão do Futuro."
+              ],
+              descrip1: "Rank: S.",
+              details1: [
+                "[Condição de Aplicação]:",
+                "A Força Espiritual do Haoshoku deverá ser pelo menos 50% superior ao Haki Geral do alvo.",
+                "[Efeito]:",
+                "O adversário não poderá utilizar Kenbunshoku para detectar, acompanhar ou visualizar o futuro relacionado às ações daquele usuário durante 1 turno."
+              ],
+              descrip2: "Após o efeito, a técnica entrará em intervalo de 3 turnos antes de poder ser utilizada novamente sobre o mesmo alvo.",
+              additional2: "OBS - A técnica não remove permanentemente o Kenbunshoku do adversário. Seu efeito representa uma supressão momentânea causada pela superioridade espiritual."
+            },
+            {
+              name: "DESARME ESPIRITUAL",
+              description: "O Desarme Espiritual representa uma manifestação extrema do Haoshoku, na qual o usuário projeta sua vontade contra um portador de Akuma no Mi com intensidade suficiente para desestabilizar temporariamente seu poder.",
+              details: [
+                "[Requisitos]:",
+                "100% de Haoshoku.",
+                "Nível 95.",
+                "Mestre em Haki: Nível 90."
+              ],
+              descrip1: "Rank: S.",
+              details1: [
+                "[Condição de Aplicação]:",
+                "A Força Espiritual do Haoshoku deverá corresponder a pelo menos o dobro do Haki Geral do adversário.",
+                "[Efeito]:",
+                "Usuários transformados serão forçados a retornar à sua condição normal.",
+                "O uso das capacidades provenientes da Akuma no Mi ficará bloqueado durante 1 turno.",
+                "[Recarga]:",
+                "1 utilização a cada 3 turnos."
+              ],
+              additional1: "OBS¹ - A técnica não remove permanentemente os poderes da Akuma no Mi.",
+              additional2: "OBS² - O efeito representa a supressão momentânea do poder através de uma diferença extrema de vontade."
+            },
+            {
+              name: "EVOLUÇÃO DO HAOSHOKU",
+              description: "O Haoshoku será desenvolvido através de acontecimentos relevantes da trajetória do personagem, não podendo ser simplesmente aumentado através de Treinos Solo convencionais.",
+              descrip1: "O domínio poderá ser adquirido ou aumentado através de:",
+              details1: [
+                "Caçadas.",
+                "Dominações.",
+                "Eventos oficiais.",
+                "Outras situações aprovadas pela Administração.",
+                "[Mestres em Haki]:",
+                "Ao despertar o Haoshoku, poderão iniciar com até 15% de domínio.",
+                "[Portadores da Linhagem D.]:",
+                "Ao despertar o Haoshoku, poderão iniciar com até 10% de domínio."
+              ],
+              additional1: "OBS - Os benefícios iniciais de Mestre em Haki e Linhagem D. não serão acumulados. Caso o personagem possua ambos, prevalecerá o maior valor."
+            },
+            {
+              name: "OBSERVAÇÕES GERAIS",
+              description: "O Haoshoku não poderá ser aprendido por treinamento convencional.",
+              descrip1: "Possuir grande quantidade de Haki não significa possuir automaticamente grande domínio de Haoshoku.",
+              descrip2: "O percentual de Haoshoku representa domínio e deverá ser desenvolvido separadamente.",
+              descrip3: "Mestres em Haki continuam recebendo a redução de 5 níveis sobre requisitos de capacidades avançadas.",
+              descrip4: "Bônus de Haki provenientes de Linhagem e Mestre em Haki não serão acumulados.",
+              descrip5: "Efeitos do Haoshoku continuarão sujeitos às regras de Energia Espiritual estabelecidas pelo Sistema de Haki.",
+              descrip6: "Nenhuma capacidade de Haoshoku poderá criar uma terceira Fonte Numérica de dano em uma Técnica."
             }
           ]
         }
