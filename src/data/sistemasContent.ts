@@ -1853,6 +1853,18 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "5 cenas cada — 7.500 XP.",
             "Máximo: 15.000 XP."
           ]
+        },
+        {
+          name: "TOTAL SEMANAL",
+          details: {
+            "Autonarradas: 18.000 XP.",
+            "Treinos Solo: 18.000 XP.",
+            "Treinos em Duo: 18.000 XP.",
+            "Interações Filler: 18.000 XP.",
+            "Interação Canônica: 15.000 XP.",
+            "Total máximo regular: 87.000 XP por semana."
+          },
+          additional: "OBS - O valor permanece propositalmente próximo dos 90.000 XP estabelecidos no Sistema de XP, deixando uma pequena margem para futuras formas regulares de progressão."
         }
       ]
     },
