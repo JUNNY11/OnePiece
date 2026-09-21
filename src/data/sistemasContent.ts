@@ -1806,7 +1806,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
     }
   },
   "Evolução": {
-    "GANHOS DE XP": {
+    "Missões": {
       intro: "Logo abaixo estarão disponíveis aos jogadores as formas acessíveis de progressão do personagem. As opções serão listadas a seguir, acompanhadas de explicações detalhadas sobre cada uma, bem como observações referentes às condições de UP.",
       items: [
         {
