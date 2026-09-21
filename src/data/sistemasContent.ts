@@ -1806,17 +1806,52 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
     }
   },
   "Evolução": {
-    "Missões": {
+    "GANHOS DE XP": {
       intro: "Logo abaixo estarão disponíveis aos jogadores as formas acessíveis de progressão do personagem. As opções serão listadas a seguir, acompanhadas de explicações detalhadas sobre cada uma, bem como observações referentes às condições de UP.",
       items: [
         {
           name: "Missões Autonarradas",
-          description: "Serão conduzidas pelo próprio jogador, que terá liberdade para desenvolver um enredo próprio acerca de um objetivo que deseje realizar. As missões serão devidamente avaliadas, portanto devem ser elaboradas de forma criativa e bem estruturada.",
           details: [
-            "Quantidade: 2 (Semanal)",
-            "Linhas: 25",
-            "Bonificações: 12 LvL (Cada)",
-            "Bonificações: 30.000.000💰"
+            "Quantidade: 2 por semana.",
+            "25 linhas.",
+            "9.000 XP cada.",
+            "Máximo: 18.000 XP."
+          ]
+        },
+        {
+          name: "Treino Solo",
+          details: [
+            "Quantidade: 2 por semana.",
+            "25 linhas.",
+            "9.000 XP cada.",
+            "Máximo: 18.000 XP."
+          ]
+        },
+        {
+          name: "Treino em Duo",
+          details: [
+            "Quantidade: 2 por semana.",
+            "10 cenas de cada participante.",
+            "9.000 XP cada.",
+            "Máximo: 18.000 XP."
+          ]
+        },
+        {
+          name: "Interação Filler",
+          details: [
+            "Quantidade: 2 por semana.",
+            "10 cenas cada — 9.000 XP.",
+            "5 cenas cada — 4.500 XP.",
+            "Máximo: 18.000 XP."
+          ]
+        },
+        {
+          name: "Interação Canônica",
+          details: [
+            "Quantidade: 1 por semana.",
+            "10 cenas cada - 15.000 XP.",
+            "5 cenas cada — 7.500 XP.",
+            "Máximo: 15.000 XP."
           ]
         }
       ]
