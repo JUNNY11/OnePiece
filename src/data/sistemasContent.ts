@@ -1019,59 +1019,23 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           descrip6: "Da mesma forma, o Speed Blitz não significa que o personagem mais veloz possua superioridade absoluta em todos os aspectos do combate; sua aplicação refere-se especificamente à capacidade do adversário de acompanhar e reagir à ação executada naquele momento."
         },
         {
-          name: "🜙ᭂ◈ Haoshoku Haki",
-          description: "O Haoshoku Haki é uma forma rara e majestosa de Haki que permite ao usuário impor sua vontade sobre os outros. Diferente do Busoshoku e do Kenbunshoku, este poder não pode ser obtido por treino — é um dom inato, reservado a um em vários milhões. Aqueles que o despertam são conhecidos como Conquistadores, indivíduos destinados a liderar, dominar ou inspirar multidões. Entre os mais temidos portadores estão figuras como Gol D. Roger, Shanks, Kaido, Big Mom e Monkey D. Luffy. De acordo com Marigold e Trebol, o Haoshoku é a prova viva de uma alma nascida para governar — um espírito que se ergue acima do comum, impulsionado por uma ambição inquebrantável. Os usuários exercem o poder da dominação espiritual: subjugam multidões, desmaiam inimigos de vontade fraca ou afetam o ambiente físico com pura pressão espiritual. Sua força é diretamente proporcional à diferença de poder entre as vontades envolvidas.",
+          name: "HAOSHOKU HAKI",
+          description: "O Haoshoku Haki é uma manifestação extremamente rara da vontade, permitindo que seu portador imponha sua presença espiritual sobre outros indivíduos.",
+          descrip1: "Diferentemente do Busoshoku e do Kenbunshoku, o Haoshoku não poderá ser adquirido simplesmente através de treinamento. Trata-se de uma capacidade inata que deverá ser despertada pelo personagem.",
+          descrip2: "Quanto maior for o domínio alcançado, maior será a capacidade do usuário de subjugar vontades, interferir fisicamente no ambiente e canalizar sua própria presença espiritual durante o combate.",
+          details2: [
+            "Força Espiritual",
+            "Incapacitação",
+            "Pressão",
+            "Infusão do Rei",
+            "Assassinato da Observação",
+            "Desarme Espiritual",
+            "Evolução do Haoshoku"
+          ],
           subitems: [
             {
-              name: "📊 Cálculo de Poder (Força Espiritual)",
-              description: "O nível de poder do seu Hao é determinado pela força acumulada de suas outras capacidades espirituais, sendo o espírito total."
-            },
-            {
-              name: "🜙ᭂ◈ ❖ Técnica Básica: Incapacitação",
-              description: "Ao elevar a intensidade da própria vontade, o usuário é capaz de nocautear inimigos em massa. Indivíduos de espírito fraco desmaiam instantaneamente; os mais resistentes podem cambalear, suar frio ou perder a concentração. Em grandes proporções, pode varrer exércitos inteiros, incapacitando centenas. O uso excessivo esgota rapidamente a energia espiritual.",
-              details: [
-                "📜 Requisitos: 40% Hao, dobro de Lvl para desmaiar",
-                "Caso tenha diferença de 25% em diante, enfraquece dando debuff nos ATBs físicos de 25%"
-              ]
-            },
-            {
-              name: "🜙ᭂ◈ ❖ Técnica Avançada: Pressão",
-              description: "Ao atingir um nível elevado de controle, o Haoshoku Haki começa a afetar o ambiente físico. Objetos inanimados se racham, estruturas estremecem e o ar ao redor se distorce sob o peso da vontade do usuário. Quando dois usuários colidem seus Hakis do Rei, o impacto cria 'raios negros' — descargas de energia espiritual pura.",
-              details: ["📜 Requisitos: 50% Hao"]
-            },
-            {
-              name: "🜙ᭂ◈ ❖ Técnica Avançada: Infusão",
-              description: "A Infusão é o auge do Haoshoku em combate. Pouquíssimos canalizam o poder do Rei em ataques físicos, revestindo corpo e armas com energia espiritual dominadora. Combina Haoshoku com Busoshoku, criando força ofensiva que transcende o limite físico.",
-              details: [
-                "📜 Requisitos: 60% Hao, Lvl 900 (700 Mestre) e os 2 armamentos avançados",
-                "Soma 50% do Haoshoku ao Buso no uso do Fullbody",
-                "Soco com infusão do Rei soma 80% do Hao no dano final de forma sobressalente",
-                "Caso seja especializado no Buso, soma 100%"
-              ]
-            },
-            {
-              name: "🜙ᭂ◈ ❖ Técnica Avançada: Assassinato de Observação",
-              description: "Técnica secreta dominada por Shanks. Permite ao usuário ocultar completamente sua presença espiritual, anulando o Kenbunshoku Haki de oponentes e impedindo que eles prevejam o futuro. Cria um campo de imprevisibilidade absoluta.",
-              details: [
-                "📜 Requisitos: 80% Hao, Lvl 1.000 (800 Mestre) e Previsão",
-                "Atributo Hao superior ao espírito geral do inimigo em 50% para funcionar",
-                "Sendo especializado em Ken, recebe +20% no Hao para matar o Ken do inimigo"
-              ]
-            },
-            {
-              name: "❖ Técnica Avançada: Desarme Espiritual",
-              description: "Esta técnica permite que o usuário projete uma descarga massiva de Haoshoku Haki a longas distâncias, focando especificamente em anular a forma transformada de um usuário de Akuma no Mi, desarmando seus poderes. Ao ser atingido pela 'onda de choque', o usuário (especialmente Zoans, Logias, Paramecias Especiais) é forçado a retornar à sua forma humana original e fica intimidado, com o poder de sua Akuma desarmado. Fica impossibilitado de usar os poderes da fruta por 1 turno (ou enquanto a pressão for mantida narrativamente). A pressão pode ser emitida uma vez a cada 3 turnos.",
-              details: [
-                "Hao precisa ser o dobro do ATB total do inimigo para aplicar",
-                "📜 Requer 100% Haoshoku, Lvl 1.200 (1.000 para Mestres)"
-              ]
-            },
-            {
-              name: "📜 Regras de Evolução e Linhagem",
-              details: [
-                "Mestres Haki iniciam com 15%+ Haoshoku; D. com 10%",
-                "Hao pode ser ganho em Caçada / Dominação"
-              ]
+              name: "FORÇA ESPIRITUAL",
+              description: "O Haoshoku será desenvolvido através de uma porcentagem de domínio que poderá variar até 100%."
             }
           ]
         }
