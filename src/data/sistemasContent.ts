@@ -1864,7 +1864,7 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Interação Canônica: 15.000 XP.",
             "Total máximo regular: 87.000 XP por semana."
           ],
-          additional: "OBS - O valor permanece propositalmente próximo dos 90.000 XP estabelecidos no Sistema de XP, deixando uma pequena margem para futuras formas regulares de progressão."
+          additional1: "OBS - O valor permanece propositalmente próximo dos 90.000 XP estabelecidos no Sistema de XP, deixando uma pequena margem para futuras formas regulares de progressão."
         }
       ]
     },
