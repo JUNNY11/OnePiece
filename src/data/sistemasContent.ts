@@ -1813,6 +1813,68 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               ],
               description1: "O estado de Exaustão permanecerá até que o personagem recupere pelo menos 20% de sua Reserva Máxima de Estamina Física.",
               additional1: "OBS - O esgotamento da Estamina Física não reduz automaticamente a Energia Espiritual. As duas reservas permanecem independentes."
+            },
+            {
+              name: "ESGOTAMENTO ESPIRITUAL",
+              description: "Ao consumir completamente sua Energia Espiritual, o personagem ficará temporariamente impossibilitado de utilizar Haki. A recuperação automática dependerá de sua especialização.",
+              details: [
+                "[Usuários comuns]:",
+                "Ao atingir 0 de Energia Espiritual, permanecerão 2 turnos sem utilizar Haki.",
+                "Após esse período, recuperarão 25% da Reserva Máxima de Energia Espiritual.",
+                "[Mestres em Haki]:",
+                "Ao atingir 0 de Energia Espiritual, permanecerão 1 turno sem utilizar Haki.",
+                "Após esse período, recuperarão 35% da Reserva Máxima de Energia Espiritual."
+              ],
+              descrip1: "A recuperação automática poderá ocorrer somente uma vez por combate.",
+              descrip2: "Caso a Energia Espiritual seja esgotada novamente durante a mesma luta, o personagem não receberá uma segunda recuperação automática.",
+              additional2: "OBS - Alimentos e medicamentos não restauram Energia Espiritual durante o combate."
+            },
+            {
+              name: "RECUPERAÇÃO DE ESTAMINA",
+              description: "Durante o combate, o personagem poderá recuperar parte de sua Estamina Física ao reduzir o esforço realizado.",
+              details: [
+                "[Recuperação comum]:",
+                "+50 de Estamina Física por turno em que não utilizar Técnicas.",
+                "[Descanso durante o combate]:",
+                "+150 de Estamina Física por turno em que não realizar ataques."
+              ],
+              descrip1: "Os dois valores não serão acumulados. Será aplicada somente a recuperação correspondente à ação realizada.",
+              descrip2: "A recuperação não poderá ultrapassar a Reserva Máxima de Estamina Física.",
+              descrip3: "Fora de combate, períodos adequados de descanso permitirão recuperar as reservas de Estamina Física e Energia Espiritual."
+            },
+            {
+              name: "ALIMENTAÇÃO E MEDICINA",
+              description: "Alimentos preparados por Cozinheiros e tratamentos realizados por Médicos poderão auxiliar na recuperação da Estamina Física durante o combate.",
+              details: [
+                "[Alimentação — Cozinheiros]:",
+                "Preparação básica: +200 de Estamina Física.",
+                "Preparação intermediária: +350 de Estamina Física.",
+                "Preparação avançada: +500 de Estamina Física.",
+                "[Tratamento — Médicos]:",
+                "Tratamento básico: +100 de Estamina Física.",
+                "Tratamento intermediário: +180 de Estamina Física.",
+                "Tratamento avançado: +280 de Estamina Física.",
+                "[Recuperação medicinal comum]:",
+                "+80 de Estamina Física."
+              ],
+              descrip1: "A recuperação não poderá ultrapassar a Reserva Máxima do personagem.",
+              descrip2: "Alimentação e Medicina não restaurarão Energia Espiritual durante o combate.",
+              additional2: "OBS - A recuperação de Estamina não equivale à restauração de HP. Ferimentos e danos recebidos continuarão seguindo suas próprias regras de tratamento e recuperação."
+            },
+            {
+              name: "OBSERVAÇÕES GERAIS",
+              details: [
+                "Estamina Física e Energia Espiritual são reservas independentes. O esgotamento de uma não significa o esgotamento automático da outra.",
+                "A Resistência determina a faixa de Estamina Física, enquanto a Destreza determina a redução de seu consumo.",
+                "Para esses dois cálculos, serão considerados os pontos brutos somados aos benefícios de Raça e Linhagem que aumentem diretamente os respectivos atributos.",
+                "Buffs de Akuma no Mi, Técnicas de Suporte, equipamentos, transformações e outras capacidades somente terão influência nesses cálculos quando seus respectivos sistemas estabelecerem expressamente essa possibilidade.",
+                "Benefícios que concedam diretamente Estamina Máxima ou redução de consumo continuarão seguindo as condições expressamente previstas em seus próprios sistemas.",
+                "A redução de consumo concedida pela Destreza aplica-se exclusivamente à Estamina Física.",
+                "O nível e o investimento bruto em Haki determinam a Reserva Máxima de Energia Espiritual.",
+                "Mestres em Haki possuem benefícios próprios de Energia Espiritual e regras especiais de recuperação após o primeiro esgotamento.",
+                "Custos específicos de Akuma no Mi, transformações, equipamentos e capacidades especiais deverão seguir seus respectivos sistemas.",
+                "Nenhuma recuperação poderá ultrapassar a reserva máxima correspondente."
+              ]
             }
           ]
         }
