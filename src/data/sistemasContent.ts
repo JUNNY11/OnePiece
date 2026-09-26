@@ -1664,141 +1664,155 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
           ]
         },
         {
-          name: "Sistema de Estamina e Energia Espiritual",
-          description: "Todo combatente, por mais habilidoso que seja, encontra limites, o seu corpo cansa, os músculos pesam, a respiração falha e, mesmo que a sua vontade seja inquebrantável, ela precisa de uma pausa para se reerguer quando exigida ao extremo. É justamente essa fragilidade que separa um combatente real de uma máquina de guerra incansável, e é ela que transforma todos os combatea em uma decisão constante se vale a pena gastar os seus recursos agora ou guardar para o momento decisivo. Por isso, todo personagem possui duas reservas distintas que regem seu desempenho em combate: a _Estamina_, que governa o corpo, e a _Energia Espiritual_, que governa o Haki. Ambas existem para que o combate não seja uma simples troca infinita de técnicas cada vez mais poderosas, mas sim um teste de gestão, estratégia e risco, mas sem transformar as cenas em uma planilha de Excel. Técnicas simples, do dia a dia de qualquer combatente, continuam praticamente livres de custo, ou seja, apenas quando alguém decide invocar o que há de mais alto em sua técnica ou em seu Haki é que o desgaste real se manifesta.",
+          name: "Sistema de Estamina",
+          description: "A Estamina representa a capacidade do personagem de sustentar esforços físicos e espirituais durante o combate. Ela será dividida em duas reservas independentes: Estamina Física e Energia Espiritual.",
+          descrip1: "A Estamina Física será utilizada em movimentos, Técnicas corporais e capacidades que exigem esforço físico. A Energia Espiritual será destinada ao Haki e às habilidades que dependam diretamente da vontade do personagem.",
+          details1: [
+            "Estamina Física",
+            "Influência de Raças e Linhagens",
+            "Redução de Consumo",
+            "Energia Espiritual",
+            "Custos das Técnicas",
+            "Consumo de Haki",
+            "Esgotamento Físico",
+            "Esgotamento Espiritual",
+            "Recuperação de Estamina",
+            "Alimentação e Medicina",
+            "Observações Gerais"
+          ],
           subitems: [
             {
-              name: "Estamina — O Limite do Corpo",
-              description: "A Estamina representa o quanto o corpo de um personagem ainda tem para entregar antes que a exaustão física comece a comprometer seu desempenho. Ela está diretamente ligada à _Resistência_, atributo que define o quão robusto e duradouro é aquele corpo, desse modo, quanto maior a Resistência, maior a reserva de Estamina disponível. Enquanto que a Destreza, por sua vez, entra como um fator de eficiência, ou seja, um combatente preciso desperdiça menos energia em cada movimento, aplicando exatamente a força necessária no momento certo, e por isso gasta proporcionalmente menos Estamina a cada técnica usada, mesmo possuindo uma reserva modesta.",
-              additional: "Reserva de Estamina (definida pela Resistência)",
-              details: [
-                "[Resistência → Reserva de Estamina]",
-                "0 à 5.000 → 500",
-                "5.001 à 15.000  → 1.200",
-                "15.001 à 30.000  → 2.000",
-                "30.001 à 45.000  → 3.000",
-                "45.001 à 50.000  → 3.500",
-                "50.001 à 60.000  → 4.000",
-                "60.001 à 70.000  → 4.500",
-                "A partir de 70.001, cada 10.000 pontos adicionais de Resistência concedem +500 de Estamina, sem teto definido."
-              ],
-              descrip1: "",
-              additional1: "Desconto por Destreza",
-              details2: [
-                "A cada 1.000 pontos de Destreza, o custo de ativação de qualquer técnica reduz em 1%.",
-                "Teto máximo de redução: 40%."
-              ],
-              descrip2: "",
-              additional2: "Bônus de Estamina para Zoans",
-              details3: [
-                "[Tipo de Zoan ➝ Bônus de Estamina]",
-                "Zoan Comum ➝ 1.000",
-                "Zoan Ancestral ➝ 2.000",
-                "Zoan Mítica ➝ 3.000"
-              ],
-              descrip3: "",
-              additional3: "Observações:",
-              details4: [
-                "Esse bônus é fixo e somado diretamente à reserva calculada pela Resistência, independentemente da faixa em que o personagem se encontra.",
-                "O bônus reflete a vitalidade natural do animal, e não a técnica do usuário, por isso não interage com Destreza ou outros descontos percentuais."
-              ]
-            },
-            {
-              name: "Energia Espiritual — O Limite da Vontade",
-              description: "Diferente do corpo, o Haki se esgota por desgaste espiritual, ou seja, a vontade exigida para sustentar uma percepção sobre-humana, uma armadura impenetrável ou uma presença capaz de subjugar é imensa, e mesmo os usuários mais talentosos sentem esse peso quando levados ao extremo. Por isso, a Energia Espiritual não depende de quão forte é o corpo, mas de quão desenvolvida é a alma do personagem e é exatamente por isso que ela escala com o _Nível_ do seu personagem, e não com nenhum atributo físico. Quanto mais um personagem vivencia, evolui e se fortalece como um todo, mais resiliente sua vontade se torna, e maior é sua capacidade de sustentar o próprio Haki em combate. O Haki Geral entra apenas como um reforço secundário e modesto a essa reserva, pois entra representando o refinamento técnico de quem treinou de fato aquele poder, mas nunca rivaliza com o papel central do Nível, já que, em essência, o Haki nasce da força de vontade e ela se constrói com a própria jornada do personagem.",
-              additional: "Reserva de Energia Espiritual (definida pelo Nível):",
-              details: [
-                "[Nível → Reserva de Energia Espiritual]",
-                "1 à 500 → 500",
-                "501 à 1.000  → 1.200",
-                "1.001 à 1.500 → 2.000",
-                "1.501 à 2.000 → 3.000",
-                "2.001 à 2.500 → 4.500"
-              ],
-              additional1: "Bônus secundário por Haki Geral",
-              details2: ["A cada 100 pontos de Haki Geral, +1 ponto na reserva de Energia Espiritual"]
-            },
-            {
-              name: "O Peso de Escolher um Caminho",
-              description: "Quem decide se especializar em um único Haki através do Caminho do Haki aprende a sustentar aquele poder com uma naturalidade que escapa a qualquer outro usuário. Por isso, técnicas avançadas do Haki escolhido custam significativamente menos Energia Espiritual do que as mesmas técnicas usadas por qualquer outro combatente, recompensando a especialização sem tornar as demais formas de Haki inacessíveis.",
-              additional: "Desconto do Caminho",
-              details: [
-                "-70% no custo de ativação de técnicas avançadas do Haki correspondente ao Caminho escolhido.",
-                "Demais Hakis avançados mantêm o custo cheio."
-              ],
-              additional1: "Mapeamento de Rank das técnicas avançadas:",
-              details2: [
-                "[Técnica > Haki  →  Rank]",
-                "Pressão do Rei > Haoshoku → B",
-                "Emissão (Barreira/Interna) > Busoshoku → A",
-                "Previsão > Kenbushoku → A",
-                "Infusão do Rei > Haoshoku → A",
-                "Assassinato da Observação > Haoshoku → S",
-                "Desarme Espiritual > Haoshoku → S"
-              ]
-            },
-            {
-              name: "Rank da Técnica e seus custos",
-              description: "Essa regra vale igualmente para Estamina e Energia Espiritual, e por isso os básicos de cada Haki (Koka, Presença, Intenção, Incapacitação) são tratados como Rank C, gastos praticamente nulos, pois representam o uso mais elementar e natural daquele poder, algo que qualquer usuário deveria conseguir sustentar por um combate inteiro sem pensar duas vezes (Fullbody tem seu próprio sistema de gasto)",
-              additional: "Custo de ativação por Rank (válido para Estamina e Energia Espiritual)",
-              details: [
-                "Rank → Custo de ativação",
-                "C → 0",
-                "B → 80",
-                "A → 200",
-                "S → 450"
-              ]
-            },
-            {
-              name: "Recuperação de Estamina e Energia Espiritual - 1",
-              description: "Estamina física",
-              additional: "-",
-              details: [
-                "[Ação em on ➝ Recuperação de Estamina]",
-                "1 cena sem usar técnica ➝ 50 de estamina",
-                "1 cena completamente parado (sem atacar) ➝ 150 de estamina"
-              ],
-              descrip1: "Recuperação por alimentação (Cozinheiros)",
-              descrip2: "A comida ocupa um papel central na recuperação de Estamina, refletindo a tradição culinária de One Piece, pois um bom prato alimenta e devolve fôlego para a batalha. Por isso, entre as classes de suporte, o Cozinheiro carrega a maior responsabilidade na recuperação desse recurso.",
-              details2: [
-                "[Classe ➝ Recuperação de Estamina]",
-                "Cozinheiro (base) ➝ 200 de Estamina por refeição",
-                "Nutricionista ➝ 350 de Estamina por refeição",
-                "Mestre Cuca ➝ 500 de Estamina por refeição"
-              ],
-              descrip3: "Observação:",
-              descrip4: "-",
-              details4: [
-                "O efeito de recuperação de Estamina existe em todas as classes de Cozinheiro, desde a base, mas se intensifica conforme a especialização escolhida.",
-                "Esse bônus de Estamina é independente dos efeitos próprios de cada evolução (cura de HP do Mestre Cuca, buff de atributo do Nutricionista), ambos os efeitos podem ocorrer no mesmo prato.",
-                "Para comer, necessariamente não pode atacar os seus inimigos ou está em perigo, desse modo, também entra também a recuperação de 'Completamente parado'"
-              ]
-            },
-            {
-              name: "Recuperação de Estamina e Energia Espiritual - 2",
-              description: "Recuperação por itens médicos",
-              descrip1: "Estimulantes, picos de adrenalina e soros agem diretamente sobre o corpo, forçando-o a continuar operando além do limite natural. Como o foco médico está primariamente em HP, esse recurso é tratado como secundário nessa hierarquia, resultando em valores mais discretos do que os da culinária",
+              name: "ESTAMINA FÍSICA",
+              description: "A Reserva Máxima de Estamina Física será determinada pela Resistência do personagem. Quanto maior seu investimento nesse atributo, maior será sua capacidade de sustentar esforços prolongados.",
+              descrip1: "Para determinar a faixa de Estamina, serão considerados os pontos brutos de Resistência somados aos benefícios de Raça e Linhagem que aumentem diretamente esse atributo.",
               details1: [
-                "[Classe ➝ Recuperação de Estamina]",
-                "Médico (base) ➝ 100 de Estamina por aplicação",
-                "Cirurgião ➝ 180 de Estamina por aplicação",
-                "Cientista ➝ 280 de Estamina por aplicação"
+                "[Resistência — Estamina Máxima]:",
+                "0 a 24.999: 500.",
+                "25.000 a 49.999: 750.",
+                "50.000 a 74.999: 1.000.",
+                "75.000 a 99.999: 1.250.",
+                "100.000 a 149.999: 1.500.",
+                "150.000 a 199.999: 2.000.",
+                "200.000 a 249.999: 2.500.",
+                "250.000 a 299.999: 3.000.",
+                "300.000 a 349.999: 3.500.",
+                "350.000 a 399.999: 4.000.",
+                "400.000 a 449.999: 4.500.",
+                "450.000 ou mais: 5.000."
               ],
-              descrip2: "Itens médicos genéricos (vendidos na loja, sem exigir uma classe específica para aplicar) recuperam um valor fixo de 80 de Estamina, sempre abaixo do que qualquer classe médica oferece, refletindo a ausência de conhecimento técnico no preparo.",
-              descrip3: "Toda recuperação por item médico carrega um efeito colateral narrativo a critério do narrador (crash de energia, tremores, dependência em uso repetido), reforçando que não é uma solução isenta de custo.",
-              descrip4: "Bloqueio de Haki ao zerar a Energia Espiritual",
-              descrip5: "Diferente da Estamina, que apenas diminui o fôlego de um combatente, a Energia Espiritual, ao chegar a zero, bloqueia completamente o acesso ao Haki, exatamente como aconteceu quando Luffy, após esgotar seu Busoshoku, ficou impossibilitado de usar qualquer forma de Haki contra Doflamingo ou Katakuri, mas ainda manteve plena capacidade de lutar com suas técnicas e seu Akuma no Mi, ou seja, o corpo continua funcionando, mas a vontade espiritual precisa de um tempo para se reerguer.",
-              details5: [
-                "Akumados: 2 turnos sem acesso a nenhuma forma de Haki",
-                "Mestres de Haki (qualquer Caminho): 1 turno sem acesso a nenhuma forma de Haki",
-                "Após o período de bloqueio, a Energia Espiritual retorna integralmente, e o personagem pode voltar a utilizar seu Haki normalmente",
-                "Não pode ser restaurada por comida, itens médicos ou qualquer recurso externo ao corpo, já que representa força de vontade, não vigor físico."
+              additional1: "OBS - A faixa será definida pela Resistência considerada para o Sistema de Estamina, não exclusivamente pelos pontos brutos."
+            },
+            {
+              name: "INFLUÊNCIA DE RAÇAS E LINHAGENS",
+              description: "Os benefícios de Raça e Linhagem que aumentem diretamente os atributos do personagem terão influência no cálculo da Estamina Física. Esses bônus serão considerados juntamente aos pontos brutos antes de determinar a reserva máxima e a redução de consumo.",
+              details: [
+                "[Resistência]:",
+                "Pontos brutos + benefícios de Raça e Linhagem = Resistência considerada para determinar a faixa de Estamina."
               ],
-              descrip6: "O Sistema de Cola — Recurso Exclusivo de Cyborgs",
-              descrip7: "A modificação corporal substitui parte do tecido orgânico por estrutura mecânica, reduzindo a fadiga natural do corpo. Cada modificação focada em Resistência interfere diretamente nesse cansaço, tornando o combatente capaz de sustentar esforços físicos por mais tempo sem comprometer seu desempenho.",
-              descrip8: "➝ Cada modificação corporal com vertente em Resistência reduz o custo de ativação de técnicas físicas em 10%. Esse desconto é cumulativo com o desconto de Destreza, mas respeita o teto geral de redução (40%, conforme já estabelecido).",
-              descrip9: "➝ A mitigação de Estamina concedida por modificações com vertente em Resistência não é ilimitada, já que no máximo 3 modificações podem ser usadas para esse fim, totalizando até 30% de redução no custo de ativação de técnicas físicas. O restante do teto geral (40%) só pode ser completado através de Destreza. Exceção: modificações realizadas por Vegapunk/Vegamaster, que podem ultrapassar esse limite e até anular completamente o gasto de Estamina daquela modificação específica, porém, como já estabelecido, abrindo mão de qualquer outro bônus na modificação que escolher essa anulação.",
-              descrip10: "➝ Cyborgs modificados por Vegamaster possuem 2 slots de modificação personalizada, podendo escolher livremente se um, ambos, ou nenhum deles segue essa lógica de anulação."
+              details1: [
+                "[Exemplo]:",
+                "Resistência bruta: 20.000.",
+                "Bônus racial: +30% de Resistência.",
+                "Resistência considerada: 26.000.",
+                "Reserva Máxima de Estamina: 750."
+              ],
+              details2: [
+                "[Destreza]:",
+                "Pontos brutos + benefícios de Raça e Linhagem = Destreza considerada para determinar a redução de consumo."
+              ],
+              details3: [
+                "[Exemplo]:",
+                "Destreza bruta: 20.000.",
+                "Bônus de Linhagem: +25% de Destreza.",
+                "Destreza considerada: 25.000.",
+                "Redução de consumo: 10%."
+              ],
+              additional3: "OBS¹ - Os multiplicadores de Raça e Linhagem seguirão as regras gerais de aplicação de buffs do RPG.",
+              additional4: "OBS² - Buffs provenientes de Akuma no Mi, Técnicas de Suporte, equipamentos, transformações e outras capacidades não serão considerados para determinar a faixa de Estamina Física ou a redução de seu consumo, salvo quando seus respectivos sistemas estabelecerem expressamente o contrário.",
+              additional5: "OBS³ - Benefícios que concedam diretamente Estamina Máxima ou redução de consumo, quando expressamente previstos em seus respectivos sistemas, continuarão seguindo suas próprias regras."
+            },
+            {
+              name: "REDUÇÃO DE CONSUMO",
+              description: "A Destreza representa o controle corporal e a eficiência na execução dos movimentos. Personagens com maior Destreza conseguirão realizar esforços físicos consumindo menos Estamina.",
+              details: [
+                "[A cada 2.500 pontos de Destreza considerada]:",
+                "-1% no consumo de Estamina Física.",
+                "[Limite máximo]:",
+                "-40% de consumo.",
+                "[Exemplos]:",
+                "25.000 de Destreza: -10%.",
+                "50.000 de Destreza: -20%.",
+                "75.000 de Destreza: -30%.",
+                "100.000 de Destreza: -40%."
+              ],
+              descrip1: "A redução será aplicada aos custos de Estamina Física do personagem.",
+              additional1: "OBS¹ - A Destreza considerada inclui os pontos brutos e os benefícios de Raça e Linhagem que aumentem diretamente esse atributo, além das exceções expressamente previstas em outros sistemas.",
+              additional2: "OBS² - Esse benefício não reduz o consumo de Energia Espiritual."
+            },
+            {
+              name: "ENERGIA ESPIRITUAL",
+              description: "A Energia Espiritual representa a reserva utilizada para sustentar o Haki e outras capacidades diretamente relacionadas à vontade. Sua quantidade inicial será determinada pelo nível do personagem, recebendo benefícios adicionais conforme seu investimento em Haki.",
+              details: [
+                "[Nível — Energia Espiritual Máxima]:",
+                "Nível 1 a 19: 500.",
+                "Nível 20 a 39: 800.",
+                "Nível 40 a 59: 1.200.",
+                "Nível 60 a 69: 1.600.",
+                "Nível 70 a 79: 2.000.",
+                "Nível 80 a 89: 2.400.",
+                "Nível 90 a 99: 3.000.",
+                "Nível 100: 3.500."
+              ],
+              details1: [
+                "[Investimento em Haki]:",
+                "A cada 10.000 pontos brutos investidos em Haki Geral, o personagem receberá +100 de Energia Espiritual Máxima.",
+                "Limite desse benefício: +1.000 de Energia Espiritual.",
+                "[Mestres em Haki]:",
+                "+25% na Reserva Máxima de Energia Espiritual.",
+                "-35% no consumo de Energia Espiritual das capacidades avançadas de Haki."
+              ],
+              additional1: "OBS¹ - Para determinar o bônus de Energia proveniente do investimento em Haki, serão considerados os pontos brutos distribuídos em Busoshoku e Kenbunshoku, sem aplicação dos multiplicadores de Haki.",
+              additional2: "OBS² - Os multiplicadores de Haki Geral não aumentam automaticamente a Reserva Máxima de Energia Espiritual."
+            },
+            {
+              name: "CUSTOS DAS TÉCNICAS",
+              description: "O consumo de uma Técnica será determinado por seu Rank e pela natureza da capacidade utilizada. Técnicas físicas consumirão Estamina Física, enquanto capacidades diretamente relacionadas ao Haki consumirão Energia Espiritual.",
+              details: [
+                "[Custos por Rank]:",
+                "Rank C: 0.",
+                "Rank B: 100.",
+                "Rank A: 300.",
+                "Rank S: 700."
+              ],
+              descrip1: "O custo será descontado da reserva correspondente à Técnica utilizada.",
+              descrip2: "Técnicas ou capacidades que possuam custos próprios expressamente estabelecidos em seus respectivos sistemas seguirão essas regras específicas.",
+              additional2: "OBS - O custo de uma Técnica não substitui eventuais gastos de ativação ou manutenção de uma capacidade utilizada juntamente a ela."
+            },
+            {
+              name: "CONSUMO DE HAKI",
+              description: "O uso de Haki consumirá Energia Espiritual conforme a capacidade empregada. Formas que exijam manutenção contínua poderão gerar custos adicionais a cada turno.",
+              details: [
+                "[Busoshoku — Fullbody]:",
+                "Usuários comuns: 60 de Energia Espiritual por turno.",
+                "Mestres em Haki: 50 de Energia Espiritual por turno.",
+                "[Duração máxima]:",
+                "Usuários comuns: 3 turnos.",
+                "Mestres em Haki: 5 turnos."
+              ],
+              descrip1: "Os demais custos e as condições de utilização das manifestações de Haki permanecerão definidos no respectivo Sistema de Haki.",
+              additional1: "OBS - O custo de manutenção do Fullbody não substitui o consumo de Técnicas ofensivas ou defensivas utilizadas durante sua ativação."
+            },
+            {
+              name: "ESGOTAMENTO FÍSICO",
+              description: "Quando a Estamina Física alcançar 0, o personagem entrará em estado de Exaustão, perdendo parte de sua capacidade de executar esforços intensos.",
+              details: [
+                "[Consequências]:",
+                "Não poderá utilizar Técnicas de Rank B, A ou S que consumam Estamina Física.",
+                "Poderá realizar ações comuns e utilizar Técnicas de Rank C compatíveis com sua condição.",
+                "-30% em Força, Velocidade e Destreza."
+              ],
+              description1: "O estado de Exaustão permanecerá até que o personagem recupere pelo menos 20% de sua Reserva Máxima de Estamina Física.",
+              additional1: "OBS - O esgotamento da Estamina Física não reduz automaticamente a Energia Espiritual. As duas reservas permanecem independentes."
             }
           ]
         }
