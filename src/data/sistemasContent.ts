@@ -1082,8 +1082,8 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
               details: [
                 "[Requisitos]:",
                 "60% de Haoshoku.",
-                "Nível 75.",
-                "Mestre em Haki: Nível 70.",
+                "Nível 80+.",
+                "Mestre em Haki: Nível 75.",
                 "Possuir Emissão e Destruição Interna."
               ],
               descrip1: "Rank: A.",
