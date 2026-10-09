@@ -1941,6 +1941,16 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "Total máximo regular: 87.000 XP por semana."
           ],
           additional1: "OBS - O valor permanece propositalmente próximo dos 90.000 XP estabelecidos no Sistema de XP, deixando uma pequena margem para futuras formas regulares de progressão."
+        },
+        {
+          name: "Divulgações",
+          description: "Os jogadores que desejarem contribuir para o crescimento do RPG poderão divulgá-lo. Essa divulgação renderá recompensas, concedidas de acordo com a forma e o alcance da divulgação realizada.",
+          details: [
+            "Em Até 5 Grupos — 6 LvL",
+            "Em Até 10 Grupos — 12 LvL",
+            "Trouxe 1 Pessoa — 6 LvL",
+            "Trouxe até 5 Pessoas — 20 LvL"
+          ]
         }
       ]
     },
@@ -2001,16 +2011,6 @@ export const SISTEMAS_CONTENT: Record<string, Record<string, ContentSection>> = 
             "5 Cenas Cada — 10 LvL",
             "100.000.000 (Para as 10 Cenas)",
             "50.000.000 (Para as 5 Cenas)"
-          ]
-        },
-        {
-          name: "Divulgações",
-          description: "Os jogadores que desejarem contribuir para o crescimento do RPG poderão divulgá-lo. Essa divulgação renderá recompensas, concedidas de acordo com a forma e o alcance da divulgação realizada.",
-          details: [
-            "Em Até 5 Grupos — 6 LvL",
-            "Em Até 10 Grupos — 12 LvL",
-            "Trouxe 1 Pessoa — 6 LvL",
-            "Trouxe até 5 Pessoas — 20 LvL"
           ]
         }
       ]
